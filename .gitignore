@@ -1,0 +1,7 @@
+# Bevat API-sleutel — niet committen
+configs/config.py
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

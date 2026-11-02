@@ -1,0 +1,122 @@
+{
+  "restaurantprofiel": {
+    "naam": "Eetcafé De Academie",
+    "type": "Casual dining / eetcafé",
+    "locatie": "Binnenstad van een middelgrote studentenstad, nabij de universiteit",
+    "capaciteit": "65 zitplaatsen binnen, 20 op het terras",
+    "openingstijden": "dinsdag t/m zondag, 17:00–22:00",
+    "gemiddelde_besteding_per_gast": "€18,50",
+    "personeel": "2 vaste koks, 4 parttime bediening (veelal studenten)"
+  },
+  "positionering": "Het restaurant positioneert zich als een betaalbaar eetcafé met een informele sfeer, gericht op studenten en jong werkenden. De nadruk ligt op eerlijke porties voor een scherpe prijs. Het interieur is basic maar gezellig, met houten tafels en een open keuken.",
+  "doelgroep": {
+    "primair": "Studenten (18–25 jaar) uit de nabijgelegen universiteit en hogeschool",
+    "secundair": "Jong werkenden en starters uit de binnenstad",
+    "kenmerken": "De doelgroep is prijsbewust, zoekt gezelligheid en eet vaak doordeweeks buitenshuis als alternatief voor zelf koken."
+  },
+  "marktcontext": {
+    "omgeving": "De binnenstad telt circa 30 horecagelegenheden binnen een straal van 500 meter.",
+    "concurrentie": "Drie maanden geleden heeft een nieuw fast-casual concept ('Bowl & Bites') geopend op 200 meter afstand. Dit concept biedt customizable bowls en wraps vanaf €8,95, met een moderne uitstraling en sterke social media aanwezigheid.",
+    "impact": "Sinds de opening merkt De Academie een daling van 25% in het aantal gasten op doordeweekse avonden (dinsdag t/m donderdag). De weekendomzet is redelijk stabiel gebleven.",
+    "bezettingsgraad": "Gedaald van 72% naar 54%",
+    "vaste_kosten": "€8.500 per maand (huur, energie, basisinkoop)"
+  },
+  "menukaart": {
+    "voorgerechten": [
+      {
+        "naam": "Tomatensoep van de dag",
+        "prijs": "€5,50",
+        "beschrijving": "Huisgemaakte tomatensoep met brood en kruidenboter"
+      },
+      {
+        "naam": "Bruschetta caprese",
+        "prijs": "€6,95",
+        "beschrijving": "Geroosterd brood met tomaat, mozzarella en basilicum"
+      },
+      {
+        "naam": "Kroketten (3 stuks)",
+        "prijs": "€5,00",
+        "beschrijving": "Hollandse rundvleeskroketten met mosterd"
+      },
+      {
+        "naam": "Nachos met kaas",
+        "prijs": "€7,50",
+        "beschrijving": "Tortillachips met cheddar, jalapeños, zure room en guacamole"
+      }
+    ],
+    "hoofdgerechten": [
+      {
+        "naam": "Huisburger classic",
+        "prijs": "€13,95",
+        "beschrijving": "200g runderburger, cheddar, sla, tomaat, huissaus, friet"
+      },
+      {
+        "naam": "Schnitzel Weense stijl",
+        "prijs": "€14,50",
+        "beschrijving": "Gepaneerde varkensschnitzel met friet en salade"
+      },
+      {
+        "naam": "Pasta penne arrabiata",
+        "prijs": "€12,50",
+        "beschrijving": "Penne in pittige tomatensaus met Parmezaan"
+      },
+      {
+        "naam": "Saté ajam (4 stokjes)",
+        "prijs": "€13,50",
+        "beschrijving": "Kippensaté met pindasaus, atjar, kroepoek en witte rijst"
+      },
+      {
+        "naam": "Caesar salade met kip",
+        "prijs": "€12,95",
+        "beschrijving": "Romaine sla, gegrilde kip, croutons, Parmezaan, Caesardressing"
+      },
+      {
+        "naam": "Vegetarische wrap",
+        "prijs": "€11,50",
+        "beschrijving": "Tortilla gevuld met gegrilde groenten, hummus en feta"
+      }
+    ],
+    "desserts": [
+      {
+        "naam": "Dame blanche",
+        "prijs": "€6,50",
+        "beschrijving": "Vanille-ijs met warme chocoladesaus en slagroom"
+      },
+      {
+        "naam": "Appeltaart",
+        "prijs": "€5,50",
+        "beschrijving": "Huisgemaakte appeltaart met slagroom"
+      },
+      {
+        "naam": "Brownie met ijs",
+        "prijs": "€6,95",
+        "beschrijving": "Warme chocoladebrownie met vanille-ijs"
+      }
+    ],
+    "dranken": [
+      {
+        "naam": "Frisdrank (cola, fanta, sprite)",
+        "prijs": "€2,75"
+      },
+      {
+        "naam": "Huiswijn (rood/wit) per glas",
+        "prijs": "€4,50"
+      },
+      {
+        "naam": "Speciaalbier van de tap",
+        "prijs": "€4,95"
+      },
+      {
+        "naam": "Koffie / thee",
+        "prijs": "€2,50"
+      }
+    ]
+  },
+  "metadata": {
+    "case_id": "case_1",
+    "restaurant_type": "casual_dining",
+    "location_type": "binnenstad_studentenstad",
+    "primary_challenge": "omzetdaling_doordeweeks",
+    "secondary_challenge": "nieuwe_concurrent"
+  }
+}

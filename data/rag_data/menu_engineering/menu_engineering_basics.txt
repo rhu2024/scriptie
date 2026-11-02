@@ -1,0 +1,10 @@
+Menu engineering is een methode om menu-items te analyseren op basis van populariteit en winstgevendheid.
+
+Stars: hoge populariteit en hoge marge. Deze items moeten zichtbaar gepositioneerd worden.
+Plow Horses: hoge populariteit maar lage marge. Hiervoor kunnen portiegrootte, prijs of receptuur worden herzien.
+Puzzles: lage populariteit maar hoge marge. Deze items vragen om betere plaatsing of promotie op de kaart.
+Dogs: lage populariteit en lage marge. Deze items kunnen worden verwijderd of vervangen.
+
+Visuele plaatsing op de menukaart beïnvloedt keuze. Items in opvallende zones krijgen meer aandacht.
+Prijspsychologie speelt een rol. Het verwijderen van valutatekens of het herschrijven van beschrijvingen kan koopgedrag beïnvloeden.
+Een compacte kaart met duidelijke categorieën helpt gasten sneller kiezen.

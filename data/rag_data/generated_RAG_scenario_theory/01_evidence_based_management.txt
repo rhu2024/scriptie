@@ -1,0 +1,60 @@
+theory_name:
+Evidence-Based Management
+
+reference:
+Rousseau, D. M. (2006). Is there such a thing as evidence-based management? Academy of Management Review, 31(2), 256-269.
+
+primary_purpose:
+Zorgen dat strategische uitspraken expliciet op analyse en beschikbare evidentie worden gebaseerd, in plaats van op algemene of intuïtieve claims.
+
+when_to_use:
+- Altijd toepassen bij het formuleren van analyse, implicaties en advies.
+- Vooral relevant wanneer de LLM aanbevelingen moet onderbouwen.
+- Gebruik als overkoepelend redeneerkader bovenop andere theorieen.
+
+retrieval_queries:
+- evidence based management Rousseau 2006 explicit reasoning management decisions
+- Rousseau 2006 analysis evidence recommendation link
+- evidence based management assumptions transparency strategy
+
+key_concepts:
+- beslissingen baseren op expliciete evidentie
+- scheiding tussen observatie en interpretatie
+- transparante redenering
+- onderbouwing van aanbevelingen
+- kritische reflectie op bewijssterkte
+
+how_the_llm_should_consult_theory:
+- Haal passages op die uitleggen dat managementbeslissingen gebaseerd moeten zijn op systematische evidentie en expliciete afwegingen.
+- Zoek specifiek naar fragmenten over het koppelen van bewijs aan besluitvorming.
+- Gebruik de opgehaalde theorie niet als inhoudelijke bron over de casus, maar als methodologische leidraad voor de manier van redeneren.
+
+how_the_llm_should_apply_theory:
+- Label impliciet of expliciet welke contextinformatie als bewijs dient.
+- Verbind elk belangrijk inzicht aan concrete gegevens of signalen uit de context.
+- Formuleer aanbevelingen pas nadat de analyse expliciet is samengevat.
+- Gebruik een redenering in de vorm: observatie -> interpretatie -> strategische implicatie -> aanbeveling.
+
+llm_operational_steps:
+- Identificeer eerst alle relevante feiten uit de context.
+- Groepeer die feiten per strategisch thema.
+- Trek alleen conclusies die logisch voortvloeien uit die feiten.
+- Controleer of elke aanbeveling herleidbaar is tot minimaal een analyse-inzicht.
+- Benoem onzekerheid wanneer bewijs onvolledig of indirect is.
+
+output_markers:
+- Op basis van de context blijkt dat...
+- Dit suggereert dat...
+- Daarom is strategisch gezien...
+- Deze aanbeveling volgt uit...
+
+pitfalls_to_avoid:
+- algemene managementadviezen zonder contextbasis
+- sprongen van losse observaties naar harde conclusies
+- niet benoemen van ontbrekende informatie
+- advies formuleren zonder analyseketen
+
+best_used_with:
+- scenario_planning_schoemaker_1995
+- strategy_under_uncertainty_courtney_1997
+- design_science_problem_solving_van_aken_2012

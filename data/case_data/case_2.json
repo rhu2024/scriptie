@@ -1,0 +1,140 @@
+{
+  "restaurantprofiel": {
+    "naam": "Strandpaviljoen De Zeemeeuw",
+    "type": "Brasserie / strandrestaurant",
+    "locatie": "Boulevard van een toeristische kustplaats in Zuid-Holland",
+    "capaciteit": "80 zitplaatsen binnen, 60 op het terras met zeezicht",
+    "openingstijden_zomer": "dagelijks 11:00–22:00",
+    "openingstijden_winter": "do–zo 12:00–21:00",
+    "gemiddelde_besteding_per_gast_zomer": "€32,00",
+    "gemiddelde_besteding_per_gast_winter": "€27,50",
+    "personeel": "3 vaste koks, 2 vaste bediening, 8 seizoenskrachten (alleen zomer)"
+  },
+  "positionering": "De Zeemeeuw positioneert zich als een toegankelijke brasserie met verse vis en seizoensgebonden gerechten. Het restaurant profiteert van zijn locatie direct aan de boulevard met zeezicht. De sfeer is casual-chic: modern interieur met natuurlijke materialen en grote ramen richting zee. In de zomer is het terras de belangrijkste trekker.",
+  "doelgroep": {
+    "zomer": "Toeristen (gezinnen, stellen, dagjesmakers) uit de Randstad. Ca. 70% van de gasten is toerist.",
+    "winter": "Lokale bewoners, vooral 45+ met bovengemiddeld inkomen.",
+    "kenmerken": "De zomergasten zijn bereid meer uit te geven maar verwachten een 'beleving'. De wintergasten zoeken kwaliteit en persoonlijke service."
+  },
+  "marktcontext": {
+    "omgeving": "De boulevard telt 12 horecagelegenheden.",
+    "bezettingsgraad_zomer": "Gemiddeld 92% (juni–augustus)",
+    "bezettingsgraad_winter": "35% (oktober–maart)",
+    "concurrentie": "Drie van de twaalf restaurants sluiten volledig in de wintermaanden.",
+    "vaste_kosten": "€14.200 per maand (huur boulevard, energiekosten verwarming, onderhoud terras) — lopen door in de winter",
+    "loonkosten_zomer": "€22.000/maand",
+    "loonkosten_winter": "€9.500/maand",
+    "ontwikkelingen": "De gemeente overweegt winterevenementen op de boulevard, maar concrete plannen ontbreken. De lokale bevolking (ca. 18.000 inwoners) biedt een beperkte maar loyale klantenbasis."
+  },
+  "menukaart": {
+    "lunch": [
+      {
+        "naam": "Mosselsoep",
+        "prijs": "€8,50",
+        "beschrijving": "Romige mosselsoep met saffraan en knoflookbrood"
+      },
+      {
+        "naam": "Broodje Noordzee-garnalen",
+        "prijs": "€12,95",
+        "beschrijving": "Zuurdesembrood, Hollandse garnalen, cocktailsaus, ei"
+      },
+      {
+        "naam": "Salade niçoise met tonijn",
+        "prijs": "€13,50",
+        "beschrijving": "Verse tonijn, sperziebonen, olijven, ei, aardappel"
+      },
+      {
+        "naam": "Uitsmijter De Zeemeeuw",
+        "prijs": "€10,95",
+        "beschrijving": "Drie gebakken eieren, ham, kaas op brood met salade"
+      },
+      {
+        "naam": "Flammkuchen met zalm",
+        "prijs": "€11,50",
+        "beschrijving": "Dunne bodem, crème fraîche, gerookte zalm, rode ui, dille"
+      }
+    ],
+    "hoofdgerechten": [
+      {
+        "naam": "Mosselen natuur (seizoen)",
+        "prijs": "€18,95",
+        "beschrijving": "Zeeuwse mosselen in witte wijn met friet"
+      },
+      {
+        "naam": "Zeebaarsfilet",
+        "prijs": "€24,50",
+        "beschrijving": "Gegrilde zeebaars, risotto, geroosterde groenten, citroenboterjus"
+      },
+      {
+        "naam": "Surf & Turf",
+        "prijs": "€28,95",
+        "beschrijving": "Biefstuk (180g) met gamba's, truffelmayonaise, friet"
+      },
+      {
+        "naam": "Scholfilet Meunière",
+        "prijs": "€21,50",
+        "beschrijving": "Gebakken schol, bruine boter, kappertjes, peterselie, aardappelpuree"
+      },
+      {
+        "naam": "Vegetarische risotto",
+        "prijs": "€17,50",
+        "beschrijving": "Seizoensgroenten, truffelolie, Parmezaan"
+      },
+      {
+        "naam": "Kibbeling XXL",
+        "prijs": "€16,95",
+        "beschrijving": "Grote portie kibbeling met ravigotesaus en friet"
+      }
+    ],
+    "desserts": [
+      {
+        "naam": "Crème brûlée",
+        "prijs": "€8,50",
+        "beschrijving": "Klassieke crème brûlée met vanille"
+      },
+      {
+        "naam": "Zeeuwse bolus met ijs",
+        "prijs": "€7,95",
+        "beschrijving": "Warme bolus, kaneel, vanille-ijs"
+      },
+      {
+        "naam": "Sorbet trio",
+        "prijs": "€7,50",
+        "beschrijving": "Drie bolletjes seizoensfruit-sorbet"
+      }
+    ],
+    "dranken": [
+      {
+        "naam": "Huiswijn wit (Sauvignon Blanc)",
+        "prijs": "€5,50"
+      },
+      {
+        "naam": "Huiswijn rood (Merlot)",
+        "prijs": "€5,50"
+      },
+      {
+        "naam": "Lokaal craft bier (Kustbier)",
+        "prijs": "€5,95"
+      },
+      {
+        "naam": "Frisdrank",
+        "prijs": "€3,25"
+      },
+      {
+        "naam": "Verse jus d'orange",
+        "prijs": "€4,50"
+      },
+      {
+        "naam": "Koffie / cappuccino",
+        "prijs": "€3,00 / €3,75"
+      }
+    ]
+  },
+  "metadata": {
+    "case_id": "case_2",
+    "restaurant_type": "brasserie_strandrestaurant",
+    "location_type": "toeristische_kustplaats",
+    "primary_challenge": "seizoensafhankelijkheid",
+    "secondary_challenge": "hoge_vaste_kosten_winter"
+  }
+}

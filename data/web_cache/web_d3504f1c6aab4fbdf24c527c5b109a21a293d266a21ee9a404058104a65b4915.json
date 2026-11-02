@@ -1,0 +1,51 @@
+{
+  "query": "Zoek op internet naar relevante informatie voor het volgende restaurantprobleem. Geef per gevonden bron een korte samenvatting van de relevante informatie. Vermeld altijd de titel en URL van elke bron",
+  "search_backend": "openai_web_search_preview",
+  "model": "gpt-4o-mini",
+  "max_results": 8,
+  "fetch_top_n": 5,
+  "results": [
+    {
+      "rank": 1,
+      "title": "Voorbereiden op het winter- en feestseizoen: Tips voor restaurants en horeca bedrijven | Maxima.com",
+      "url": "https://maxima.com/nl/blogs/maxima/voorbereiden-op-het-winter-en-feestseizoen-een-gids-voor-restaurants-en-cateraars/?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    },
+    {
+      "rank": 2,
+      "title": "Vijf tips voor extra omzet strandtenten in winter • L1NDA",
+      "url": "https://l1nda.com/nl/blog/extra-omzet-strandtenten-winter/?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    },
+    {
+      "rank": 3,
+      "title": "Tips meer omzet in horeca tijdens de wintermaanden | L1NDA",
+      "url": "https://l1nda.com/nl/blog/tips-meer-omzet-winter/?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    },
+    {
+      "rank": 4,
+      "title": "Restaurantomzet verhogen in de winter | Above & Beyond | Above & Beyond",
+      "url": "https://www.abnd.com/nl-nl/blog/restaurant-omzet-verhogen-winter?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    },
+    {
+      "rank": 5,
+      "title": "Meer omzet op het terras: 7 slimme strategieën voor de horeca - McCain Foodservice",
+      "url": "https://mccainfoodservice.com/nl-nl/inspirations/meer-omzet-op-het-terras-7-slimme-strategieen-voor-de-horeca/?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    }
+  ],
+  "web_summary": "Om de winteromzet van Strandpaviljoen De Zeemeeuw te verhogen, kunnen de volgende strategieën worden overwogen:\n\n**1. Creëer een warm en uitnodigend winterterras**\n\nInvesteer in terrasverwarmers, zachte dekens en winddichte schermen om een comfortabele buitenruimte te bieden, zelfs bij koud weer. Dit moedigt gasten aan om het hele jaar door te blijven genieten van het zeezicht. ([maxima.com](https://maxima.com/nl/blogs/maxima/voorbereiden-op-het-winter-en-feestseizoen-een-gids-voor-restaurants-en-cateraars/?utm_source=openai))\n\n**2. Organiseer seizoensgebonden evenementen en thema-avonden**\n\nIntroduceer winterse evenementen zoals een winterbarbecue, fondue-avonden of live muziek om een gezellige sfeer te creëren en gasten te trekken. Dit kan de aantrekkingskracht vergroten en de bezettingsgraad verhogen. ([l1nda.com](https://l1nda.com/nl/blog/extra-omzet-strandtenten-winter/?utm_source=openai))\n\n**3. Pas het menu aan op het seizoen**\n\nBied seizoensgebonden gerechten aan die passen bij de wintermaanden, zoals warme soepen, stoofschotels en speciale wintercocktails. Dit speelt in op de behoeften van wintergasten en kan de gemiddelde besteding verhogen. ([l1nda.com](https://l1nda.com/nl/blog/tips-meer-omzet-winter/?utm_source=openai))\n\n**4. Flexibiliteit in openingstijden**\n\nWees flexibel met de openingstijden door deze aan te passen op basis van de drukte. Dit kan helpen om kosten te besparen en de efficiëntie te verhogen. ([l1nda.com](https://l1nda.com/nl/blog/tips-meer-omzet-winter/?utm_source=openai))\n\n**5. Verhoog de zichtbaarheid en aantrekkingskracht**\n\nZorg voor een opvallende en sfeervolle inrichting, zowel binnen als buiten, om de aandacht van voorbijgangers te trekken en een uitnodigende uitstraling te creëren. ([abnd.com](https://www.abnd.com/nl-nl/blog/restaurant-omzet-verhogen-winter?utm_source=openai))\n\n**6. Bied speciale aanbiedingen en arrangementen aan**\n\nIntroduceer speciale aanbiedingen, zoals een borrelplank bij het aperitief of een lunchmenu met bijgerechten, om gasten aan te moedigen meer te besteden en terug te keren. ([mccainfoodservice.com](https://mccainfoodservice.com/nl-nl/inspirations/meer-omzet-op-het-terras-7-slimme-strategieen-voor-de-horeca/?utm_source=openai))\n\n**7. Optimaliseer personeelsplanning**\n\nAnalyseer de personeelskosten en pas de personeelsplanning aan op basis van de verwachte drukte om efficiëntie te waarborgen en kosten te beheersen. ([dekassaman.nl](https://www.dekassaman.nl/blog/onze-tips-voor-meer-omzet-in-de-horeca-tijdens-de-wintermaanden?utm_source=openai))\n\nDoor deze strategieën te implementeren, kan Strandpaviljoen De Zeemeeuw zijn winteromzet verhogen en een loyale klantenbasis opbouwen. ",
+  "usage": {
+    "input_tokens": 1389,
+    "output_tokens": 720,
+    "total_tokens": 2109
+  },
+  "timestamp_utc": "2026-04-20T06:59:52Z"
+}

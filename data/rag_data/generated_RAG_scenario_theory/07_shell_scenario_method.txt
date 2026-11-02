@@ -1,0 +1,52 @@
+theory_name:
+Shell Scenario Method
+
+reference:
+Wack, P. (1985). Scenarios: Uncharted Waters Ahead. Harvard Business Review, 63(5), 73-89.
+
+primary_purpose:
+Ondersteunen van scenario thinking door te focussen op beslissende onzekerheden en mentale voorbereiding op alternatieve toekomsten.
+
+when_to_use:
+- Bij het selecteren van kritieke onzekerheden.
+- Wanneer de LLM de scenario's niet alleen beschrijvend maar strategisch bruikbaar moet maken.
+- Bij het nadenken over vroege signalen en mentale voorbereiding.
+
+retrieval_queries:
+- Wack 1985 Shell scenarios critical uncertainties strategic conversation
+- Shell scenario method uncertainty early signals
+- Wack scenario planning mental models uncertainty
+
+key_concepts:
+- kritieke onzekerheden
+- doorbreken van lineair denken
+- voorbereiding op meerdere toekomsten
+- strategisch gesprek over onzekerheid
+
+how_the_llm_should_consult_theory:
+- Zoek passages over hoe scenario's helpen om dominante aannames te doorbreken.
+- Gebruik theoriefragmenten die uitleggen waarom een paar beslissende onzekerheden centraal moeten staan.
+- Raadpleeg de theorie om het strategisch nut van scenario's te versterken.
+
+how_the_llm_should_apply_theory:
+- Vermijd lineaire extrapolatie van een enkel toekomstbeeld.
+- Gebruik scenario's om alternatieve toekomstlogica's uit te werken.
+- Benoem impliciet welke huidige aannames over de markt kunnen kantelen.
+
+llm_operational_steps:
+- Check of de analyse te veel op een rechtlijnige voortzetting van het heden leunt.
+- Introduceer alternatieve plausibele uitkomsten op basis van geselecteerde onzekerheden.
+- Gebruik scenario's als testomgeving voor strategie.
+
+output_markers:
+- Deze onzekerheid is kritisch omdat een andere uitkomst tot een wezenlijk andere strategische context leidt...
+- Om lineair denken te voorkomen worden vier alternatieve toekomsten onderscheiden...
+
+pitfalls_to_avoid:
+- slechts optimistisch versus pessimistisch denken
+- geen echte breuklijnen in scenario's
+- scenario's die alleen gradaties van hetzelfde beeld zijn
+
+best_used_with:
+- scenario_planning_schoemaker_1995
+- scenarios_art_of_strategic_conversation_van_der_heijden_2005

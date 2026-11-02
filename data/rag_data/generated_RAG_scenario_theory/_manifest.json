@@ -1,0 +1,18 @@
+{
+  "source_json": "/Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/scenario_theory/theorie.JSON",
+  "generated_files": [
+    "/Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/generated_RAG_scenario_theory/01_evidence_based_management.txt",
+    "/Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/generated_RAG_scenario_theory/02_ontwerpgerichte_probleemoplossing_in_organisaties.txt",
+    "/Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/generated_RAG_scenario_theory/03_bounded_rationality.txt",
+    "/Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/generated_RAG_scenario_theory/04_environmental_scanning.txt",
+    "/Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/generated_RAG_scenario_theory/05_omgevingsanalyse_en_strategische_fit.txt",
+    "/Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/generated_RAG_scenario_theory/06_scenario_planning.txt",
+    "/Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/generated_RAG_scenario_theory/07_shell_scenario_method.txt",
+    "/Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/generated_RAG_scenario_theory/08_scenarios_the_art_of_strategic_conversation.txt",
+    "/Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/generated_RAG_scenario_theory/09_strategy_under_uncertainty.txt",
+    "/Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/generated_RAG_scenario_theory/10_retrieval_augmented_generation.txt",
+    "/Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/generated_RAG_scenario_theory/00_global_instructions.txt",
+    "/Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/generated_RAG_scenario_theory/99_recommended_rag_flow.txt"
+  ],
+  "generated_at_unix": 1776669594.7205684
+}

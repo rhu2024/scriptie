@@ -1,0 +1,37 @@
+{
+  "query": "Zoek op internet naar relevante informatie voor het volgende restaurantprobleem. Geef per gevonden bron een korte samenvatting van de relevante informatie. Vermeld altijd de titel en URL van elke bron",
+  "search_backend": "openai_web_search_preview",
+  "model": "gpt-4o-mini",
+  "max_results": 8,
+  "fetch_top_n": 5,
+  "results": [
+    {
+      "rank": 1,
+      "title": "Restaurant Marketing Techniques for Fine Dining Restaurants",
+      "url": "https://bloomintelligence.com/blog/marketing-techniques-fine-dining-restaurants/?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    },
+    {
+      "rank": 2,
+      "title": "Fine Dining Restaurant Marketing Ideas | CMG Local Solutions",
+      "url": "https://www.cmglocalsolutions.com/food-service-marketing/fine-dining-restaurants-marketing?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    },
+    {
+      "rank": 3,
+      "title": "Why Fine Dining Restaurants Do Less Marketing — And Why Fine Dining Restaurant Marketing Is Essential for Growth - Metapixle",
+      "url": "https://metapixle.com/why-fine-dining-restaurants-do-less-marketing-and-why-fine-dining-restaurant-marketing-is-essential-for-growth/?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    }
+  ],
+  "web_summary": "Om Restaurant Le Jardin te helpen zijn lokale bereik te vergroten en beter aan te sluiten bij de behoeften van de buurt, kunnen de volgende strategieën worden overwogen:\n\n**1. Aanpassen van het Menu en Prijsstelling**\n\nOverweeg het introduceren van een lunchservice met een betaalbaar menu om jonge gezinnen aan te trekken. Het aanbieden van kindvriendelijke opties kan ook helpen om gezinnen te bedienen. Daarnaast kan het aanbieden van kleinere porties of aangepaste menu's de toegankelijkheid vergroten.\n\n**2. Lokale Marketing en Community Engagement**\n\nOrganiseer evenementen zoals kookworkshops of lokale proeverijen om de betrokkenheid bij de gemeenschap te vergroten. Samenwerkingen met lokale bedrijven en influencers kunnen de zichtbaarheid vergroten en nieuwe klanten aantrekken. Het actief beheren van online reviews en het reageren op feedback kan de reputatie versterken. ([bloomintelligence.com](https://bloomintelligence.com/blog/marketing-techniques-fine-dining-restaurants/?utm_source=openai))\n\n**3. Digitale Marketing en Online Aanwezigheid**\n\nOptimaliseer de website voor lokale zoekopdrachten en zorg voor een gebruiksvriendelijke online reserveringsfunctie. Actieve aanwezigheid op sociale media met visuele content kan de aantrekkingskracht vergroten. Het implementeren van een loyaliteitsprogramma kan klanten aanmoedigen om terug te keren. ([cmglocalsolutions.com](https://www.cmglocalsolutions.com/food-service-marketing/fine-dining-restaurants-marketing?utm_source=openai))\n\n**4. Concurrentieanalyse en Positionering**\n\nAnalyseer lokale concurrenten om te begrijpen welke diensten zij aanbieden en hoe zij zich positioneren. Gebruik deze inzichten om unieke verkoopargumenten te ontwikkelen en je te onderscheiden in de markt. ([metapixle.com](https://metapixle.com/why-fine-dining-restaurants-do-less-marketing-and-why-fine-dining-restaurant-marketing-is-essential-for-growth/?utm_source=openai))\n\nDoor deze strategieën te implementeren, kan Restaurant Le Jardin zijn lokale bereik vergroten en beter inspelen op de behoeften van de buurt. ",
+  "usage": {
+    "input_tokens": 1368,
+    "output_tokens": 446,
+    "total_tokens": 1814
+  },
+  "timestamp_utc": "2026-04-20T06:59:59Z"
+}

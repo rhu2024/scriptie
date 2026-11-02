@@ -1,0 +1,54 @@
+theory_name:
+Retrieval-Augmented Generation
+
+reference:
+Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Kuttler, H., Lewis, M., Yih, W.-t., Rocktaschel, T., Riedel, S., & Kiela, D. (2020). Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.
+
+primary_purpose:
+Sturen hoe de LLM externe theoriepassages moet ophalen en gebruiken zonder buiten de opgehaalde kennis en casuscontext te treden.
+
+when_to_use:
+- Als operationeel kader voor het RAG-systeem zelf.
+- Altijd wanneer theorieen eerst moeten worden opgehaald en daarna toegepast.
+- Bij kwaliteitsbewaking van brongebonden antwoorden.
+
+retrieval_queries:
+- retrieval augmented generation grounded answers source use
+- Lewis 2020 RAG grounding external knowledge
+- RAG source constrained generation
+
+key_concepts:
+- grounding in retrieved sources
+- brongebonden generatie
+- verminderen van hallucinaties
+- expliciete bronafbakening
+
+how_the_llm_should_consult_theory:
+- Gebruik retrieval om theoriepassages per deelvraag op te halen in plaats van op geheugen te vertrouwen.
+- Zoek bij elke theoretische stap alleen de benodigde concepten op.
+- Beschouw retrieved theory als bronmateriaal en de casuscontext als toepassingsmateriaal.
+
+how_the_llm_should_apply_theory:
+- Combineer retrieved theorie met context zonder nieuwe externe feiten toe te voegen.
+- Citeer of parafraseer alleen theorie-elementen die werkelijk zijn opgehaald.
+- Gebruik theorie om analysekaders te vormen, niet om ontbrekende casusfeiten in te vullen.
+
+llm_operational_steps:
+- Detecteer welke theoretische stap nodig is.
+- Voer retrieval uit op de passende theoriebron.
+- Vat de relevante theorie compact samen.
+- Pas de theorie toe op de context.
+- Controleer of alle inhoudelijke claims bron- of contextgebonden zijn.
+
+output_markers:
+- Gebaseerd op de geraadpleegde theorie...
+- In combinatie met de casuscontext betekent dit...
+
+pitfalls_to_avoid:
+- theorie uit geheugen mengen met niet-opgehaalde kennis
+- retrieved theory behandelen als casusfeit
+- onzichtbare bronvervuiling
+
+best_used_with:
+- bounded_rationality_simon_1976
+- evidence_based_management_rousseau_2006

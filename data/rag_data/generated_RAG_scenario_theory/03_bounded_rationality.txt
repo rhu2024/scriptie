@@ -1,0 +1,56 @@
+theory_name:
+Bounded Rationality
+
+reference:
+Simon, H. A. (1976). Administrative Behavior (3rd ed.). Free Press.
+
+primary_purpose:
+Begrenzen van de redenering tot beschikbare informatie en expliciet maken dat besluitvorming plaatsvindt onder informatiebeperkingen.
+
+when_to_use:
+- Altijd toepassen wanneer de prompt voorschrijft dat alleen context gebruikt mag worden.
+- Bij onvolledige casusdata.
+- Wanneer onzekerheid, ontbrekende data of interpretatieruimte groot zijn.
+
+retrieval_queries:
+- bounded rationality Simon 1976 limited information decision making
+- Simon administrative behavior information constraints management
+- bounded rationality assumptions incomplete information strategy
+
+key_concepts:
+- beperkte informatie
+- begrensde besluitvorming
+- satisficing in plaats van perfecte optimalisatie
+- noodzaak van expliciete aannames
+
+how_the_llm_should_consult_theory:
+- Haal theorie op die benadrukt dat beslissingen worden genomen op basis van onvolledige informatie.
+- Gebruik dit als kader om geen feiten buiten de context toe te voegen.
+- Raadpleeg fragmenten over informatiegrenzen, niet over specifieke restaurantstrategien.
+
+how_the_llm_should_apply_theory:
+- Beperk uitspraken tot wat de context en opgehaalde theorie ondersteunen.
+- Gebruik formuleringen die onzekerheid correct weergeven.
+- Benoem ontbrekende informatie als analytische beperking in plaats van deze op te vullen met aannames zonder label.
+- Kies bij advies voor plausibele en robuuste richting in plaats van absolute optimaliteit.
+
+llm_operational_steps:
+- Controleer per claim of deze direct of indirect ondersteund wordt door context of opgehaalde theorie.
+- Markeer ontbrekende data expliciet.
+- Vermijd het invullen van branchespecifieke details die niet in de context staan.
+- Formuleer waar nodig voorwaardelijke aanbevelingen.
+
+output_markers:
+- Op basis van de gegeven context kan alleen worden vastgesteld dat...
+- De context bevat geen informatie over...
+- Daarom blijft deze conclusie voorlopig...
+- Onder deze informatiebeperking is de meest verdedigbare keuze...
+
+pitfalls_to_avoid:
+- hallucineren van aanvullende feiten
+- doen alsof onvolledige context volledig is
+- te stellige claims bij beperkte informatie
+
+best_used_with:
+- design_science_problem_solving_van_aken_2012
+- retrieval_augmented_generation_lewis_2020

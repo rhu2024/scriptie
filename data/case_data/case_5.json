@@ -1,0 +1,164 @@
+{
+  "restaurantprofiel": {
+    "naam": "Trattoria Della Nonna",
+    "type": "Traditioneel Italiaans restaurant",
+    "locatie": "Populaire horecastraat in een middelgrote stad",
+    "capaciteit": "55 zitplaatsen binnen, 15 op het terras",
+    "openingstijden": "dinsdag t/m zondag, 17:00–22:30",
+    "gemiddelde_besteding_per_gast": "€35,00",
+    "personeel": "1 chef-kok (eigenaar, Italiaans), 1 kok, 3 bediening",
+    "bestaat": "18 jaar op dezelfde locatie"
+  },
+  "positionering": "Trattoria Della Nonna is een klassiek Italiaans restaurant met een warme, huiselijke sfeer. De eigenaar-chef kookt volgens traditionele Italiaanse recepten die hij van zijn grootmoeder heeft geleerd. Het interieur is authentiek: geruit tafelkleed, kaarslicht, foto's van Italië aan de muur. Het restaurant staat bekend om zijn constante kwaliteit en trouwe gasten. De kaart is al jaren grotendeels ongewijzigd.",
+  "doelgroep": {
+    "primair": "Vaste gasten, overwegend 50+, uit de stad en directe omgeving",
+    "secundair": "Gezinnen bij speciale gelegenheden (verjaardagen, moederdag)",
+    "kenmerken": "De gemiddelde leeftijd van de gasten is de afgelopen jaren gestegen. Jongere gasten (onder 35) komen zelden. De repeat-rate is hoog (60%), maar het totaal aantal unieke gasten neemt af."
+  },
+  "marktcontext": {
+    "concurrentie": "Twee maanden geleden heeft 'NÓMAD Kitchen' geopend in dezelfde straat: een modern restaurant met een open keuken, shared dining concept, fusion-gerechten en actieve Instagram-aanwezigheid (4.200 volgers in 2 maanden). NÓMAD richt zich op gasten van 25–40 jaar en hanteert lagere hoofdgerechtprijzen (€14–€22 versus €19–€28 bij Della Nonna).",
+    "omzetdaling": "Sinds de opening van NÓMAD is de omzet van Della Nonna met circa 18% gedaald.",
+    "omgeving": "De horecastraat telt in totaal 9 restaurants. De straat trekt op vrijdag- en zaterdagavond veel publiek, maar doordeweeks is het rustiger geworden.",
+    "online_aanwezigheid": "Della Nonna heeft geen website en is alleen vindbaar via Google Maps (4,3 sterren, 245 reviews). Er is geen actief social media account.",
+    "huur": "€4.800/maand",
+    "overige_vaste_kosten": "€3.200/maand"
+  },
+  "menukaart": {
+    "antipasti": [
+      {
+        "naam": "Bruschetta al pomodoro",
+        "prijs": "€7,50",
+        "beschrijving": "Geroosterd brood, tomaat, knoflook, basilicum, olijfolie"
+      },
+      {
+        "naam": "Carpaccio di manzo",
+        "prijs": "€12,50",
+        "beschrijving": "Rundercarpaccio, rucola, Parmezaan, truffelolie"
+      },
+      {
+        "naam": "Vitello tonnato",
+        "prijs": "€13,50",
+        "beschrijving": "Kalfsvlees met tonijnsaus, kappertjes, citroen"
+      },
+      {
+        "naam": "Insalata caprese",
+        "prijs": "€9,50",
+        "beschrijving": "Buffelmozzarella, tomaat, basilicum, olijfolie"
+      },
+      {
+        "naam": "Minestrone della nonna",
+        "prijs": "€7,95",
+        "beschrijving": "Traditionele Italiaanse groentesoep met Parmezaan"
+      }
+    ],
+    "pasta": [
+      {
+        "naam": "Spaghetti carbonara",
+        "prijs": "€16,50",
+        "beschrijving": "Guanciale, ei, Pecorino Romano, zwarte peper"
+      },
+      {
+        "naam": "Tagliatelle al ragù bolognese",
+        "prijs": "€17,50",
+        "beschrijving": "Huisgemaakt ragù, verse pasta, Parmezaan"
+      },
+      {
+        "naam": "Penne all'arrabbiata",
+        "prijs": "€14,50",
+        "beschrijving": "Penne in pittige tomatensaus met knoflook en peperoncino"
+      },
+      {
+        "naam": "Ravioli di ricotta e spinaci",
+        "prijs": "€18,50",
+        "beschrijving": "Huisgemaakte ravioli, ricotta, spinazie, salieboter"
+      },
+      {
+        "naam": "Linguine alle vongole",
+        "prijs": "€19,50",
+        "beschrijving": "Linguine met venusschelpen, knoflook, witte wijn, peterselie"
+      }
+    ],
+    "secondi": [
+      {
+        "naam": "Ossobuco alla Milanese",
+        "prijs": "€26,50",
+        "beschrijving": "Gestoofde kalfschenkel, risotto alla Milanese"
+      },
+      {
+        "naam": "Saltimbocca alla Romana",
+        "prijs": "€24,50",
+        "beschrijving": "Kalfsvlees, Parmaham, salie, marsalasaus, aardappelgratin"
+      },
+      {
+        "naam": "Pollo alla parmigiana",
+        "prijs": "€19,50",
+        "beschrijving": "Gepaneerde kip, tomatensaus, mozzarella, pasta"
+      },
+      {
+        "naam": "Branzino al forno",
+        "prijs": "€23,50",
+        "beschrijving": "Zeebaars uit de oven, citroen, kappertjes, olijven, geroosterde aardappelen"
+      },
+      {
+        "naam": "Melanzane alla parmigiana",
+        "prijs": "€18,50",
+        "beschrijving": "Aubergine, tomatensaus, mozzarella, Parmezaan (vegetarisch)"
+      }
+    ],
+    "dolci": [
+      {
+        "naam": "Tiramisù della nonna",
+        "prijs": "€8,50",
+        "beschrijving": "Huisgemaakt recept van de grootmoeder"
+      },
+      {
+        "naam": "Panna cotta met rode vruchten",
+        "prijs": "€7,50",
+        "beschrijving": "Romige panna cotta, coulis van seizoensfruit"
+      },
+      {
+        "naam": "Affogato al caffè",
+        "prijs": "€6,50",
+        "beschrijving": "Vanille-ijs met verse espresso"
+      },
+      {
+        "naam": "Cannoli Siciliani",
+        "prijs": "€8,00",
+        "beschrijving": "Gevulde cannoli, ricotta, pistache, geconfijt fruit"
+      }
+    ],
+    "dranken": [
+      {
+        "naam": "Huiswijn rood (Montepulciano d'Abruzzo)",
+        "prijs": "€5,50"
+      },
+      {
+        "naam": "Huiswijn wit (Pinot Grigio)",
+        "prijs": "€5,50"
+      },
+      {
+        "naam": "Chianti Classico (fles)",
+        "prijs": "€28,00"
+      },
+      {
+        "naam": "Peroni (bier)",
+        "prijs": "€4,50"
+      },
+      {
+        "naam": "Limoncello",
+        "prijs": "€4,00"
+      },
+      {
+        "naam": "Espresso / cappuccino",
+        "prijs": "€2,75 / €3,50"
+      }
+    ]
+  },
+  "metadata": {
+    "case_id": "case_5",
+    "restaurant_type": "traditioneel_italiaans",
+    "location_type": "populaire_horecastraat",
+    "primary_challenge": "concurrentie_modern_concept",
+    "secondary_challenge": "verouderde_doelgroep_geen_online_aanwezigheid"
+  }
+}

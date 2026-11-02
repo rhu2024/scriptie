@@ -1,0 +1,51 @@
+{
+  "query": "Zoek op internet naar relevante informatie voor het volgende restaurantprobleem. Geef per gevonden bron een korte samenvatting van de relevante informatie. Vermeld altijd de titel en URL van elke bron",
+  "search_backend": "openai_web_search_preview",
+  "model": "gpt-4o-mini",
+  "max_results": 8,
+  "fetch_top_n": 5,
+  "results": [
+    {
+      "rank": 1,
+      "title": "Horeca groeide in 2023 vrijwel alleen door prijsstijgingen - Leisure360.be",
+      "url": "https://leisure360.be/recreatie-actueel/horeca-groeide-in-2023-vrijwel-alleen-door-prijsstijgingen/82214?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    },
+    {
+      "rank": 2,
+      "title": "Herstel in 2023, maar 2024 biedt opnieuw economische uitdagingen | KHN",
+      "url": "https://khn.nl/nieuws/herstel-in-2023-maar-2024-biedt-opnieuw-economische-uitdagingen?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    },
+    {
+      "rank": 3,
+      "title": "\"Ondanks goede start wordt 2023 uitdagend jaar voor de horeca\"",
+      "url": "https://www.agf.nl/article/9530133/ondanks-goede-start-wordt-2023-uitdagend-jaar-voor-de-horeca/?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    },
+    {
+      "rank": 4,
+      "title": "De rek is eruit, wat nu? Samen inkopen in de horeca kan lonen",
+      "url": "https://www.entreemagazine.nl/ondernemen/de-rek-is-eruit-wat-nu?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    },
+    {
+      "rank": 5,
+      "title": "Horeca doet een stap terug na sterke inhaalslag",
+      "url": "https://www.sra.nl/nieuws/000000/2023/12/horeca-doet-een-stap-terug-na-sterke-inhaalslag?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    }
+  ],
+  "web_summary": "Brasserie Het Pakhuis bevindt zich in een uitdagende marktcontext, gekenmerkt door stijgende kosten en een krappe arbeidsmarkt. Om de winstgevendheid te verbeteren en de concurrentie het hoofd te bieden, kunnen de volgende strategieën en best practices worden overwogen:\n\n**1. Kostenbeheersing en efficiëntieverbetering**\n\nDe horeca heeft te maken met stijgende kosten voor energie, inkoop en personeel, wat de winstmarges onder druk zet. Het is essentieel om efficiëntie te verbeteren en kosten te beheersen om de winstgevendheid te waarborgen. ([leisure360.be](https://leisure360.be/recreatie-actueel/horeca-groeide-in-2023-vrijwel-alleen-door-prijsstijgingen/82214?utm_source=openai))\n\n**2. Investeren in personeel en innovatie**\n\nHet aantrekken en behouden van gekwalificeerd personeel is cruciaal. Investeren in medewerkers, innovatie en duurzaamheid kan bijdragen aan een toekomstbestendige horeca. ([khn.nl](https://khn.nl/nieuws/herstel-in-2023-maar-2024-biedt-opnieuw-economische-uitdagingen?utm_source=openai))\n\n**3. Flexibiliteit in prijsstelling**\n\nHoewel prijsstijgingen noodzakelijk zijn om gestegen kosten te compenseren, is het belangrijk om de prijsgevoeligheid van klanten in overweging te nemen. Een gematigde prijsverhoging kan helpen om klanten te behouden zonder hen af te schrikken. ([agf.nl](https://www.agf.nl/article/9530133/ondanks-goede-start-wordt-2023-uitdagend-jaar-voor-de-horeca/?utm_source=openai))\n\n**4. Samenwerking en schaalvoordelen**\n\nSamen inkopen kan lonen, vooral voor kleinere horecabedrijven die moeite hebben met het behalen van schaalvoordelen. Door samen te werken kunnen kosten worden verlaagd en de concurrentiepositie worden versterkt. ([entreemagazine.nl](https://www.entreemagazine.nl/ondernemen/de-rek-is-eruit-wat-nu?utm_source=openai))\n\n**5. Duidelijke positionering en klantgerichtheid**\n\nEen duidelijke positionering en focus op de behoeften van de doelgroep kunnen helpen om klanten aan te trekken en te behouden. Het bieden van een unieke ervaring en het inspelen op klantverwachtingen zijn hierbij essentieel. ([sra.nl](https://www.sra.nl/nieuws/000000/2023/12/horeca-doet-een-stap-terug-na-sterke-inhaalslag?utm_source=openai))\n\nDoor deze strategieën te implementeren, kan Brasserie Het Pakhuis zijn winstgevendheid verbeteren en zich onderscheiden in de competitieve horecamarkt. ",
+  "usage": {
+    "input_tokens": 1516,
+    "output_tokens": 608,
+    "total_tokens": 2124
+  },
+  "timestamp_utc": "2026-04-20T07:00:08Z"
+}

@@ -1,0 +1,51 @@
+{
+  "query": "Zoek op internet naar relevante informatie voor het volgende restaurantprobleem. Geef per gevonden bron een korte samenvatting van de relevante informatie. Vermeld altijd de titel en URL van elke bron",
+  "search_backend": "openai_web_search_preview",
+  "model": "gpt-4o-mini",
+  "max_results": 8,
+  "fetch_top_n": 5,
+  "results": [
+    {
+      "rank": 1,
+      "title": "KHN | Marketingtrends en ontwikkelingen",
+      "url": "https://www.khn.nl/onderwerpen/ondernemen-in-de-horeca/trends-en-ontwikkelingen?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    },
+    {
+      "rank": 2,
+      "title": "6 tips voor het starten van een Fast Casual Dining restaurant - Strobbo",
+      "url": "https://strobbo.com/be-nl/cafe-restaurant/6-tips-voor-het-starten-van-een-fast-casual-dining-restaurant/?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    },
+    {
+      "rank": 3,
+      "title": "Horecatrends 2026: dit kunnen horecaondernemers verwachten | handhoreca.nl",
+      "url": "https://handhoreca.nl/blog/horecatrends-2026?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    },
+    {
+      "rank": 4,
+      "title": "Hoe optimaliseer je een Quick Service Restaurant (QSR)? | 2026",
+      "url": "https://www.get-sides.nl/blog/quick-service-restaurant-optimaliseren/?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    },
+    {
+      "rank": 5,
+      "title": "Wat is fast casual en waarom groeit het zo hard | Horecava",
+      "url": "https://www.horecava.nl/nieuws/het-succes-van-fast-casual?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    }
+  ],
+  "web_summary": "Eetcafé De Academie ervaart een daling van 25% in het aantal gasten op doordeweekse avonden sinds de opening van het fast-casual concept 'Bowl & Bites' in de nabije omgeving. Om deze uitdaging aan te pakken, kunnen de volgende strategieën en best practices worden overwogen:\n\n**1. Strategieën die aansluiten bij dit specifieke probleem:**\n\n- **Verbeterde klantbeleving en service:** Gasten hechten steeds meer waarde aan een persoonlijke benadering en een authentieke sfeer. Door te investeren in gastvrijheid en een unieke ervaring kan De Academie zich onderscheiden van concurrenten. ([khn.nl](https://www.khn.nl/onderwerpen/ondernemen-in-de-horeca/trends-en-ontwikkelingen?utm_source=openai))\n\n- **Optimalisatie van het menu:** Het aanbieden van een beperkt, maar kwalitatief hoogstaand menu kan de efficiëntie verhogen en de voedselverspilling verminderen. Fast-casual restaurants werken vaak met een single dish optie, waarbij één gerecht centraal staat en de consument het kan personaliseren met diverse extra's. ([strobbo.com](https://strobbo.com/be-nl/cafe-restaurant/6-tips-voor-het-starten-van-een-fast-casual-dining-restaurant/?utm_source=openai))\n\n- **Integratie van technologie:** Het implementeren van digitale bestelsystemen en geautomatiseerde processen kan de efficiëntie verbeteren en wachttijden verkorten, wat aansluit bij de voorkeur van consumenten voor snelheid en gemak. ([handhoreca.nl](https://handhoreca.nl/blog/horecatrends-2026?utm_source=openai))\n\n**2. Best practices uit de horeca-industrie:**\n\n- **Diversificatie van het aanbod:** Het aanbieden van een gevarieerd menu met zowel vertrouwde als nieuwe gerechten kan tegemoetkomen aan de wensen van een breed publiek. Bijvoorbeeld, het combineren van comfort food met wereldse smaken kan aantrekkelijk zijn voor gasten die op zoek zijn naar variatie. ([handhoreca.nl](https://handhoreca.nl/blog/horecatrends-2026?utm_source=openai))\n\n- **Duurzaamheid en lokale producten:** Consumenten hechten steeds meer waarde aan duurzaamheid en lokale producten. Door transparant te communiceren over inkoopbeleid en het gebruik van lokale ingrediënten kan De Academie inspelen op deze trend. ([handhoreca.nl](https://handhoreca.nl/blog/horecatrends-2026?utm_source=openai))\n\n- **Efficiëntie in bedrijfsvoering:** Het stroomlijnen van processen en het optimaliseren van de personeelsinzet kan helpen om kosten te besparen en de operationele efficiëntie te verhogen. ([get-sides.nl](https://www.get-sides.nl/blog/quick-service-restaurant-optimaliseren/?utm_source=openai))\n\n**3. Recente markttrends en concurrentie-inzichten:**\n\n- **Opkomst van fast-casual concepten:** Fast-casual restaurants combineren snelheid en kwaliteit, en spelen in op de behoefte van consumenten aan gezonde, smaakvolle en betaalbare maaltijden met een korte bereidingstijd. ([horecava.nl](https://www.horecava.nl/nieuws/het-succes-van-fast-casual?utm_source=openai))\n\n- **Prijsbewustzijn van consumenten:** Gasten worden steeds kritischer op de prijs-kwaliteitverhouding. Het aanbieden van gerechten die zowel betaalbaar als van hoge kwaliteit zijn, kan helpen om klanten te behouden en aan te trekken. ([handhoreca.nl](https://handhoreca.nl/blog/horecatrends-2026?utm_source=openai))\n\n- **Technologische integratie:** Het gebruik van technologie in de horeca neemt toe, van geautomatiseerde bestelsystemen tot data-gedreven gastpersonalisatie. Dit kan bijdragen aan een efficiëntere bedrijfsvoering en een verbeterde klantbeleving. ([handhoreca.nl](https://handhoreca.nl/blog/horecatrends-2026?utm_source=openai))\n\nDoor deze strategieën en best practices te implementeren, kan Eetcafé De Academie zich onderscheiden in de competitieve markt en de recente daling in gasten op doordeweekse avonden omkeren. ",
+  "usage": {
+    "input_tokens": 1239,
+    "output_tokens": 915,
+    "total_tokens": 2154
+  },
+  "timestamp_utc": "2026-04-20T06:59:45Z"
+}

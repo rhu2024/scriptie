@@ -1,0 +1,598 @@
+2026-03-03 14:46:07,314 | INFO | ==== START experiment_a ====
+2026-03-03 14:46:07,316 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-03 14:46:07,317 | INFO | Cases: 5
+2026-03-03 14:46:07,318 | INFO | Results dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data
+2026-03-03 14:46:07,319 | INFO | Log: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_a.log
+2026-03-03 14:46:07,375 | INFO | ===== RUN 1/5 | exp=a =====
+2026-03-03 14:46:07,376 | INFO | Run 1 | case=case_1
+2026-03-03 14:46:10,365 | INFO | Run 1 | case=case_2
+2026-03-03 14:46:11,713 | INFO | Run 1 | case=case_3
+2026-03-03 14:46:12,874 | INFO | Run 1 | case=case_4
+2026-03-03 14:46:13,742 | INFO | Run 1 | case=case_5
+2026-03-03 14:46:14,724 | INFO | ===== RUN 2/5 | exp=a =====
+2026-03-03 14:46:14,725 | INFO | Run 2 | case=case_1
+2026-03-03 14:46:15,655 | INFO | Run 2 | case=case_2
+2026-03-03 14:46:16,763 | INFO | Run 2 | case=case_3
+2026-03-03 14:46:17,897 | INFO | Run 2 | case=case_4
+2026-03-03 14:46:18,969 | INFO | Run 2 | case=case_5
+2026-03-03 14:46:19,968 | INFO | ===== RUN 3/5 | exp=a =====
+2026-03-03 14:46:19,971 | INFO | Run 3 | case=case_1
+2026-03-03 14:46:20,995 | INFO | Run 3 | case=case_2
+2026-03-03 14:46:21,962 | INFO | Run 3 | case=case_3
+2026-03-03 14:46:23,189 | INFO | Run 3 | case=case_4
+2026-03-03 14:46:24,130 | INFO | Run 3 | case=case_5
+2026-03-03 14:46:25,067 | INFO | ===== RUN 4/5 | exp=a =====
+2026-03-03 14:46:25,067 | INFO | Run 4 | case=case_1
+2026-03-03 14:46:26,532 | INFO | Run 4 | case=case_2
+2026-03-03 14:46:27,379 | INFO | Run 4 | case=case_3
+2026-03-03 14:46:28,521 | INFO | Run 4 | case=case_4
+2026-03-03 14:46:29,314 | INFO | Run 4 | case=case_5
+2026-03-03 14:46:30,445 | INFO | ===== RUN 5/5 | exp=a =====
+2026-03-03 14:46:30,446 | INFO | Run 5 | case=case_1
+2026-03-03 14:46:31,232 | INFO | Run 5 | case=case_2
+2026-03-03 14:46:32,110 | INFO | Run 5 | case=case_3
+2026-03-03 14:46:32,984 | INFO | Run 5 | case=case_4
+2026-03-03 14:46:33,857 | INFO | Run 5 | case=case_5
+2026-03-03 14:46:38,115 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-03 14:50:59,120 | INFO | ==== START experiment_a ====
+2026-03-03 14:50:59,121 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-03 14:50:59,122 | INFO | Cases: 5
+2026-03-03 14:50:59,123 | INFO | Results dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data
+2026-03-03 14:50:59,124 | INFO | Log: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_a.log
+2026-03-03 14:50:59,151 | INFO | ===== RUN 1/5 | exp=a =====
+2026-03-03 14:50:59,152 | INFO | Run 1 | case=case_1
+2026-03-03 14:51:00,435 | INFO | Run 1 | case=case_2
+2026-03-03 14:51:01,477 | INFO | Run 1 | case=case_3
+2026-03-03 14:51:03,026 | INFO | Run 1 | case=case_4
+2026-03-03 14:51:04,037 | INFO | Run 1 | case=case_5
+2026-03-03 14:51:05,306 | INFO | ===== RUN 2/5 | exp=a =====
+2026-03-03 14:51:05,306 | INFO | Run 2 | case=case_1
+2026-03-03 14:51:07,751 | INFO | Run 2 | case=case_2
+2026-03-03 14:51:08,656 | INFO | Run 2 | case=case_3
+2026-03-03 14:51:09,589 | INFO | Run 2 | case=case_4
+2026-03-03 14:51:10,598 | INFO | Run 2 | case=case_5
+2026-03-03 14:51:11,848 | INFO | ===== RUN 3/5 | exp=a =====
+2026-03-03 14:51:11,849 | INFO | Run 3 | case=case_1
+2026-03-03 14:51:12,856 | INFO | Run 3 | case=case_2
+2026-03-03 14:51:14,026 | INFO | Run 3 | case=case_3
+2026-03-03 14:51:14,858 | INFO | Run 3 | case=case_4
+2026-03-03 14:51:15,688 | INFO | Run 3 | case=case_5
+2026-03-03 14:51:16,807 | INFO | ===== RUN 4/5 | exp=a =====
+2026-03-03 14:51:16,808 | INFO | Run 4 | case=case_1
+2026-03-03 14:51:17,835 | INFO | Run 4 | case=case_2
+2026-03-03 14:51:18,972 | INFO | Run 4 | case=case_3
+2026-03-03 14:51:19,836 | INFO | Run 4 | case=case_4
+2026-03-03 14:51:20,635 | INFO | Run 4 | case=case_5
+2026-03-03 14:51:21,835 | INFO | ===== RUN 5/5 | exp=a =====
+2026-03-03 14:51:21,836 | INFO | Run 5 | case=case_1
+2026-03-03 14:51:23,397 | INFO | Run 5 | case=case_2
+2026-03-03 14:51:24,402 | INFO | Run 5 | case=case_3
+2026-03-03 14:51:25,434 | INFO | Run 5 | case=case_4
+2026-03-03 14:51:26,320 | INFO | Run 5 | case=case_5
+2026-03-03 14:51:29,037 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-03 14:56:18,878 | INFO | ==== START experiment_a ====
+2026-03-03 14:56:18,879 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-03 14:56:18,879 | INFO | Cases: 5
+2026-03-03 14:56:18,880 | INFO | Results dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data
+2026-03-03 14:56:18,881 | INFO | Log: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_a.log
+2026-03-03 14:56:18,904 | INFO | ===== RUN 1/5 | exp=a =====
+2026-03-03 14:56:18,905 | INFO | Run 1 | case=case_1
+2026-03-03 14:56:19,981 | INFO | Run 1 | case=case_2
+2026-03-03 14:56:20,774 | INFO | Run 1 | case=case_3
+2026-03-03 14:56:21,574 | INFO | Run 1 | case=case_4
+2026-03-03 14:56:22,595 | INFO | Run 1 | case=case_5
+2026-03-03 14:56:24,124 | INFO | ===== RUN 2/5 | exp=a =====
+2026-03-03 14:56:24,125 | INFO | Run 2 | case=case_1
+2026-03-03 14:56:25,022 | INFO | Run 2 | case=case_2
+2026-03-03 14:56:25,972 | INFO | Run 2 | case=case_3
+2026-03-03 14:56:26,715 | INFO | Run 2 | case=case_4
+2026-03-03 14:56:27,771 | INFO | Run 2 | case=case_5
+2026-03-03 14:56:28,794 | INFO | ===== RUN 3/5 | exp=a =====
+2026-03-03 14:56:28,795 | INFO | Run 3 | case=case_1
+2026-03-03 14:56:29,851 | INFO | Run 3 | case=case_2
+2026-03-03 14:56:30,738 | INFO | Run 3 | case=case_3
+2026-03-03 14:56:31,579 | INFO | Run 3 | case=case_4
+2026-03-03 14:56:32,429 | INFO | Run 3 | case=case_5
+2026-03-03 14:56:33,546 | INFO | ===== RUN 4/5 | exp=a =====
+2026-03-03 14:56:33,547 | INFO | Run 4 | case=case_1
+2026-03-03 14:56:34,665 | INFO | Run 4 | case=case_2
+2026-03-03 14:56:37,330 | INFO | Run 4 | case=case_3
+2026-03-03 14:56:38,386 | INFO | Run 4 | case=case_4
+2026-03-03 14:56:39,285 | INFO | Run 4 | case=case_5
+2026-03-03 14:56:40,227 | INFO | ===== RUN 5/5 | exp=a =====
+2026-03-03 14:56:40,228 | INFO | Run 5 | case=case_1
+2026-03-03 14:56:41,219 | INFO | Run 5 | case=case_2
+2026-03-03 14:56:42,268 | INFO | Run 5 | case=case_3
+2026-03-03 14:56:43,226 | INFO | Run 5 | case=case_4
+2026-03-03 14:56:44,075 | INFO | Run 5 | case=case_5
+2026-03-03 14:56:46,404 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-03 14:57:54,438 | INFO | ==== START experiment_a ====
+2026-03-03 14:57:54,439 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-03 14:57:54,440 | INFO | Cases: 5
+2026-03-03 14:57:54,441 | INFO | Results dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data
+2026-03-03 14:57:54,441 | INFO | Log: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_a.log
+2026-03-03 14:57:54,471 | INFO | ===== RUN 1/5 | exp=a =====
+2026-03-03 14:57:54,472 | INFO | Run 1 | case=case_1
+2026-03-03 14:57:55,491 | INFO | Run 1 | case=case_2
+2026-03-03 14:57:56,415 | INFO | Run 1 | case=case_3
+2026-03-03 14:57:57,364 | INFO | Run 1 | case=case_4
+2026-03-03 14:57:58,369 | INFO | Run 1 | case=case_5
+2026-03-03 14:57:59,465 | INFO | ===== RUN 2/5 | exp=a =====
+2026-03-03 14:57:59,466 | INFO | Run 2 | case=case_1
+2026-03-03 14:58:00,340 | INFO | Run 2 | case=case_2
+2026-03-03 14:58:01,350 | INFO | Run 2 | case=case_3
+2026-03-03 14:58:02,473 | INFO | Run 2 | case=case_4
+2026-03-03 14:58:04,762 | INFO | Run 2 | case=case_5
+2026-03-03 14:58:05,943 | INFO | ===== RUN 3/5 | exp=a =====
+2026-03-03 14:58:05,943 | INFO | Run 3 | case=case_1
+2026-03-03 14:58:06,770 | INFO | Run 3 | case=case_2
+2026-03-03 14:58:08,001 | INFO | Run 3 | case=case_3
+2026-03-03 14:58:08,791 | INFO | Run 3 | case=case_4
+2026-03-03 14:58:10,370 | INFO | Run 3 | case=case_5
+2026-03-03 14:58:11,778 | INFO | ===== RUN 4/5 | exp=a =====
+2026-03-03 14:58:11,778 | INFO | Run 4 | case=case_1
+2026-03-03 14:58:12,583 | INFO | Run 4 | case=case_2
+2026-03-03 14:58:13,392 | INFO | Run 4 | case=case_3
+2026-03-03 14:58:14,266 | INFO | Run 4 | case=case_4
+2026-03-03 14:58:15,406 | INFO | Run 4 | case=case_5
+2026-03-03 14:58:16,616 | INFO | ===== RUN 5/5 | exp=a =====
+2026-03-03 14:58:16,617 | INFO | Run 5 | case=case_1
+2026-03-03 14:58:17,502 | INFO | Run 5 | case=case_2
+2026-03-03 14:58:18,999 | INFO | Run 5 | case=case_3
+2026-03-03 14:58:19,812 | INFO | Run 5 | case=case_4
+2026-03-03 14:58:20,749 | INFO | Run 5 | case=case_5
+2026-03-03 14:58:23,228 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-03 15:02:46,289 | INFO | ==== START experiment_a ====
+2026-03-03 15:02:46,290 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-03 15:02:46,293 | INFO | Cases: 5
+2026-03-03 15:02:46,301 | INFO | Results dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data
+2026-03-03 15:02:46,303 | INFO | Log: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_a.log
+2026-03-03 15:02:46,331 | INFO | ===== RUN 1/5 | exp=a =====
+2026-03-03 15:02:46,332 | INFO | Run 1 | case=case_1
+2026-03-03 15:02:47,496 | INFO | Run 1 | case=case_2
+2026-03-03 15:02:48,208 | INFO | Run 1 | case=case_3
+2026-03-03 15:02:49,059 | INFO | Run 1 | case=case_4
+2026-03-03 15:02:49,894 | INFO | Run 1 | case=case_5
+2026-03-03 15:02:50,652 | INFO | ===== RUN 2/5 | exp=a =====
+2026-03-03 15:02:50,653 | INFO | Run 2 | case=case_1
+2026-03-03 15:02:51,405 | INFO | Run 2 | case=case_2
+2026-03-03 15:02:52,090 | INFO | Run 2 | case=case_3
+2026-03-03 15:02:53,037 | INFO | Run 2 | case=case_4
+2026-03-03 15:02:53,760 | INFO | Run 2 | case=case_5
+2026-03-03 15:02:54,570 | INFO | ===== RUN 3/5 | exp=a =====
+2026-03-03 15:02:54,571 | INFO | Run 3 | case=case_1
+2026-03-03 15:02:55,264 | INFO | Run 3 | case=case_2
+2026-03-03 15:02:56,041 | INFO | Run 3 | case=case_3
+2026-03-03 15:02:56,603 | INFO | Run 3 | case=case_4
+2026-03-03 15:02:57,221 | INFO | Run 3 | case=case_5
+2026-03-03 15:02:57,924 | INFO | ===== RUN 4/5 | exp=a =====
+2026-03-03 15:02:57,924 | INFO | Run 4 | case=case_1
+2026-03-03 15:03:00,097 | INFO | Run 4 | case=case_2
+2026-03-03 15:03:01,129 | INFO | Run 4 | case=case_3
+2026-03-03 15:03:02,016 | INFO | Run 4 | case=case_4
+2026-03-03 15:03:03,487 | INFO | Run 4 | case=case_5
+2026-03-03 15:03:04,196 | INFO | ===== RUN 5/5 | exp=a =====
+2026-03-03 15:03:04,197 | INFO | Run 5 | case=case_1
+2026-03-03 15:03:05,046 | INFO | Run 5 | case=case_2
+2026-03-03 15:03:05,752 | INFO | Run 5 | case=case_3
+2026-03-03 15:03:07,400 | INFO | Run 5 | case=case_4
+2026-03-03 15:03:08,421 | INFO | Run 5 | case=case_5
+2026-03-03 15:03:11,431 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-03 15:06:35,779 | INFO | ==== START experiment_a ====
+2026-03-03 15:06:35,780 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-03 15:06:35,781 | INFO | Using prompts.py: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-03 15:06:35,782 | INFO | PROMPT_ID: sys:becf7c76e0e6|usr:7b40837b211f
+2026-03-03 15:06:35,782 | INFO | Cases: 5
+2026-03-03 15:06:35,783 | INFO | Results dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data
+2026-03-03 15:06:35,785 | INFO | Log: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_a.log
+2026-03-03 15:06:35,813 | INFO | ===== RUN 1/5 | exp=a =====
+2026-03-03 15:06:35,814 | INFO | Run 1 | case=case_1
+2026-03-03 15:06:37,358 | INFO | Run 1 | case=case_2
+2026-03-03 15:06:37,993 | INFO | Run 1 | case=case_3
+2026-03-03 15:06:38,993 | INFO | Run 1 | case=case_4
+2026-03-03 15:06:39,615 | INFO | Run 1 | case=case_5
+2026-03-03 15:06:40,607 | INFO | ===== RUN 2/5 | exp=a =====
+2026-03-03 15:06:40,608 | INFO | Run 2 | case=case_1
+2026-03-03 15:06:41,514 | INFO | Run 2 | case=case_2
+2026-03-03 15:06:42,242 | INFO | Run 2 | case=case_3
+2026-03-03 15:06:42,957 | INFO | Run 2 | case=case_4
+2026-03-03 15:06:43,625 | INFO | Run 2 | case=case_5
+2026-03-03 15:06:44,609 | INFO | ===== RUN 3/5 | exp=a =====
+2026-03-03 15:06:44,610 | INFO | Run 3 | case=case_1
+2026-03-03 15:06:45,197 | INFO | Run 3 | case=case_2
+2026-03-03 15:06:46,082 | INFO | Run 3 | case=case_3
+2026-03-03 15:06:46,741 | INFO | Run 3 | case=case_4
+2026-03-03 15:06:47,232 | INFO | Run 3 | case=case_5
+2026-03-03 15:06:47,952 | INFO | ===== RUN 4/5 | exp=a =====
+2026-03-03 15:06:47,953 | INFO | Run 4 | case=case_1
+2026-03-03 15:06:48,814 | INFO | Run 4 | case=case_2
+2026-03-03 15:06:49,454 | INFO | Run 4 | case=case_3
+2026-03-03 15:06:50,194 | INFO | Run 4 | case=case_4
+2026-03-03 15:06:50,920 | INFO | Run 4 | case=case_5
+2026-03-03 15:06:51,499 | INFO | ===== RUN 5/5 | exp=a =====
+2026-03-03 15:06:51,500 | INFO | Run 5 | case=case_1
+2026-03-03 15:06:52,445 | INFO | Run 5 | case=case_2
+2026-03-03 15:06:53,045 | INFO | Run 5 | case=case_3
+2026-03-03 15:06:53,844 | INFO | Run 5 | case=case_4
+2026-03-03 15:06:54,451 | INFO | Run 5 | case=case_5
+2026-03-03 15:06:57,345 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-03 15:09:40,794 | INFO | ==== START experiment_a ====
+2026-03-03 15:09:40,795 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-03 15:09:40,796 | INFO | PROMPT_ID: sys:becf7c76e0e6|usr:7b40837b211f
+2026-03-03 15:09:40,797 | INFO | ===== RUN 1/5 | exp=a =====
+2026-03-03 15:09:40,797 | INFO | Run 1 | case=case_1
+2026-03-03 15:09:41,580 | INFO | Run 1 | case=case_2
+2026-03-03 15:09:42,294 | INFO | Run 1 | case=case_3
+2026-03-03 15:09:43,108 | INFO | Run 1 | case=case_4
+2026-03-03 15:09:43,725 | INFO | Run 1 | case=case_5
+2026-03-03 15:09:44,505 | INFO | ===== RUN 2/5 | exp=a =====
+2026-03-03 15:09:44,506 | INFO | Run 2 | case=case_1
+2026-03-03 15:09:45,170 | INFO | Run 2 | case=case_2
+2026-03-03 15:09:45,942 | INFO | Run 2 | case=case_3
+2026-03-03 15:09:46,761 | INFO | Run 2 | case=case_4
+2026-03-03 15:09:47,368 | INFO | Run 2 | case=case_5
+2026-03-03 15:09:48,058 | INFO | ===== RUN 3/5 | exp=a =====
+2026-03-03 15:09:48,059 | INFO | Run 3 | case=case_1
+2026-03-03 15:09:48,710 | INFO | Run 3 | case=case_2
+2026-03-03 15:09:49,505 | INFO | Run 3 | case=case_3
+2026-03-03 15:09:50,243 | INFO | Run 3 | case=case_4
+2026-03-03 15:09:50,828 | INFO | Run 3 | case=case_5
+2026-03-03 15:09:51,486 | INFO | ===== RUN 4/5 | exp=a =====
+2026-03-03 15:09:51,487 | INFO | Run 4 | case=case_1
+2026-03-03 15:09:52,093 | INFO | Run 4 | case=case_2
+2026-03-03 15:09:52,941 | INFO | Run 4 | case=case_3
+2026-03-03 15:09:53,501 | INFO | Run 4 | case=case_4
+2026-03-03 15:09:54,136 | INFO | Run 4 | case=case_5
+2026-03-03 15:09:54,838 | INFO | ===== RUN 5/5 | exp=a =====
+2026-03-03 15:09:54,839 | INFO | Run 5 | case=case_1
+2026-03-03 15:09:55,456 | INFO | Run 5 | case=case_2
+2026-03-03 15:09:56,226 | INFO | Run 5 | case=case_3
+2026-03-03 15:09:56,958 | INFO | Run 5 | case=case_4
+2026-03-03 15:09:57,610 | INFO | Run 5 | case=case_5
+2026-03-03 15:09:59,807 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-03 15:21:05,100 | INFO | ==== START experiment_a ====
+2026-03-03 15:21:05,104 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-03 15:21:05,107 | INFO | PROMPT_ID: sys:becf7c76e0e6|usr:7b40837b211f
+2026-03-03 15:21:05,110 | INFO | ===== RUN 1/5 | exp=a =====
+2026-03-03 15:21:05,116 | INFO | Run 1 | case=case_1
+2026-03-03 15:21:06,512 | INFO | Run 1 | case=case_2
+2026-03-03 15:21:07,419 | INFO | Run 1 | case=case_3
+2026-03-03 15:21:08,174 | INFO | Run 1 | case=case_4
+2026-03-03 15:21:08,727 | INFO | Run 1 | case=case_5
+2026-03-03 15:21:09,744 | INFO | ===== RUN 2/5 | exp=a =====
+2026-03-03 15:21:09,745 | INFO | Run 2 | case=case_1
+2026-03-03 15:21:10,508 | INFO | Run 2 | case=case_2
+2026-03-03 15:21:11,978 | INFO | Run 2 | case=case_3
+2026-03-03 15:21:12,923 | INFO | Run 2 | case=case_4
+2026-03-03 15:21:13,487 | INFO | Run 2 | case=case_5
+2026-03-03 15:21:14,102 | INFO | ===== RUN 3/5 | exp=a =====
+2026-03-03 15:21:14,103 | INFO | Run 3 | case=case_1
+2026-03-03 15:21:14,836 | INFO | Run 3 | case=case_2
+2026-03-03 15:21:15,406 | INFO | Run 3 | case=case_3
+2026-03-03 15:21:16,133 | INFO | Run 3 | case=case_4
+2026-03-03 15:21:16,817 | INFO | Run 3 | case=case_5
+2026-03-03 15:21:17,482 | INFO | ===== RUN 4/5 | exp=a =====
+2026-03-03 15:21:17,483 | INFO | Run 4 | case=case_1
+2026-03-03 15:21:18,024 | INFO | Run 4 | case=case_2
+2026-03-03 15:21:18,670 | INFO | Run 4 | case=case_3
+2026-03-03 15:21:19,594 | INFO | Run 4 | case=case_4
+2026-03-03 15:21:20,149 | INFO | Run 4 | case=case_5
+2026-03-03 15:21:20,931 | INFO | ===== RUN 5/5 | exp=a =====
+2026-03-03 15:21:20,932 | INFO | Run 5 | case=case_1
+2026-03-03 15:21:21,608 | INFO | Run 5 | case=case_2
+2026-03-03 15:21:22,264 | INFO | Run 5 | case=case_3
+2026-03-03 15:21:23,069 | INFO | Run 5 | case=case_4
+2026-03-03 15:21:23,778 | INFO | Run 5 | case=case_5
+2026-03-03 15:21:26,896 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-03 15:38:17,119 | INFO | ==== START experiment_a ====
+2026-03-03 15:38:17,120 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-03 15:38:17,121 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-03 15:38:17,121 | INFO | PROMPT_ID: sys:becf7c76e0e6|usr:7b40837b211f
+2026-03-03 15:38:17,122 | INFO | Global question: Geef een strategisch advies voor dit restaurant op basis van de context. Max 200 karakters.
+2026-03-03 15:38:17,123 | INFO | Cases: 5
+2026-03-03 15:38:17,123 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-03 15:38:17,124 | INFO | ===== RUN 1/5 | exp=a =====
+2026-03-03 15:38:17,125 | INFO | Run 1 | case=case_1
+2026-03-03 15:38:18,495 | INFO | Run 1 | case=case_2
+2026-03-03 15:38:19,365 | INFO | Run 1 | case=case_3
+2026-03-03 15:38:20,175 | INFO | Run 1 | case=case_4
+2026-03-03 15:38:21,144 | INFO | Run 1 | case=case_5
+2026-03-03 15:38:22,179 | INFO | ===== RUN 2/5 | exp=a =====
+2026-03-03 15:38:22,180 | INFO | Run 2 | case=case_1
+2026-03-03 15:38:23,113 | INFO | Run 2 | case=case_2
+2026-03-03 15:38:23,963 | INFO | Run 2 | case=case_3
+2026-03-03 15:38:24,996 | INFO | Run 2 | case=case_4
+2026-03-03 15:38:25,975 | INFO | Run 2 | case=case_5
+2026-03-03 15:38:26,571 | INFO | ===== RUN 3/5 | exp=a =====
+2026-03-03 15:38:26,572 | INFO | Run 3 | case=case_1
+2026-03-03 15:38:27,472 | INFO | Run 3 | case=case_2
+2026-03-03 15:38:28,075 | INFO | Run 3 | case=case_3
+2026-03-03 15:38:28,688 | INFO | Run 3 | case=case_4
+2026-03-03 15:38:29,328 | INFO | Run 3 | case=case_5
+2026-03-03 15:38:30,156 | INFO | ===== RUN 4/5 | exp=a =====
+2026-03-03 15:38:30,158 | INFO | Run 4 | case=case_1
+2026-03-03 15:38:30,999 | INFO | Run 4 | case=case_2
+2026-03-03 15:38:31,654 | INFO | Run 4 | case=case_3
+2026-03-03 15:38:32,198 | INFO | Run 4 | case=case_4
+2026-03-03 15:38:33,060 | INFO | Run 4 | case=case_5
+2026-03-03 15:38:33,816 | INFO | ===== RUN 5/5 | exp=a =====
+2026-03-03 15:38:33,817 | INFO | Run 5 | case=case_1
+2026-03-03 15:38:34,653 | INFO | Run 5 | case=case_2
+2026-03-03 15:38:35,214 | INFO | Run 5 | case=case_3
+2026-03-03 15:38:35,818 | INFO | Run 5 | case=case_4
+2026-03-03 15:38:36,645 | INFO | Run 5 | case=case_5
+2026-03-03 15:38:39,981 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-04 07:11:33,263 | INFO | ==== START experiment_a ====
+2026-03-04 07:11:33,264 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-04 07:11:33,266 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-04 07:11:33,267 | INFO | PROMPT_ID: sys:becf7c76e0e6|usr:f59dd080b1ca|q:7cc29e8f8e5d
+2026-03-04 07:11:33,268 | INFO | QUESTION: Geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-04 07:11:33,271 | INFO | Cases: 5
+2026-03-04 07:11:33,272 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-04 07:11:33,274 | INFO | ===== RUN 1/5 | exp=a =====
+2026-03-04 07:15:14,080 | INFO | ==== START experiment_a ====
+2026-03-04 07:15:14,081 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-04 07:15:14,082 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-04 07:15:14,083 | INFO | PROMPT_ID: sys:becf7c76e0e6|usr:f59dd080b1ca|q:7cc29e8f8e5d
+2026-03-04 07:15:14,083 | INFO | QUESTION: Geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-04 07:15:14,084 | INFO | Cases: 5
+2026-03-04 07:15:14,085 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-04 07:15:14,086 | INFO | ===== RUN 1/5 | exp=a =====
+2026-03-04 07:15:14,086 | INFO | Run 1 | case=case_1
+2026-03-04 07:15:16,160 | INFO | Run 1 | case=case_2
+2026-03-04 07:15:17,452 | INFO | Run 1 | case=case_3
+2026-03-04 07:15:18,866 | INFO | Run 1 | case=case_4
+2026-03-04 07:15:19,763 | INFO | Run 1 | case=case_5
+2026-03-04 07:15:20,734 | INFO | ===== RUN 2/5 | exp=a =====
+2026-03-04 07:15:20,734 | INFO | Run 2 | case=case_1
+2026-03-04 07:15:22,150 | INFO | Run 2 | case=case_2
+2026-03-04 07:15:23,487 | INFO | Run 2 | case=case_3
+2026-03-04 07:15:24,186 | INFO | Run 2 | case=case_4
+2026-03-04 07:15:25,584 | INFO | Run 2 | case=case_5
+2026-03-04 07:15:27,046 | INFO | ===== RUN 3/5 | exp=a =====
+2026-03-04 07:15:27,047 | INFO | Run 3 | case=case_1
+2026-03-04 07:15:28,704 | INFO | Run 3 | case=case_2
+2026-03-04 07:15:29,156 | INFO | Run 3 | case=case_3
+2026-03-04 07:15:29,825 | INFO | Run 3 | case=case_4
+2026-03-04 07:15:30,346 | INFO | Run 3 | case=case_5
+2026-03-04 07:15:30,843 | INFO | ===== RUN 4/5 | exp=a =====
+2026-03-04 07:15:30,844 | INFO | Run 4 | case=case_1
+2026-03-04 07:15:31,613 | INFO | Run 4 | case=case_2
+2026-03-04 07:15:32,944 | INFO | Run 4 | case=case_3
+2026-03-04 07:15:33,657 | INFO | Run 4 | case=case_4
+2026-03-04 07:15:34,209 | INFO | Run 4 | case=case_5
+2026-03-04 07:15:34,801 | INFO | ===== RUN 5/5 | exp=a =====
+2026-03-04 07:15:34,801 | INFO | Run 5 | case=case_1
+2026-03-04 07:15:35,573 | INFO | Run 5 | case=case_2
+2026-03-04 07:15:36,678 | INFO | Run 5 | case=case_3
+2026-03-04 07:15:37,931 | INFO | Run 5 | case=case_4
+2026-03-04 07:15:38,483 | INFO | Run 5 | case=case_5
+2026-03-04 07:15:45,175 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-06 07:53:20,960 | INFO | ==== START experiment_a ====
+2026-03-06 07:53:20,962 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-06 07:53:20,963 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-06 07:53:20,964 | INFO | PROMPT_ID: sys:becf7c76e0e6|usr:f59dd080b1ca|q:7cc29e8f8e5d
+2026-03-06 07:53:20,968 | INFO | QUESTION: Geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-06 07:53:20,968 | INFO | Cases: 5
+2026-03-06 07:53:20,970 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-06 07:53:20,971 | INFO | ===== RUN 1/5 | exp=a =====
+2026-03-06 07:53:20,972 | INFO | Run 1 | case=case_1
+2026-03-06 07:53:23,347 | INFO | Run 1 | case=case_2
+2026-03-06 07:53:24,709 | INFO | Run 1 | case=case_3
+2026-03-06 07:53:26,176 | INFO | Run 1 | case=case_4
+2026-03-06 07:53:27,697 | INFO | Run 1 | case=case_5
+2026-03-06 07:53:28,477 | INFO | ===== RUN 2/5 | exp=a =====
+2026-03-06 07:53:28,478 | INFO | Run 2 | case=case_1
+2026-03-06 07:53:29,380 | INFO | Run 2 | case=case_2
+2026-03-06 07:53:29,894 | INFO | Run 2 | case=case_3
+2026-03-06 07:53:30,538 | INFO | Run 2 | case=case_4
+2026-03-06 07:53:32,414 | INFO | Run 2 | case=case_5
+2026-03-06 07:53:33,160 | INFO | ===== RUN 3/5 | exp=a =====
+2026-03-06 07:53:33,161 | INFO | Run 3 | case=case_1
+2026-03-06 07:53:35,213 | INFO | Run 3 | case=case_2
+2026-03-06 07:53:35,679 | INFO | Run 3 | case=case_3
+2026-03-06 07:53:37,264 | INFO | Run 3 | case=case_4
+2026-03-06 07:53:38,317 | INFO | Run 3 | case=case_5
+2026-03-06 07:53:39,022 | INFO | ===== RUN 4/5 | exp=a =====
+2026-03-06 07:53:39,023 | INFO | Run 4 | case=case_1
+2026-03-06 07:53:40,709 | INFO | Run 4 | case=case_2
+2026-03-06 07:53:41,200 | INFO | Run 4 | case=case_3
+2026-03-06 07:53:41,914 | INFO | Run 4 | case=case_4
+2026-03-06 07:53:43,385 | INFO | Run 4 | case=case_5
+2026-03-06 07:53:43,968 | INFO | ===== RUN 5/5 | exp=a =====
+2026-03-06 07:53:43,969 | INFO | Run 5 | case=case_1
+2026-03-06 07:53:44,983 | INFO | Run 5 | case=case_2
+2026-03-06 07:53:45,605 | INFO | Run 5 | case=case_3
+2026-03-06 07:53:46,294 | INFO | Run 5 | case=case_4
+2026-03-06 07:53:46,797 | INFO | Run 5 | case=case_5
+2026-03-06 07:53:54,030 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-10 08:07:35,758 | INFO | ==== START experiment_a ====
+2026-03-10 08:07:35,760 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-10 08:07:35,761 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-10 08:07:35,762 | INFO | PROMPT_ID: sys:becf7c76e0e6|usr:f59dd080b1ca|q:7cc29e8f8e5d
+2026-03-10 08:07:35,764 | INFO | QUESTION: Geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-10 08:07:35,765 | INFO | Cases: 5
+2026-03-10 08:07:35,766 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-10 08:07:35,767 | INFO | ===== RUN 1/5 | exp=a =====
+2026-03-10 08:07:35,768 | INFO | Run 1 | case=case_1
+2026-03-10 08:07:38,368 | INFO | Run 1 | case=case_2
+2026-03-10 08:07:40,843 | INFO | Run 1 | case=case_3
+2026-03-10 08:07:42,210 | INFO | Run 1 | case=case_4
+2026-03-10 08:07:42,971 | INFO | Run 1 | case=case_5
+2026-03-10 08:07:43,548 | INFO | ===== RUN 2/5 | exp=a =====
+2026-03-10 08:07:43,550 | INFO | Run 2 | case=case_1
+2026-03-10 08:07:45,403 | INFO | Run 2 | case=case_2
+2026-03-10 08:07:47,152 | INFO | Run 2 | case=case_3
+2026-03-10 08:07:47,810 | INFO | Run 2 | case=case_4
+2026-03-10 08:07:49,796 | INFO | Run 2 | case=case_5
+2026-03-10 08:07:50,372 | INFO | ===== RUN 3/5 | exp=a =====
+2026-03-10 08:07:50,373 | INFO | Run 3 | case=case_1
+2026-03-10 08:07:52,460 | INFO | Run 3 | case=case_2
+2026-03-10 08:07:53,030 | INFO | Run 3 | case=case_3
+2026-03-10 08:07:54,659 | INFO | Run 3 | case=case_4
+2026-03-10 08:07:55,343 | INFO | Run 3 | case=case_5
+2026-03-10 08:07:55,941 | INFO | ===== RUN 4/5 | exp=a =====
+2026-03-10 08:07:55,942 | INFO | Run 4 | case=case_1
+2026-03-10 08:07:57,011 | INFO | Run 4 | case=case_2
+2026-03-10 08:07:57,787 | INFO | Run 4 | case=case_3
+2026-03-10 08:07:59,277 | INFO | Run 4 | case=case_4
+2026-03-10 08:07:59,972 | INFO | Run 4 | case=case_5
+2026-03-10 08:08:00,630 | INFO | ===== RUN 5/5 | exp=a =====
+2026-03-10 08:08:00,631 | INFO | Run 5 | case=case_1
+2026-03-10 08:08:01,721 | INFO | Run 5 | case=case_2
+2026-03-10 08:08:02,444 | INFO | Run 5 | case=case_3
+2026-03-10 08:08:03,040 | INFO | Run 5 | case=case_4
+2026-03-10 08:08:03,805 | INFO | Run 5 | case=case_5
+2026-03-10 08:08:11,502 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-10 08:11:01,542 | INFO | ==== START experiment_a ====
+2026-03-10 08:11:01,543 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-10 08:11:01,545 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-10 08:11:01,549 | INFO | PROMPT_ID: sys:becf7c76e0e6|usr:f59dd080b1ca|q:7cc29e8f8e5d
+2026-03-10 08:11:01,552 | INFO | QUESTION: Geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-10 08:11:01,553 | INFO | Cases: 5
+2026-03-10 08:11:01,554 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-10 08:11:01,557 | INFO | ===== RUN 1/5 | exp=a =====
+2026-03-10 08:11:01,558 | INFO | Run 1 | case=case_1
+2026-03-10 08:11:02,980 | INFO | Run 1 | case=case_2
+2026-03-10 08:11:04,098 | INFO | Run 1 | case=case_3
+2026-03-10 08:11:06,330 | INFO | Run 1 | case=case_4
+2026-03-10 08:11:07,471 | INFO | Run 1 | case=case_5
+2026-03-10 08:11:08,466 | INFO | ===== RUN 2/5 | exp=a =====
+2026-03-10 08:11:08,467 | INFO | Run 2 | case=case_1
+2026-03-10 08:11:09,430 | INFO | Run 2 | case=case_2
+2026-03-10 08:11:10,403 | INFO | Run 2 | case=case_3
+2026-03-10 08:11:11,439 | INFO | Run 2 | case=case_4
+2026-03-10 08:11:12,606 | INFO | Run 2 | case=case_5
+2026-03-10 08:11:13,627 | INFO | ===== RUN 3/5 | exp=a =====
+2026-03-10 08:11:13,628 | INFO | Run 3 | case=case_1
+2026-03-10 08:11:14,740 | INFO | Run 3 | case=case_2
+2026-03-10 08:11:15,762 | INFO | Run 3 | case=case_3
+2026-03-10 08:11:17,439 | INFO | Run 3 | case=case_4
+2026-03-10 08:11:18,539 | INFO | Run 3 | case=case_5
+2026-03-10 08:11:19,622 | INFO | ===== RUN 4/5 | exp=a =====
+2026-03-10 08:11:19,623 | INFO | Run 4 | case=case_1
+2026-03-10 08:11:20,685 | INFO | Run 4 | case=case_2
+2026-03-10 08:11:21,939 | INFO | Run 4 | case=case_3
+2026-03-10 08:11:22,999 | INFO | Run 4 | case=case_4
+2026-03-10 08:11:24,035 | INFO | Run 4 | case=case_5
+2026-03-10 08:11:24,923 | INFO | ===== RUN 5/5 | exp=a =====
+2026-03-10 08:11:24,925 | INFO | Run 5 | case=case_1
+2026-03-10 08:11:25,920 | INFO | Run 5 | case=case_2
+2026-03-10 08:11:26,976 | INFO | Run 5 | case=case_3
+2026-03-10 08:11:27,945 | INFO | Run 5 | case=case_4
+2026-03-10 08:11:29,027 | INFO | Run 5 | case=case_5
+2026-03-10 08:11:31,362 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-10 08:44:16,865 | INFO | ==== START experiment_a ====
+2026-03-10 08:44:16,867 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-10 08:44:16,868 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-10 08:44:16,868 | INFO | PROMPT_ID: sys:becf7c76e0e6|usr:f59dd080b1ca|q:7cc29e8f8e5d
+2026-03-10 08:44:16,869 | INFO | QUESTION: Geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-10 08:44:16,870 | INFO | Cases: 5
+2026-03-10 08:44:16,871 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-10 08:44:16,872 | INFO | ===== RUN 1/5 | exp=a =====
+2026-03-10 08:44:16,873 | INFO | Run 1 | case=case_1
+2026-03-10 08:44:18,441 | INFO | Run 1 | case=case_2
+2026-03-10 08:44:19,736 | INFO | Run 1 | case=case_3
+2026-03-10 08:44:21,361 | INFO | Run 1 | case=case_4
+2026-03-10 08:44:22,803 | INFO | Run 1 | case=case_5
+2026-03-10 08:44:23,899 | INFO | ===== RUN 2/5 | exp=a =====
+2026-03-10 08:44:23,900 | INFO | Run 2 | case=case_1
+2026-03-10 08:44:24,974 | INFO | Run 2 | case=case_2
+2026-03-10 08:44:25,720 | INFO | Run 2 | case=case_3
+2026-03-10 08:44:26,969 | INFO | Run 2 | case=case_4
+2026-03-10 08:44:28,042 | INFO | Run 2 | case=case_5
+2026-03-10 08:44:28,861 | INFO | ===== RUN 3/5 | exp=a =====
+2026-03-10 08:44:28,862 | INFO | Run 3 | case=case_1
+2026-03-10 08:44:30,461 | INFO | Run 3 | case=case_2
+2026-03-10 08:44:31,952 | INFO | Run 3 | case=case_3
+2026-03-10 08:44:32,891 | INFO | Run 3 | case=case_4
+2026-03-10 08:44:33,653 | INFO | Run 3 | case=case_5
+2026-03-10 08:44:34,465 | INFO | ===== RUN 4/5 | exp=a =====
+2026-03-10 08:44:34,471 | INFO | Run 4 | case=case_1
+2026-03-10 08:44:35,649 | INFO | Run 4 | case=case_2
+2026-03-10 08:44:36,528 | INFO | Run 4 | case=case_3
+2026-03-10 08:44:37,500 | INFO | Run 4 | case=case_4
+2026-03-10 08:44:38,495 | INFO | Run 4 | case=case_5
+2026-03-10 08:44:39,408 | INFO | ===== RUN 5/5 | exp=a =====
+2026-03-10 08:44:39,409 | INFO | Run 5 | case=case_1
+2026-03-10 08:44:41,015 | INFO | Run 5 | case=case_2
+2026-03-10 08:44:41,807 | INFO | Run 5 | case=case_3
+2026-03-10 08:44:42,964 | INFO | Run 5 | case=case_4
+2026-03-10 08:44:43,827 | INFO | Run 5 | case=case_5
+2026-03-10 08:44:47,044 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-10 09:50:44,005 | INFO | ==== START experiment_a ====
+2026-03-10 09:50:44,006 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-10 09:50:44,006 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-10 09:50:44,007 | INFO | PROMPT_ID: sys:b07672224335|usr:f59dd080b1ca|q:7cc29e8f8e5d
+2026-03-10 09:50:44,008 | INFO | QUESTION: Geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-10 09:50:44,008 | INFO | Cases: 5
+2026-03-10 09:50:44,009 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-10 09:50:44,010 | INFO | ===== RUN 1/5 | exp=a =====
+2026-03-10 09:50:44,011 | INFO | Run 1 | case=case_1
+2026-03-10 09:50:45,200 | INFO | Run 1 | case=case_2
+2026-03-10 09:50:45,908 | INFO | Run 1 | case=case_3
+2026-03-10 09:50:46,747 | INFO | Run 1 | case=case_4
+2026-03-10 09:50:47,542 | INFO | Run 1 | case=case_5
+2026-03-10 09:50:48,459 | INFO | ===== RUN 2/5 | exp=a =====
+2026-03-10 09:50:48,460 | INFO | Run 2 | case=case_1
+2026-03-10 09:50:49,342 | INFO | Run 2 | case=case_2
+2026-03-10 09:50:50,252 | INFO | Run 2 | case=case_3
+2026-03-10 09:50:51,370 | INFO | Run 2 | case=case_4
+2026-03-10 09:50:52,127 | INFO | Run 2 | case=case_5
+2026-03-10 09:50:53,048 | INFO | ===== RUN 3/5 | exp=a =====
+2026-03-10 09:50:53,049 | INFO | Run 3 | case=case_1
+2026-03-10 09:50:54,195 | INFO | Run 3 | case=case_2
+2026-03-10 09:50:55,135 | INFO | Run 3 | case=case_3
+2026-03-10 09:50:55,936 | INFO | Run 3 | case=case_4
+2026-03-10 09:50:56,851 | INFO | Run 3 | case=case_5
+2026-03-10 09:50:58,278 | INFO | ===== RUN 4/5 | exp=a =====
+2026-03-10 09:50:58,279 | INFO | Run 4 | case=case_1
+2026-03-10 09:50:59,377 | INFO | Run 4 | case=case_2
+2026-03-10 09:51:00,019 | INFO | Run 4 | case=case_3
+2026-03-10 09:51:01,067 | INFO | Run 4 | case=case_4
+2026-03-10 09:51:01,887 | INFO | Run 4 | case=case_5
+2026-03-10 09:51:02,884 | INFO | ===== RUN 5/5 | exp=a =====
+2026-03-10 09:51:02,884 | INFO | Run 5 | case=case_1
+2026-03-10 09:51:03,891 | INFO | Run 5 | case=case_2
+2026-03-10 09:51:04,749 | INFO | Run 5 | case=case_3
+2026-03-10 09:51:05,607 | INFO | Run 5 | case=case_4
+2026-03-10 09:51:06,373 | INFO | Run 5 | case=case_5
+2026-03-10 09:51:08,499 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-19 07:20:12,656 | INFO | ==== START experiment_a ====
+2026-03-19 07:20:12,658 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-19 07:20:12,659 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-19 07:20:12,660 | INFO | PROMPT_ID: sys:ad290076b31d|usr:fba953506a2e|q:5039baaae917
+2026-03-19 07:20:12,661 | INFO | QUESTION: Voer een scenario-analyse uit en geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-19 07:20:12,662 | INFO | Cases: 5
+2026-03-19 07:20:12,663 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a
+2026-03-19 07:20:12,665 | INFO | ===== RUN 1/5 | exp=a =====
+2026-03-19 07:20:12,666 | INFO | Run 1 | case=case_1
+2026-03-19 07:20:32,705 | INFO | Run 1 | case=case_2
+2026-03-19 07:20:52,886 | INFO | Run 1 | case=case_3
+2026-03-19 07:21:08,673 | INFO | Run 1 | case=case_4
+2026-03-19 07:21:25,232 | INFO | Run 1 | case=case_5
+2026-03-19 07:21:41,912 | INFO | ===== RUN 2/5 | exp=a =====
+2026-03-19 07:21:41,913 | INFO | Run 2 | case=case_1
+2026-03-19 07:21:59,024 | INFO | Run 2 | case=case_2
+2026-03-19 07:22:13,685 | INFO | Run 2 | case=case_3
+2026-03-19 07:22:31,309 | INFO | Run 2 | case=case_4
+2026-03-19 07:22:48,534 | INFO | Run 2 | case=case_5
+2026-03-19 07:23:04,863 | INFO | ===== RUN 3/5 | exp=a =====
+2026-03-19 07:23:04,865 | INFO | Run 3 | case=case_1
+2026-03-19 07:23:21,156 | INFO | Run 3 | case=case_2
+2026-03-19 07:23:35,448 | INFO | Run 3 | case=case_3
+2026-03-19 07:23:57,297 | INFO | Run 3 | case=case_4
+2026-03-19 07:24:12,827 | INFO | Run 3 | case=case_5
+2026-03-19 07:24:30,590 | INFO | ===== RUN 4/5 | exp=a =====
+2026-03-19 07:24:30,592 | INFO | Run 4 | case=case_1
+2026-03-19 07:24:47,511 | INFO | Run 4 | case=case_2
+2026-03-19 07:25:06,346 | INFO | Run 4 | case=case_3
+2026-03-19 07:25:21,624 | INFO | Run 4 | case=case_4
+2026-03-19 07:25:37,064 | INFO | Run 4 | case=case_5
+2026-03-19 07:25:58,446 | INFO | ===== RUN 5/5 | exp=a =====
+2026-03-19 07:25:58,447 | INFO | Run 5 | case=case_1
+2026-03-19 07:26:13,041 | INFO | Run 5 | case=case_2
+2026-03-19 07:26:28,443 | INFO | Run 5 | case=case_3
+2026-03-19 07:26:50,533 | INFO | Run 5 | case=case_4
+2026-03-19 07:27:08,704 | INFO | Run 5 | case=case_5
+2026-03-19 07:27:32,877 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_a

@@ -1,0 +1,138 @@
+{
+  "restaurantprofiel": {
+    "naam": "Restaurant Le Jardin",
+    "type": "Fine dining",
+    "locatie": "Woonwijk 'De Linden' in een middelgrote stad, omgeven door nieuwbouwwijken met jonge gezinnen",
+    "capaciteit": "40 zitplaatsen, intiem opgezet met gedekte tafels en linnen servetten",
+    "openingstijden": "woensdag t/m zondag, 18:00–22:00",
+    "gemiddelde_besteding_per_gast": "€62,00",
+    "personeel": "1 chef-kok (eigenaar), 1 souschef, 2 vaste bediening"
+  },
+  "positionering": "Le Jardin positioneert zich als een gastronomisch restaurant met Frans-geïnspireerde seizoenskeuken. De chef-kok heeft een achtergrond in sterrenrestaurants en legt de nadruk op ambachtelijke bereidingswijzen en lokale ingrediënten. Het restaurant presenteert zich als een 'culinaire oase' in de wijk. De inrichting is stijlvol en rustig, niet geschikt voor kinderen.",
+  "doelgroep": {
+    "beoogd": "Foodies en culinair bewuste gasten (35–55 jaar) uit de stad en omgeving",
+    "werkelijk": "Het restaurant trekt voornamelijk gasten van buiten de wijk. De directe omgeving bestaat uit jonge gezinnen (25–40 jaar) met kinderen, die eerder zoeken naar kindvriendelijke en betaalbare opties.",
+    "kenmerken": "De mismatch tussen positionering en buurt zorgt voor een laag lokaal bereik."
+  },
+  "marktcontext": {
+    "omgeving": "In de wijk bevinden zich verder een pizzeria, een Grieks restaurant en een afhaalchinees. Geen van deze is fine dining. Buiten de wijk (5 km) zijn twee vergelijkbare restaurants met hogere naamsbekendheid.",
+    "bezettingsgraad_doordeweeks": "30% (gemiddeld 12 reserveringen per avond bij 40 stoelen)",
+    "bezettingsgraad_weekend": "45% — nog steeds onvoldoende",
+    "vaste_kosten": "€7.800 per maand",
+    "lunchservice": "Geen",
+    "ontwikkelingen": "De wijk groeit: er worden 400 nieuwe woningen opgeleverd in het komende jaar, voornamelijk voor starters en jonge gezinnen."
+  },
+  "menukaart": {
+    "amuses": [
+      {
+        "naam": "Amuse van de chef",
+        "prijs": "inbegrepen bij 3-gangenmenu",
+        "beschrijving": "Dagelijks wisselende amuse"
+      }
+    ],
+    "voorgerechten": [
+      {
+        "naam": "Tartaar van Noordzeekrab",
+        "prijs": "€16,50",
+        "beschrijving": "Krab, avocado, yuzu, sesamcracker"
+      },
+      {
+        "naam": "Ganzenlever terrine",
+        "prijs": "€18,95",
+        "beschrijving": "Huisgemaakte terrine, brioche, vijgenchutney"
+      },
+      {
+        "naam": "Carpaccio van rode biet",
+        "prijs": "€14,50",
+        "beschrijving": "Rode biet, geitenkaas, walnoot, honing-tijmdressing"
+      },
+      {
+        "naam": "Soep van geroosterde pompoen",
+        "prijs": "€12,50",
+        "beschrijving": "Pompoensoep, kokosroom, pompoenpitten, microgreens"
+      }
+    ],
+    "hoofdgerechten": [
+      {
+        "naam": "Tournedos van Irish Angus",
+        "prijs": "€36,50",
+        "beschrijving": "Ossenhaas (200g), truffel-aardappelgratin, seizoensgroenten, rode-wijnjus"
+      },
+      {
+        "naam": "Gebakken zeebaarsfilet",
+        "prijs": "€32,00",
+        "beschrijving": "Zeebaars, venkelrisotto, beurre blanc, dille"
+      },
+      {
+        "naam": "Eendenborst met kersensaus",
+        "prijs": "€29,50",
+        "beschrijving": "Eendenborst, zoetzure kersen, aardappelmousseline, peultjes"
+      },
+      {
+        "naam": "Risotto met truffel en eekhoorntjesbrood",
+        "prijs": "€26,00",
+        "beschrijving": "Seizoensrisotto, truffelolie, Parmezaanse kaas"
+      }
+    ],
+    "desserts": [
+      {
+        "naam": "Chocolade fondant",
+        "prijs": "€13,50",
+        "beschrijving": "Vloeibare kern, vanille-ijs, gezouten karamelsaus"
+      },
+      {
+        "naam": "Crème brûlée van tonkaboon",
+        "prijs": "€11,50",
+        "beschrijving": "Klassieke crème brûlée met tonkaboon"
+      },
+      {
+        "naam": "Kaasplank (3 soorten)",
+        "prijs": "€14,95",
+        "beschrijving": "Selectie van ambachtelijke kazen, noten, honing"
+      }
+    ],
+    "menus": [
+      {
+        "naam": "3-gangenmenu (voor-/hoofdgerecht/dessert)",
+        "prijs": "€52,50"
+      },
+      {
+        "naam": "4-gangenmenu inclusief amuse en kaas",
+        "prijs": "€67,50"
+      },
+      {
+        "naam": "Wijnpakket (3 glazen) bij menu",
+        "prijs": "€24,50"
+      }
+    ],
+    "dranken": [
+      {
+        "naam": "Glas champagne (Moët & Chandon)",
+        "prijs": "€12,50"
+      },
+      {
+        "naam": "Wijn wit (Chablis)",
+        "prijs": "€8,50"
+      },
+      {
+        "naam": "Wijn rood (Bordeaux)",
+        "prijs": "€9,00"
+      },
+      {
+        "naam": "Mineraalwater (Spa Blauw / Rood)",
+        "prijs": "€3,50"
+      },
+      {
+        "naam": "Espresso / cappuccino",
+        "prijs": "€3,00 / €3,75"
+      }
+    ]
+  },
+  "metadata": {
+    "case_id": "case_3",
+    "restaurant_type": "fine_dining",
+    "location_type": "woonwijk_jonge_gezinnen",
+    "primary_challenge": "mismatch_positionering_doelgroep",
+    "secondary_challenge": "lage_bezettingsgraad"
+  }
+}

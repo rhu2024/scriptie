@@ -1,0 +1,682 @@
+{
+"schema_version": "1.0",
+"language": "nl",
+"purpose": "RAG-kennisstructuur voor het expliciet toepassen van strategische theorieen in een LLM-prompt voor scenario-analyse en strategisch advies",
+"global_instructions": {
+"use_policy": [
+"Gebruik een theorie alleen wanneer de context voldoende aanknopingspunten bevat voor toepassing.",
+"Gebruik uitsluitend informatie uit de aangeleverde context en opgehaalde theorie-fragmenten.",
+"Maak expliciet onderscheid tussen observaties uit de context, interpretaties, aannames en aanbevelingen.",
+"Als een theorie niet volledig toepasbaar is door ontbrekende informatie, benoem dit expliciet.",
+"Gebruik theorieen complementair: omgevingsanalyse voor verkenning, scenario planning voor onzekerheid, evidence-based management voor redenering, en strategie onder onzekerheid voor robuuste keuzes.",
+"Voorkom hallucinerend brongebruik: verwijs alleen naar theorie-elementen die daadwerkelijk in de RAG-context aanwezig zijn."
+],
+"reasoning_pattern": [
+"Stap 1: haal relevante theorie op via retrieval.",
+"Stap 2: koppel theorieconcepten aan concrete signalen uit de casuscontext.",
+"Stap 3: pas de theorie stapsgewijs toe.",
+"Stap 4: syntheseer de uitkomsten van meerdere theorieen.",
+"Stap 5: formuleer een onderbouwde strategische conclusie.",
+"Stap 6: benoem beperkingen, aannames en informatiegebreken."
+],
+"output_requirements": [
+"Werk van analyse naar implicatie naar advies.",
+"Gebruik compacte maar expliciete redeneringen.",
+"Benoem waar relevant: drijvende krachten, onzekerheden, scenario's, robuuste opties, no-regret maatregelen, aannames en beperkingen."
+]
+},
+"theories": [
+{
+"theory_id": "evidence_based_management_rousseau_2006",
+"theory_name": "Evidence-Based Management",
+"authors": [
+"Denise M. Rousseau"
+],
+"year": 2006,
+"reference": "Rousseau, D. M. (2006). Is there such a thing as evidence-based management? Academy of Management Review, 31(2), 256-269.",
+"primary_purpose": "Zorgen dat strategische uitspraken expliciet op analyse en beschikbare evidentie worden gebaseerd, in plaats van op algemene of intuïtieve claims.",
+"when_to_use": [
+"Altijd toepassen bij het formuleren van analyse, implicaties en advies.",
+"Vooral relevant wanneer de LLM aanbevelingen moet onderbouwen.",
+"Gebruik als overkoepelend redeneerkader bovenop andere theorieen."
+],
+"retrieval_queries": [
+"evidence based management Rousseau 2006 explicit reasoning management decisions",
+"Rousseau 2006 analysis evidence recommendation link",
+"evidence based management assumptions transparency strategy"
+],
+"key_concepts": [
+"beslissingen baseren op expliciete evidentie",
+"scheiding tussen observatie en interpretatie",
+"transparante redenering",
+"onderbouwing van aanbevelingen",
+"kritische reflectie op bewijssterkte"
+],
+"how_the_llm_should_consult_theory": [
+"Haal passages op die uitleggen dat managementbeslissingen gebaseerd moeten zijn op systematische evidentie en expliciete afwegingen.",
+"Zoek specifiek naar fragmenten over het koppelen van bewijs aan besluitvorming.",
+"Gebruik de opgehaalde theorie niet als inhoudelijke bron over de casus, maar als methodologische leidraad voor de manier van redeneren."
+],
+"how_the_llm_should_apply_theory": [
+"Label impliciet of expliciet welke contextinformatie als bewijs dient.",
+"Verbind elk belangrijk inzicht aan concrete gegevens of signalen uit de context.",
+"Formuleer aanbevelingen pas nadat de analyse expliciet is samengevat.",
+"Gebruik een redenering in de vorm: observatie -> interpretatie -> strategische implicatie -> aanbeveling."
+],
+"llm_operational_steps": [
+"Identificeer eerst alle relevante feiten uit de context.",
+"Groepeer die feiten per strategisch thema.",
+"Trek alleen conclusies die logisch voortvloeien uit die feiten.",
+"Controleer of elke aanbeveling herleidbaar is tot minimaal een analyse-inzicht.",
+"Benoem onzekerheid wanneer bewijs onvolledig of indirect is."
+],
+"output_markers": [
+"Op basis van de context blijkt dat...",
+"Dit suggereert dat...",
+"Daarom is strategisch gezien...",
+"Deze aanbeveling volgt uit..."
+],
+"pitfalls_to_avoid": [
+"algemene managementadviezen zonder contextbasis",
+"sprongen van losse observaties naar harde conclusies",
+"niet benoemen van ontbrekende informatie",
+"advies formuleren zonder analyseketen"
+],
+"best_used_with": [
+"scenario_planning_schoemaker_1995",
+"strategy_under_uncertainty_courtney_1997",
+"design_science_problem_solving_van_aken_2012"
+]
+},
+{
+"theory_id": "design_science_problem_solving_van_aken_2012",
+"theory_name": "Ontwerpgerichte probleemoplossing in organisaties",
+"authors": [
+"Joan E. van Aken",
+"Hans Berends",
+"Hans van der Bij"
+],
+"year": 2012,
+"reference": "Van Aken, J. E., Berends, H., & Van der Bij, H. (2012). Problem Solving in Organizations. Cambridge University Press.",
+"primary_purpose": "De LLM laten redeneren als een ontwerper van een oplossing: expliciet over aannames, contextgebondenheid, probleemstructuur en interventielogica.",
+"when_to_use": [
+"Bij het formuleren van een strategisch advies als oplossingsrichting.",
+"Wanneer de context onvolledig is en aannames zichtbaar moeten worden gemaakt.",
+"Bij het apart benoemen van beperkingen en randvoorwaarden."
+],
+"retrieval_queries": [
+"Van Aken problem solving organizations assumptions transparency design approach",
+"design oriented problem solving management explicit assumptions",
+"Van Aken 2012 organizational problem solving intervention logic"
+],
+"key_concepts": [
+"probleemstructurering",
+"contextafhankelijkheid",
+"expliciete aannames",
+"interventielogica",
+"transparantie over beperkingen"
+],
+"how_the_llm_should_consult_theory": [
+"Zoek passages over ontwerpgericht werken, aannames expliciteren en probleemstructurering.",
+"Gebruik fragmenten die uitleggen dat organisatieproblemen contextafhankelijk zijn en niet met universele recepten opgelost worden.",
+"Gebruik de theorie als instructie voor hoe de LLM met ontbrekende informatie en ontwerpkeuzes moet omgaan."
+],
+"how_the_llm_should_apply_theory": [
+"Beschrijf eerst het strategisch probleem in context.",
+"Maak duidelijk welke informatie ontbreekt en welke aannames nodig zijn om tot analyse te komen.",
+"Formuleer het advies als interventievoorstel, niet alleen als abstracte voorkeur.",
+"Benoem voorwaarden waaronder het advies waarschijnlijk werkt."
+],
+"llm_operational_steps": [
+"Definieer het probleem in maximaal enkele zinnen.",
+"Inventariseer ontbrekende variabelen of blinde vlekken in de context.",
+"Maak aannames zichtbaar en scheid ze van feiten.",
+"Vertaal analyse naar een contextspecifieke interventie.",
+"Noem implementatievoorwaarden en risico's."
+],
+"output_markers": [
+"Deze analyse veronderstelt dat...",
+"Op basis van de beschikbare context ontbreken gegevens over...",
+"Onder de aanname dat...",
+"Dit advies is vooral passend wanneer..."
+],
+"pitfalls_to_avoid": [
+"verborgen aannames",
+"one-size-fits-all aanbevelingen",
+"geen onderscheid tussen feit en veronderstelling",
+"geen reflectie op toepasbaarheidsgrenzen"
+],
+"best_used_with": [
+"evidence_based_management_rousseau_2006",
+"bounded_rationality_simon_1976"
+]
+},
+{
+"theory_id": "bounded_rationality_simon_1976",
+"theory_name": "Bounded Rationality",
+"authors": [
+"Herbert A. Simon"
+],
+"year": 1976,
+"reference": "Simon, H. A. (1976). Administrative Behavior (3rd ed.). Free Press.",
+"primary_purpose": "Begrenzen van de redenering tot beschikbare informatie en expliciet maken dat besluitvorming plaatsvindt onder informatiebeperkingen.",
+"when_to_use": [
+"Altijd toepassen wanneer de prompt voorschrijft dat alleen context gebruikt mag worden.",
+"Bij onvolledige casusdata.",
+"Wanneer onzekerheid, ontbrekende data of interpretatieruimte groot zijn."
+],
+"retrieval_queries": [
+"bounded rationality Simon 1976 limited information decision making",
+"Simon administrative behavior information constraints management",
+"bounded rationality assumptions incomplete information strategy"
+],
+"key_concepts": [
+"beperkte informatie",
+"begrensde besluitvorming",
+"satisficing in plaats van perfecte optimalisatie",
+"noodzaak van expliciete aannames"
+],
+"how_the_llm_should_consult_theory": [
+"Haal theorie op die benadrukt dat beslissingen worden genomen op basis van onvolledige informatie.",
+"Gebruik dit als kader om geen feiten buiten de context toe te voegen.",
+"Raadpleeg fragmenten over informatiegrenzen, niet over specifieke restaurantstrategien."
+],
+"how_the_llm_should_apply_theory": [
+"Beperk uitspraken tot wat de context en opgehaalde theorie ondersteunen.",
+"Gebruik formuleringen die onzekerheid correct weergeven.",
+"Benoem ontbrekende informatie als analytische beperking in plaats van deze op te vullen met aannames zonder label.",
+"Kies bij advies voor plausibele en robuuste richting in plaats van absolute optimaliteit."
+],
+"llm_operational_steps": [
+"Controleer per claim of deze direct of indirect ondersteund wordt door context of opgehaalde theorie.",
+"Markeer ontbrekende data expliciet.",
+"Vermijd het invullen van branchespecifieke details die niet in de context staan.",
+"Formuleer waar nodig voorwaardelijke aanbevelingen."
+],
+"output_markers": [
+"Op basis van de gegeven context kan alleen worden vastgesteld dat...",
+"De context bevat geen informatie over...",
+"Daarom blijft deze conclusie voorlopig...",
+"Onder deze informatiebeperking is de meest verdedigbare keuze..."
+],
+"pitfalls_to_avoid": [
+"hallucineren van aanvullende feiten",
+"doen alsof onvolledige context volledig is",
+"te stellige claims bij beperkte informatie"
+],
+"best_used_with": [
+"design_science_problem_solving_van_aken_2012",
+"retrieval_augmented_generation_lewis_2020"
+]
+},
+{
+"theory_id": "environmental_scanning_aguilar_1967",
+"theory_name": "Environmental Scanning",
+"authors": [
+"Francis J. Aguilar"
+],
+"year": 1967,
+"reference": "Aguilar, F. J. (1967). Scanning the Business Environment. Macmillan.",
+"primary_purpose": "Systematisch identificeren van externe factoren die relevant zijn voor strategische analyse.",
+"when_to_use": [
+"Bij de stap drijvende krachten.",
+"Wanneer de context signalen bevat over markt, concurrentie, klantgedrag of trends.",
+"Als eerste externe verkenning voorafgaand aan scenario-selectie."
+],
+"retrieval_queries": [
+"Aguilar environmental scanning business environment external factors",
+"environmental scanning market trends competition strategy",
+"Aguilar scanning external environment management"
+],
+"key_concepts": [
+"systematische externe verkenning",
+"signalen uit de omgeving",
+"vroegtijdige identificatie van relevante trends",
+"basis voor strategische interpretatie"
+],
+"how_the_llm_should_consult_theory": [
+"Haal theorie op die beschrijft hoe externe signalen systematisch geïnventariseerd worden.",
+"Zoek bij voorkeur fragmenten over markt-, concurrentie- en trendanalyse.",
+"Gebruik de theorie als kader om externe contextinformatie te ordenen."
+],
+"how_the_llm_should_apply_theory": [
+"Inventariseer alle externe signalen uit de casus.",
+"Groepeer ze in betekenisvolle categorieen zoals markt, concurrentie, consument, technologie of regulering wanneer die in de context voorkomen.",
+"Gebruik deze scan als input voor de latere scheiding tussen zekere trends en onzekerheden."
+],
+"llm_operational_steps": [
+"Lees de context uitsluitend op externe signalen.",
+"Maak een compacte lijst van omgevingsfactoren.",
+"Scheid externe factoren van interne organisatiefactoren.",
+"Beoordeel welke factoren strategische impact hebben."
+],
+"output_markers": [
+"Relevante externe signalen zijn...",
+"In de omgeving vallen vooral de volgende ontwikkelingen op...",
+"Deze factoren vormen de basis voor verdere scenario-analyse..."
+],
+"pitfalls_to_avoid": [
+"interne factoren verwarren met externe factoren",
+"te brede opsommingen zonder strategische relevantie",
+"geen prioritering van omgevingssignalen"
+],
+"best_used_with": [
+"exploring_strategy_johnson_scholes_whittington_2017",
+"scenario_planning_schoemaker_1995"
+]
+},
+{
+"theory_id": "exploring_strategy_johnson_scholes_whittington_2017",
+"theory_name": "Omgevingsanalyse en strategische fit",
+"authors": [
+"Gerry Johnson",
+"Kevan Scholes",
+"Richard Whittington"
+],
+"year": 2017,
+"reference": "Johnson, G., Scholes, K., & Whittington, R. (2017). Exploring Strategy (11th ed.). Pearson.",
+"primary_purpose": "Structureren van externe analyse en het leggen van de koppeling tussen omgevingsontwikkelingen en strategische consequenties.",
+"when_to_use": [
+"Bij de analyse van markt, concurrentie en trends.",
+"Wanneer de LLM de strategische relevantie van externe factoren moet duiden.",
+"Voor de vertaalslag van omgeving naar strategische keuze."
+],
+"retrieval_queries": [
+"Johnson Scholes Whittington exploring strategy external environment strategic fit",
+"exploring strategy trends competition strategic implications",
+"Johnson strategy environment opportunities threats"
+],
+"key_concepts": [
+"strategische fit",
+"omgeving als bron van kansen en bedreigingen",
+"gestructureerde externe analyse",
+"van analyse naar implicatie"
+],
+"how_the_llm_should_consult_theory": [
+"Zoek theoretische fragmenten over externe analyse, strategische fit en het koppelen van omgeving aan strategische implicaties.",
+"Gebruik de theorie voor de interpretatie van omgevingsfactoren, niet als vervanging van contextdata."
+],
+"how_the_llm_should_apply_theory": [
+"Duid per relevante externe factor waarom deze strategisch belangrijk is.",
+"Verbind omgevingssignalen met mogelijke kansen, bedreigingen of druk op het businessmodel.",
+"Gebruik dit als onderbouwing voor waarom bepaalde onzekerheden kritisch zijn."
+],
+"llm_operational_steps": [
+"Neem de output van environmental scanning als startpunt.",
+"Filter factoren op strategische impact.",
+"Verklaar per factor wat het kan betekenen voor positie, vraag, concurrentiedruk of verdienmodel.",
+"Breng de belangrijkste factoren over naar scenario planning."
+],
+"output_markers": [
+"Strategisch relevant is dit omdat...",
+"Voor de concurrentiepositie betekent dit dat...",
+"Deze ontwikkeling vergroot/verkleint..."
+],
+"pitfalls_to_avoid": [
+"omgeving beschrijven zonder strategische betekenis",
+"geen koppeling naar het strategisch vraagstuk",
+"theorie gebruiken als los decor zonder toepassing"
+],
+"best_used_with": [
+"environmental_scanning_aguilar_1967",
+"scenario_planning_schoemaker_1995"
+]
+},
+{
+"theory_id": "scenario_planning_schoemaker_1995",
+"theory_name": "Scenario Planning",
+"authors": [
+"Paul J. H. Schoemaker"
+],
+"year": 1995,
+"reference": "Schoemaker, P. J. H. (1995). Scenario Planning: A Tool for Strategic Thinking. Sloan Management Review, 36(2), 25-40.",
+"primary_purpose": "Omgaan met onzekerheid door meerdere plausibele toekomsten te verkennen in plaats van een enkele voorspelling te maken.",
+"when_to_use": [
+"Wanneer de prompt expliciet om scenario-analyse vraagt.",
+"Wanneer de externe omgeving onzeker of volatiel is.",
+"Na de inventarisatie van drijvende krachten."
+],
+"retrieval_queries": [
+"Schoemaker 1995 scenario planning critical uncertainties 2x2",
+"scenario planning plausible futures strategic thinking",
+"Schoemaker scenario trends uncertainties impact uncertainty"
+],
+"key_concepts": [
+"meerdere plausibele toekomsten",
+"kritieke onzekerheden",
+"onderscheid tussen zekere trends en onzekerheden",
+"scenario's als denkmodel, niet als voorspelling"
+],
+"how_the_llm_should_consult_theory": [
+"Zoek passages over het onderscheiden van drijvende krachten, zekere trends en kritieke onzekerheden.",
+"Raadpleeg vooral fragmenten over hoge impact en hoge onzekerheid als selectiecriterium.",
+"Gebruik de theorie om de scenariostructuur te bouwen."
+],
+"how_the_llm_should_apply_theory": [
+"Maak eerst een lijst van drijvende krachten.",
+"Scheid relatief zekere trends van echte onzekerheden.",
+"Selecteer twee onzekerheden die zowel grote impact als grote onzekerheid hebben.",
+"Gebruik die twee als assen voor een 2x2-denkkader."
+],
+"llm_operational_steps": [
+"Inventariseer externe factoren uit de context.",
+"Markeer welke factoren waarschijnlijk relatief vastliggen en welke onzeker zijn.",
+"Prioriteer onzekerheden op impact en onzekerheid.",
+"Benoem expliciet waarom precies deze twee centraal staan.",
+"Gebruik de uitkomst als basis voor vier scenario's."
+],
+"output_markers": [
+"Zekere trends in de context zijn...",
+"De meest kritieke onzekerheden zijn...",
+"Deze zijn gekozen omdat ze zowel impactvol als onzeker zijn..."
+],
+"pitfalls_to_avoid": [
+"scenario's verwarren met voorspellingen",
+"te veel onzekerheden tegelijk gebruiken",
+"scenario's bouwen op triviale verschillen",
+"geen expliciete selectie van kritieke onzekerheden"
+],
+"best_used_with": [
+"scenarios_art_of_strategic_conversation_van_der_heijden_2005",
+"shell_scenarios_wack_1985"
+]
+},
+{
+"theory_id": "shell_scenarios_wack_1985",
+"theory_name": "Shell Scenario Method",
+"authors": [
+"Pierre Wack"
+],
+"year": 1985,
+"reference": "Wack, P. (1985). Scenarios: Uncharted Waters Ahead. Harvard Business Review, 63(5), 73-89.",
+"primary_purpose": "Ondersteunen van scenario thinking door te focussen op beslissende onzekerheden en mentale voorbereiding op alternatieve toekomsten.",
+"when_to_use": [
+"Bij het selecteren van kritieke onzekerheden.",
+"Wanneer de LLM de scenario's niet alleen beschrijvend maar strategisch bruikbaar moet maken.",
+"Bij het nadenken over vroege signalen en mentale voorbereiding."
+],
+"retrieval_queries": [
+"Wack 1985 Shell scenarios critical uncertainties strategic conversation",
+"Shell scenario method uncertainty early signals",
+"Wack scenario planning mental models uncertainty"
+],
+"key_concepts": [
+"kritieke onzekerheden",
+"doorbreken van lineair denken",
+"voorbereiding op meerdere toekomsten",
+"strategisch gesprek over onzekerheid"
+],
+"how_the_llm_should_consult_theory": [
+"Zoek passages over hoe scenario's helpen om dominante aannames te doorbreken.",
+"Gebruik theoriefragmenten die uitleggen waarom een paar beslissende onzekerheden centraal moeten staan.",
+"Raadpleeg de theorie om het strategisch nut van scenario's te versterken."
+],
+"how_the_llm_should_apply_theory": [
+"Vermijd lineaire extrapolatie van een enkel toekomstbeeld.",
+"Gebruik scenario's om alternatieve toekomstlogica's uit te werken.",
+"Benoem impliciet welke huidige aannames over de markt kunnen kantelen."
+],
+"llm_operational_steps": [
+"Check of de analyse te veel op een rechtlijnige voortzetting van het heden leunt.",
+"Introduceer alternatieve plausibele uitkomsten op basis van geselecteerde onzekerheden.",
+"Gebruik scenario's als testomgeving voor strategie."
+],
+"output_markers": [
+"Deze onzekerheid is kritisch omdat een andere uitkomst tot een wezenlijk andere strategische context leidt...",
+"Om lineair denken te voorkomen worden vier alternatieve toekomsten onderscheiden..."
+],
+"pitfalls_to_avoid": [
+"slechts optimistisch versus pessimistisch denken",
+"geen echte breuklijnen in scenario's",
+"scenario's die alleen gradaties van hetzelfde beeld zijn"
+],
+"best_used_with": [
+"scenario_planning_schoemaker_1995",
+"scenarios_art_of_strategic_conversation_van_der_heijden_2005"
+]
+},
+{
+"theory_id": "scenarios_art_of_strategic_conversation_van_der_heijden_2005",
+"theory_name": "Scenarios: The Art of Strategic Conversation",
+"authors": [
+"Kees van der Heijden"
+],
+"year": 2005,
+"reference": "Van der Heijden, K. (2005). Scenarios: The Art of Strategic Conversation (2nd ed.). Wiley.",
+"primary_purpose": "Zorgen dat scenario's plausibel, onderscheidend en intern consistent zijn, en dat ze gebruikt worden om strategische keuzes te testen.",
+"when_to_use": [
+"Bij het uitwerken van de vier scenario's.",
+"Bij het formuleren van early warning signals.",
+"Wanneer de kwaliteit van scenario's bewaakt moet worden."
+],
+"retrieval_queries": [
+"Van der Heijden 2005 scenarios internal consistency plausibility strategic conversation",
+"scenario quality plausible consistent distinct early warning signals",
+"Van der Heijden early warning signals scenarios"
+],
+"key_concepts": [
+"plausibiliteit",
+"interne consistentie",
+"onderscheidende scenario's",
+"early warning signals",
+"scenario's als strategisch gesprek"
+],
+"how_the_llm_should_consult_theory": [
+"Haal fragmenten op over kwaliteitscriteria voor scenario's.",
+"Zoek specifiek naar interne consistentie, plausibiliteit en onderscheidend vermogen.",
+"Gebruik theorie over early warning signals om monitoring-adviezen te formuleren."
+],
+"how_the_llm_should_apply_theory": [
+"Controleer elk scenario op logische samenhang.",
+"Vermijd extreme of fantasierijke scenario's zonder basis in de context.",
+"Zorg dat elk scenario echt een andere strategische wereld representeert.",
+"Koppel aan elk scenario mogelijke signalen die wijzen op ontplooiing van dat scenario."
+],
+"llm_operational_steps": [
+"Maak per scenario een korte logica van oorzaak en gevolg.",
+"Check of de elementen binnen een scenario elkaar ondersteunen.",
+"Vergelijk scenario's onderling op onderscheidend karakter.",
+"Benoem per scenario 1 tot 3 monitoring-signalen als de context dat toelaat."
+],
+"output_markers": [
+"Dit scenario is plausibel omdat...",
+"Intern is dit scenario consistent doordat...",
+"Een vroeg signaal voor dit scenario is..."
+],
+"pitfalls_to_avoid": [
+"scenario's met interne tegenspraken",
+"vier scenario's die nauwelijks verschillen",
+"sciencefictionscenario's zonder strategische relevantie",
+"geen monitorbare signalen"
+],
+"best_used_with": [
+"scenario_planning_schoemaker_1995",
+"strategy_under_uncertainty_courtney_1997"
+]
+},
+{
+"theory_id": "strategy_under_uncertainty_courtney_1997",
+"theory_name": "Strategy Under Uncertainty",
+"authors": [
+"Hugh Courtney",
+"Jane Kirkland",
+"S. Patrick Viguerie"
+],
+"year": 1997,
+"reference": "Courtney, H., Kirkland, J., & Viguerie, P. (1997). Strategy Under Uncertainty. Harvard Business Review, 75(6), 67-79.",
+"primary_purpose": "Vertalen van scenario-inzichten naar robuuste strategieen, kwetsbare keuzes en no-regret maatregelen.",
+"when_to_use": [
+"Bij synthese van scenario's.",
+"Bij het formuleren van strategische implicaties.",
+"Bij het kiezen van robuuste en scenario-overstijgende acties."
+],
+"retrieval_queries": [
+"Courtney strategy under uncertainty robust strategy no regret moves",
+"robust strategies scenario uncertainty no regret measures",
+"Courtney 1997 strategic choices uncertainty"
+],
+"key_concepts": [
+"robuuste strategieen",
+"kwetsbare strategieen",
+"no-regret moves",
+"strategie testen over meerdere toekomsten"
+],
+"how_the_llm_should_consult_theory": [
+"Zoek passages over robuuste strategieen en no-regret moves.",
+"Gebruik theoriefragmenten die uitleggen hoe strategieen onder meerdere scenario's beoordeeld worden.",
+"Raadpleeg de theorie vooral bij de stap van scenariovergelijking naar aanbeveling."
+],
+"how_the_llm_should_apply_theory": [
+"Vergelijk scenario's systematisch op implicaties voor dezelfde strategische keuze.",
+"Identificeer acties die in meerdere scenario's waardevol blijven.",
+"Maak onderscheid tussen robuuste keuzes en keuzes die alleen in een specifiek scenario werken.",
+"Gebruik no-regret maatregelen als kern van het advies wanneer onzekerheid hoog blijft."
+],
+"llm_operational_steps": [
+"Maak een compacte vergelijkingstabel of mentale matrix van scenario versus strategische optie.",
+"Zoek patronen die in meerdere scenario's terugkomen.",
+"Markeer welke acties breed houdbaar zijn.",
+"Formuleer het advies rond robuuste kernkeuzes plus optionele scenario-afhankelijke aanvullingen."
+],
+"output_markers": [
+"Over meerdere scenario's heen blijkt dat...",
+"Een robuuste keuze is...",
+"Kwetsbaar is juist...",
+"Een no-regret maatregel is..."
+],
+"pitfalls_to_avoid": [
+"de beste strategie kiezen voor slechts een scenario zonder dit te benoemen",
+"geen onderscheid maken tussen robuust en voorwaardelijk",
+"no-regret maatregelen vergeten"
+],
+"best_used_with": [
+"scenario_planning_schoemaker_1995",
+"scenarios_art_of_strategic_conversation_van_der_heijden_2005",
+"evidence_based_management_rousseau_2006"
+]
+},
+{
+"theory_id": "retrieval_augmented_generation_lewis_2020",
+"theory_name": "Retrieval-Augmented Generation",
+"authors": [
+"Patrick Lewis",
+"Ethan Perez",
+"Aleksandara Piktus",
+"Fabio Petroni",
+"Vladimir Karpukhin",
+"Naman Goyal",
+"Heinrich Kuttler",
+"Mike Lewis",
+"Wen-tau Yih",
+"Tim Rocktaschel",
+"Sebastian Riedel",
+"Douwe Kiela"
+],
+"year": 2020,
+"reference": "Lewis, P., Perez, E., Piktus, A., Petroni, F., Karpukhin, V., Goyal, N., Kuttler, H., Lewis, M., Yih, W.-t., Rocktaschel, T., Riedel, S., & Kiela, D. (2020). Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.",
+"primary_purpose": "Sturen hoe de LLM externe theoriepassages moet ophalen en gebruiken zonder buiten de opgehaalde kennis en casuscontext te treden.",
+"when_to_use": [
+"Als operationeel kader voor het RAG-systeem zelf.",
+"Altijd wanneer theorieen eerst moeten worden opgehaald en daarna toegepast.",
+"Bij kwaliteitsbewaking van brongebonden antwoorden."
+],
+"retrieval_queries": [
+"retrieval augmented generation grounded answers source use",
+"Lewis 2020 RAG grounding external knowledge",
+"RAG source constrained generation"
+],
+"key_concepts": [
+"grounding in retrieved sources",
+"brongebonden generatie",
+"verminderen van hallucinaties",
+"expliciete bronafbakening"
+],
+"how_the_llm_should_consult_theory": [
+"Gebruik retrieval om theoriepassages per deelvraag op te halen in plaats van op geheugen te vertrouwen.",
+"Zoek bij elke theoretische stap alleen de benodigde concepten op.",
+"Beschouw retrieved theory als bronmateriaal en de casuscontext als toepassingsmateriaal."
+],
+"how_the_llm_should_apply_theory": [
+"Combineer retrieved theorie met context zonder nieuwe externe feiten toe te voegen.",
+"Citeer of parafraseer alleen theorie-elementen die werkelijk zijn opgehaald.",
+"Gebruik theorie om analysekaders te vormen, niet om ontbrekende casusfeiten in te vullen."
+],
+"llm_operational_steps": [
+"Detecteer welke theoretische stap nodig is.",
+"Voer retrieval uit op de passende theoriebron.",
+"Vat de relevante theorie compact samen.",
+"Pas de theorie toe op de context.",
+"Controleer of alle inhoudelijke claims bron- of contextgebonden zijn."
+],
+"output_markers": [
+"Gebaseerd op de geraadpleegde theorie...",
+"In combinatie met de casuscontext betekent dit..."
+],
+"pitfalls_to_avoid": [
+"theorie uit geheugen mengen met niet-opgehaalde kennis",
+"retrieved theory behandelen als casusfeit",
+"onzichtbare bronvervuiling"
+],
+"best_used_with": [
+"bounded_rationality_simon_1976",
+"evidence_based_management_rousseau_2006"
+]
+}
+],
+"recommended_rag_flow": [
+{
+"step": 1,
+"name": "Probleemkadering",
+"retrieve": [
+"design_science_problem_solving_van_aken_2012",
+"evidence_based_management_rousseau_2006"
+],
+"instruction": "Gebruik deze theorieen om het strategisch probleem af te bakenen, aannames zichtbaar te maken en de analyse-logica te structureren."
+},
+{
+"step": 2,
+"name": "Externe verkenning",
+"retrieve": [
+"environmental_scanning_aguilar_1967",
+"exploring_strategy_johnson_scholes_whittington_2017"
+],
+"instruction": "Gebruik deze theorieen om externe signalen en drijvende krachten uit de context te identificeren en op strategische relevantie te filteren."
+},
+{
+"step": 3,
+"name": "Onzekerheden selecteren",
+"retrieve": [
+"scenario_planning_schoemaker_1995",
+"shell_scenarios_wack_1985"
+],
+"instruction": "Gebruik deze theorieen om zekere trends van onzekerheden te scheiden en twee kritieke onzekerheden te selecteren op basis van impact en onzekerheid."
+},
+{
+"step": 4,
+"name": "Scenario's construeren",
+"retrieve": [
+"scenarios_art_of_strategic_conversation_van_der_heijden_2005",
+"scenario_planning_schoemaker_1995"
+],
+"instruction": "Gebruik deze theorieen om vier plausibele, consistente en onderscheidende scenario's uit te werken."
+},
+{
+"step": 5,
+"name": "Strategische synthese",
+"retrieve": [
+"strategy_under_uncertainty_courtney_1997",
+"evidence_based_management_rousseau_2006"
+],
+"instruction": "Vergelijk de scenario's, identificeer robuuste patronen en leid daaruit een onderbouwd advies af."
+},
+{
+"step": 6,
+"name": "Brongebonden generatie",
+"retrieve": [
+"retrieval_augmented_generation_lewis_2020",
+"bounded_rationality_simon_1976"
+],
+"instruction": "Borg dat de output strikt gebaseerd blijft op context en opgehaalde theorie, met expliciete onzekerheidsmarkering waar nodig."
+}
+]
+}

@@ -1,0 +1,23 @@
+{
+  "experiment": "c",
+  "model": "gpt-4o-mini",
+  "prompt_id": "sys:e50f8012e796|usr:f828886da706|q:dbf100ef27c0",
+  "question": "Ontwikkel een strategisch advies voor dit restaurant op basis van de gegeven context.",
+  "prompts_file": "/Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py",
+  "runs": 5,
+  "num_cases": 5,
+  "embedding_model": "text-embedding-3-small",
+  "stability_per_case_S": {
+    "case_1": 0.9654501877629841,
+    "case_2": 0.9662762640268049,
+    "case_3": 0.9701082699591093,
+    "case_4": 0.9211257117961716,
+    "case_5": 0.9675500532230243
+  },
+  "overall_stability_S": 0.958102097353619,
+  "avg_latency_seconds": 26.475071649551392,
+  "avg_prompt_tokens": 2859.8,
+  "avg_completion_tokens": 1448.16,
+  "avg_total_tokens": 4307.96,
+  "timestamp_utc": "2026-04-20T07:41:07Z"
+}

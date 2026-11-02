@@ -1,0 +1,29 @@
+{
+  "experiment": "d",
+  "technique": "self-refine",
+  "model": "gpt-4o-mini",
+  "prompt_id": "sys:e50f8012e796|usr:f828886da706|q:dbf100ef27c0",
+  "question": "Ontwikkel een strategisch advies voor dit restaurant op basis van de gegeven context.",
+  "runs": 5,
+  "cases": 5,
+  "phases": [
+    "generate",
+    "critique",
+    "refine"
+  ],
+  "temperature_per_phase": {
+    "generate": 0.8,
+    "critique": 0.0,
+    "refine": 0.8
+  },
+  "embedding_model": "text-embedding-3-small",
+  "stability_by_case": {
+    "case_1": 0.959570937659052,
+    "case_2": 0.9665485163297088,
+    "case_3": 0.9477792805262452,
+    "case_4": 0.9259173138062302,
+    "case_5": 0.9587192934648032
+  },
+  "avg_stability": 0.951707068357208,
+  "timestamp_utc": "2026-04-22T11:44:05Z"
+}

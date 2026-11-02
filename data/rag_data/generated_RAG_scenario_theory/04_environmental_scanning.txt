@@ -1,0 +1,54 @@
+theory_name:
+Environmental Scanning
+
+reference:
+Aguilar, F. J. (1967). Scanning the Business Environment. Macmillan.
+
+primary_purpose:
+Systematisch identificeren van externe factoren die relevant zijn voor strategische analyse.
+
+when_to_use:
+- Bij de stap drijvende krachten.
+- Wanneer de context signalen bevat over markt, concurrentie, klantgedrag of trends.
+- Als eerste externe verkenning voorafgaand aan scenario-selectie.
+
+retrieval_queries:
+- Aguilar environmental scanning business environment external factors
+- environmental scanning market trends competition strategy
+- Aguilar scanning external environment management
+
+key_concepts:
+- systematische externe verkenning
+- signalen uit de omgeving
+- vroegtijdige identificatie van relevante trends
+- basis voor strategische interpretatie
+
+how_the_llm_should_consult_theory:
+- Haal theorie op die beschrijft hoe externe signalen systematisch geïnventariseerd worden.
+- Zoek bij voorkeur fragmenten over markt-, concurrentie- en trendanalyse.
+- Gebruik de theorie als kader om externe contextinformatie te ordenen.
+
+how_the_llm_should_apply_theory:
+- Inventariseer alle externe signalen uit de casus.
+- Groepeer ze in betekenisvolle categorieen zoals markt, concurrentie, consument, technologie of regulering wanneer die in de context voorkomen.
+- Gebruik deze scan als input voor de latere scheiding tussen zekere trends en onzekerheden.
+
+llm_operational_steps:
+- Lees de context uitsluitend op externe signalen.
+- Maak een compacte lijst van omgevingsfactoren.
+- Scheid externe factoren van interne organisatiefactoren.
+- Beoordeel welke factoren strategische impact hebben.
+
+output_markers:
+- Relevante externe signalen zijn...
+- In de omgeving vallen vooral de volgende ontwikkelingen op...
+- Deze factoren vormen de basis voor verdere scenario-analyse...
+
+pitfalls_to_avoid:
+- interne factoren verwarren met externe factoren
+- te brede opsommingen zonder strategische relevantie
+- geen prioritering van omgevingssignalen
+
+best_used_with:
+- exploring_strategy_johnson_scholes_whittington_2017
+- scenario_planning_schoemaker_1995

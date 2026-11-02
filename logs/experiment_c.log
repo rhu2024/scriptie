@@ -1,0 +1,455 @@
+2026-03-10 09:47:50,896 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_c.log
+2026-03-10 09:47:50,935 | INFO | ==== START experiment_c ====
+2026-03-10 09:47:50,936 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-10 09:47:50,937 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-10 09:47:50,939 | INFO | PROMPT_ID: sys:b07672224335|usr:f59dd080b1ca|q:7cc29e8f8e5d
+2026-03-10 09:47:50,939 | INFO | QUESTION: Geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-10 09:47:50,940 | INFO | Cases: 5
+2026-03-10 09:47:50,941 | INFO | Web cache dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/web_cache
+2026-03-10 09:47:50,942 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_c
+2026-03-10 09:47:50,943 | INFO | Web search config | max_results=5 | fetch_top_n=3 | use_cache=True | query_suffix=best practices
+2026-03-10 09:47:50,943 | INFO | Start voorbereiden van 5 cases met internetcontext
+2026-03-10 09:47:50,944 | INFO | Prepare 1/5 | case=case_1
+2026-03-10 09:47:51,006 | INFO | Zoekquery voor case_1: restaurant hospitality strategy student market demand generation low demand revenue improvement weekday traffic off-peak demand competitive positioning restaurant differentiation pricing strategy best practices
+2026-03-10 09:47:51,204 | INFO | Web search klaar | case=case_1 | resultaten=0 | duur=0.20 sec
+2026-03-10 09:47:51,204 | INFO | Context opgebouwd | case=case_1 | chars=230
+2026-03-10 09:47:51,205 | INFO | Prepare 2/5 | case=case_2
+2026-03-10 09:47:51,249 | INFO | Zoekquery voor case_2: restaurant hospitality strategy low demand revenue improvement seasonality tourism demand off-season strategy cost control profitability best practices
+2026-03-10 09:47:51,459 | INFO | Web search klaar | case=case_2 | resultaten=0 | duur=0.20 sec
+2026-03-10 09:47:51,460 | INFO | Context opgebouwd | case=case_2 | chars=326
+2026-03-10 09:47:51,460 | INFO | Prepare 3/5 | case=case_3
+2026-03-10 09:47:51,504 | INFO | Zoekquery voor case_3: restaurant hospitality strategy family dining target market fit low demand revenue improvement weekend demand menu engineering menu repositioning pricing best practices
+2026-03-10 09:47:51,656 | INFO | Web search klaar | case=case_3 | resultaten=0 | duur=0.15 sec
+2026-03-10 09:47:51,658 | INFO | Context opgebouwd | case=case_3 | chars=288
+2026-03-10 09:47:51,659 | INFO | Prepare 4/5 | case=case_4
+2026-03-10 09:47:51,724 | INFO | Zoekquery voor case_4: restaurant hospitality strategy low demand revenue improvement cost control profitability reservation policy no-show reduction capacity management yield management best practices
+2026-03-10 09:47:51,886 | INFO | Web search klaar | case=case_4 | resultaten=0 | duur=0.16 sec
+2026-03-10 09:47:51,887 | INFO | Context opgebouwd | case=case_4 | chars=265
+2026-03-10 09:47:51,889 | INFO | Prepare 5/5 | case=case_5
+2026-03-10 09:47:52,007 | INFO | Zoekquery voor case_5: restaurant hospitality strategy customer segmentation repositioning competitive positioning restaurant differentiation pricing strategy menu engineering menu repositioning pricing concept innovation restaurant positioning best practices
+2026-03-10 09:47:52,148 | INFO | Web search klaar | case=case_5 | resultaten=0 | duur=0.14 sec
+2026-03-10 09:47:52,149 | INFO | Context opgebouwd | case=case_5 | chars=302
+2026-03-10 09:47:52,150 | INFO | Voorbereiden cases klaar | duur=1.21 sec
+2026-03-10 09:47:52,151 | INFO | Start runs voor experiment_c
+2026-03-10 09:47:52,152 | INFO | ===== RUN 1/5 | exp=c =====
+2026-03-10 09:47:52,152 | INFO | Run 1 | case=case_1
+2026-03-10 09:47:53,276 | INFO | Run 1 | case=case_2
+2026-03-10 09:47:54,242 | INFO | Run 1 | case=case_3
+2026-03-10 09:47:55,113 | INFO | Run 1 | case=case_4
+2026-03-10 09:47:55,972 | INFO | Run 1 | case=case_5
+2026-03-10 09:47:56,976 | INFO | ===== RUN 2/5 | exp=c =====
+2026-03-10 09:47:56,977 | INFO | Run 2 | case=case_1
+2026-03-10 09:47:58,066 | INFO | Run 2 | case=case_2
+2026-03-10 09:47:59,127 | INFO | Run 2 | case=case_3
+2026-03-10 09:47:59,984 | INFO | Run 2 | case=case_4
+2026-03-10 09:48:00,775 | INFO | Run 2 | case=case_5
+2026-03-10 09:48:01,953 | INFO | ===== RUN 3/5 | exp=c =====
+2026-03-10 09:48:01,954 | INFO | Run 3 | case=case_1
+2026-03-10 09:48:03,002 | INFO | Run 3 | case=case_2
+2026-03-10 09:48:04,253 | INFO | Run 3 | case=case_3
+2026-03-10 09:48:04,979 | INFO | Run 3 | case=case_4
+2026-03-10 09:48:05,818 | INFO | Run 3 | case=case_5
+2026-03-10 09:48:06,606 | INFO | ===== RUN 4/5 | exp=c =====
+2026-03-10 09:48:06,607 | INFO | Run 4 | case=case_1
+2026-03-10 09:48:07,571 | INFO | Run 4 | case=case_2
+2026-03-10 09:48:08,445 | INFO | Run 4 | case=case_3
+2026-03-10 09:48:09,459 | INFO | Run 4 | case=case_4
+2026-03-10 09:48:10,523 | INFO | Run 4 | case=case_5
+2026-03-10 09:48:11,432 | INFO | ===== RUN 5/5 | exp=c =====
+2026-03-10 09:48:11,436 | INFO | Run 5 | case=case_1
+2026-03-10 09:48:12,334 | INFO | Run 5 | case=case_2
+2026-03-10 09:48:13,096 | INFO | Run 5 | case=case_3
+2026-03-10 09:48:13,942 | INFO | Run 5 | case=case_4
+2026-03-10 09:48:15,028 | INFO | Run 5 | case=case_5
+2026-03-10 09:48:18,017 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_c
+2026-03-10 09:48:25,100 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_c.log
+2026-03-10 09:48:25,130 | INFO | ==== START experiment_c ====
+2026-03-10 09:48:25,131 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-10 09:48:25,132 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-10 09:48:25,133 | INFO | PROMPT_ID: sys:b07672224335|usr:f59dd080b1ca|q:7cc29e8f8e5d
+2026-03-10 09:48:25,134 | INFO | QUESTION: Geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-10 09:48:25,135 | INFO | Cases: 5
+2026-03-10 09:48:25,136 | INFO | Web cache dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/web_cache
+2026-03-10 09:48:25,136 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_c
+2026-03-10 09:48:25,137 | INFO | Web search config | max_results=5 | fetch_top_n=3 | use_cache=False | query_suffix=best practices
+2026-03-10 09:48:25,138 | INFO | Start voorbereiden van 5 cases met internetcontext
+2026-03-10 09:48:25,138 | INFO | Prepare 1/5 | case=case_1
+2026-03-10 09:48:25,141 | INFO | Zoekquery voor case_1: restaurant hospitality strategy student market demand generation low demand revenue improvement weekday traffic off-peak demand competitive positioning restaurant differentiation pricing strategy best practices
+2026-03-10 09:48:25,324 | INFO | Web search klaar | case=case_1 | resultaten=0 | duur=0.18 sec
+2026-03-10 09:48:25,337 | INFO | Context opgebouwd | case=case_1 | chars=230
+2026-03-10 09:48:25,340 | INFO | Prepare 2/5 | case=case_2
+2026-03-10 09:48:25,346 | INFO | Zoekquery voor case_2: restaurant hospitality strategy low demand revenue improvement seasonality tourism demand off-season strategy cost control profitability best practices
+2026-03-10 09:48:25,486 | INFO | Web search klaar | case=case_2 | resultaten=0 | duur=0.14 sec
+2026-03-10 09:48:25,488 | INFO | Context opgebouwd | case=case_2 | chars=326
+2026-03-10 09:48:25,489 | INFO | Prepare 3/5 | case=case_3
+2026-03-10 09:48:25,491 | INFO | Zoekquery voor case_3: restaurant hospitality strategy family dining target market fit low demand revenue improvement weekend demand menu engineering menu repositioning pricing best practices
+2026-03-10 09:48:25,618 | INFO | Web search klaar | case=case_3 | resultaten=0 | duur=0.13 sec
+2026-03-10 09:48:25,623 | INFO | Context opgebouwd | case=case_3 | chars=288
+2026-03-10 09:48:25,628 | INFO | Prepare 4/5 | case=case_4
+2026-03-10 09:48:25,644 | INFO | Zoekquery voor case_4: restaurant hospitality strategy low demand revenue improvement cost control profitability reservation policy no-show reduction capacity management yield management best practices
+2026-03-10 09:48:25,773 | INFO | Web search klaar | case=case_4 | resultaten=0 | duur=0.13 sec
+2026-03-10 09:48:25,776 | INFO | Context opgebouwd | case=case_4 | chars=265
+2026-03-10 09:48:25,778 | INFO | Prepare 5/5 | case=case_5
+2026-03-10 09:48:25,781 | INFO | Zoekquery voor case_5: restaurant hospitality strategy customer segmentation repositioning competitive positioning restaurant differentiation pricing strategy menu engineering menu repositioning pricing concept innovation restaurant positioning best practices
+2026-03-10 09:48:25,903 | INFO | Web search klaar | case=case_5 | resultaten=0 | duur=0.12 sec
+2026-03-10 09:48:25,905 | INFO | Context opgebouwd | case=case_5 | chars=302
+2026-03-10 09:48:25,906 | INFO | Voorbereiden cases klaar | duur=0.77 sec
+2026-03-10 09:48:25,908 | INFO | Start runs voor experiment_c
+2026-03-10 09:48:25,910 | INFO | ===== RUN 1/5 | exp=c =====
+2026-03-10 09:48:25,911 | INFO | Run 1 | case=case_1
+2026-03-10 09:48:27,023 | INFO | Run 1 | case=case_2
+2026-03-10 09:48:27,892 | INFO | Run 1 | case=case_3
+2026-03-10 09:48:28,572 | INFO | Run 1 | case=case_4
+2026-03-10 09:48:29,348 | INFO | Run 1 | case=case_5
+2026-03-10 09:48:30,147 | INFO | ===== RUN 2/5 | exp=c =====
+2026-03-10 09:48:30,148 | INFO | Run 2 | case=case_1
+2026-03-10 09:48:31,067 | INFO | Run 2 | case=case_2
+2026-03-10 09:48:32,000 | INFO | Run 2 | case=case_3
+2026-03-10 09:48:33,026 | INFO | Run 2 | case=case_4
+2026-03-10 09:48:33,956 | INFO | Run 2 | case=case_5
+2026-03-10 09:48:34,765 | INFO | ===== RUN 3/5 | exp=c =====
+2026-03-10 09:48:34,766 | INFO | Run 3 | case=case_1
+2026-03-10 09:48:35,474 | INFO | Run 3 | case=case_2
+2026-03-10 09:48:36,337 | INFO | Run 3 | case=case_3
+2026-03-10 09:48:37,170 | INFO | Run 3 | case=case_4
+2026-03-10 09:48:38,030 | INFO | Run 3 | case=case_5
+2026-03-10 09:48:38,783 | INFO | ===== RUN 4/5 | exp=c =====
+2026-03-10 09:48:38,784 | INFO | Run 4 | case=case_1
+2026-03-10 09:48:39,543 | INFO | Run 4 | case=case_2
+2026-03-10 09:48:40,897 | INFO | Run 4 | case=case_3
+2026-03-10 09:48:41,829 | INFO | Run 4 | case=case_4
+2026-03-10 09:48:42,770 | INFO | Run 4 | case=case_5
+2026-03-10 09:48:43,660 | INFO | ===== RUN 5/5 | exp=c =====
+2026-03-10 09:48:43,663 | INFO | Run 5 | case=case_1
+2026-03-10 09:48:44,501 | INFO | Run 5 | case=case_2
+2026-03-10 09:48:45,391 | INFO | Run 5 | case=case_3
+2026-03-10 09:48:46,315 | INFO | Run 5 | case=case_4
+2026-03-10 09:48:47,239 | INFO | Run 5 | case=case_5
+2026-03-10 09:48:49,400 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_c
+2026-03-10 09:52:29,457 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_c.log
+2026-03-10 09:52:29,485 | INFO | ==== START experiment_c ====
+2026-03-10 09:52:29,486 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-10 09:52:29,487 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-10 09:52:29,490 | INFO | PROMPT_ID: sys:b07672224335|usr:f59dd080b1ca|q:7cc29e8f8e5d
+2026-03-10 09:52:29,491 | INFO | QUESTION: Geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-10 09:52:29,491 | INFO | Cases: 5
+2026-03-10 09:52:29,492 | INFO | Web cache dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/web_cache
+2026-03-10 09:52:29,493 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_c
+2026-03-10 09:52:29,494 | INFO | Web search config | max_results=5 | fetch_top_n=3 | use_cache=False | query_suffix=best practices
+2026-03-10 09:52:29,494 | INFO | Start voorbereiden van 5 cases met internetcontext
+2026-03-10 09:52:29,495 | INFO | Prepare 1/5 | case=case_1
+2026-03-10 09:52:29,497 | INFO | Zoekquery voor case_1: restaurant hospitality strategy student market demand generation low demand revenue improvement weekday traffic off-peak demand competitive positioning restaurant differentiation pricing strategy best practices
+2026-03-10 09:52:29,673 | INFO | Web search klaar | case=case_1 | resultaten=0 | duur=0.18 sec
+2026-03-10 09:52:29,681 | INFO | Context opgebouwd | case=case_1 | chars=230
+2026-03-10 09:52:29,682 | INFO | Prepare 2/5 | case=case_2
+2026-03-10 09:52:29,700 | INFO | Zoekquery voor case_2: restaurant hospitality strategy low demand revenue improvement seasonality tourism demand off-season strategy cost control profitability best practices
+2026-03-10 09:52:29,812 | INFO | Web search klaar | case=case_2 | resultaten=0 | duur=0.11 sec
+2026-03-10 09:52:29,813 | INFO | Context opgebouwd | case=case_2 | chars=326
+2026-03-10 09:52:29,813 | INFO | Prepare 3/5 | case=case_3
+2026-03-10 09:52:29,815 | INFO | Zoekquery voor case_3: restaurant hospitality strategy family dining target market fit low demand revenue improvement weekend demand menu engineering menu repositioning pricing best practices
+2026-03-10 09:52:29,985 | INFO | Web search klaar | case=case_3 | resultaten=0 | duur=0.17 sec
+2026-03-10 09:52:29,986 | INFO | Context opgebouwd | case=case_3 | chars=288
+2026-03-10 09:52:29,987 | INFO | Prepare 4/5 | case=case_4
+2026-03-10 09:52:29,988 | INFO | Zoekquery voor case_4: restaurant hospitality strategy low demand revenue improvement cost control profitability reservation policy no-show reduction capacity management yield management best practices
+2026-03-10 09:52:30,129 | INFO | Web search klaar | case=case_4 | resultaten=0 | duur=0.14 sec
+2026-03-10 09:52:30,130 | INFO | Context opgebouwd | case=case_4 | chars=265
+2026-03-10 09:52:30,131 | INFO | Prepare 5/5 | case=case_5
+2026-03-10 09:52:30,132 | INFO | Zoekquery voor case_5: restaurant hospitality strategy customer segmentation repositioning competitive positioning restaurant differentiation pricing strategy menu engineering menu repositioning pricing concept innovation restaurant positioning best practices
+2026-03-10 09:52:30,304 | INFO | Web search klaar | case=case_5 | resultaten=0 | duur=0.17 sec
+2026-03-10 09:52:30,305 | INFO | Context opgebouwd | case=case_5 | chars=302
+2026-03-10 09:52:30,306 | INFO | Voorbereiden cases klaar | duur=0.81 sec
+2026-03-10 09:52:30,307 | INFO | Start runs voor experiment_c
+2026-03-10 09:52:30,308 | INFO | ===== RUN 1/5 | exp=c =====
+2026-03-10 09:52:30,309 | INFO | Run 1 | case=case_1
+2026-03-10 09:52:31,263 | INFO | Run 1 | case=case_2
+2026-03-10 09:52:31,966 | INFO | Run 1 | case=case_3
+2026-03-10 09:52:32,698 | INFO | Run 1 | case=case_4
+2026-03-10 09:52:33,427 | INFO | Run 1 | case=case_5
+2026-03-10 09:52:34,349 | INFO | ===== RUN 2/5 | exp=c =====
+2026-03-10 09:52:34,350 | INFO | Run 2 | case=case_1
+2026-03-10 09:52:35,101 | INFO | Run 2 | case=case_2
+2026-03-10 09:52:35,868 | INFO | Run 2 | case=case_3
+2026-03-10 09:52:36,610 | INFO | Run 2 | case=case_4
+2026-03-10 09:52:37,719 | INFO | Run 2 | case=case_5
+2026-03-10 09:52:38,505 | INFO | ===== RUN 3/5 | exp=c =====
+2026-03-10 09:52:38,506 | INFO | Run 3 | case=case_1
+2026-03-10 09:52:39,232 | INFO | Run 3 | case=case_2
+2026-03-10 09:52:39,978 | INFO | Run 3 | case=case_3
+2026-03-10 09:52:41,043 | INFO | Run 3 | case=case_4
+2026-03-10 09:52:41,798 | INFO | Run 3 | case=case_5
+2026-03-10 09:52:42,679 | INFO | ===== RUN 4/5 | exp=c =====
+2026-03-10 09:52:42,680 | INFO | Run 4 | case=case_1
+2026-03-10 09:52:43,478 | INFO | Run 4 | case=case_2
+2026-03-10 09:52:44,213 | INFO | Run 4 | case=case_3
+2026-03-10 09:52:45,091 | INFO | Run 4 | case=case_4
+2026-03-10 09:52:46,126 | INFO | Run 4 | case=case_5
+2026-03-10 09:52:46,931 | INFO | ===== RUN 5/5 | exp=c =====
+2026-03-10 09:52:46,932 | INFO | Run 5 | case=case_1
+2026-03-10 09:52:47,798 | INFO | Run 5 | case=case_2
+2026-03-10 09:52:48,465 | INFO | Run 5 | case=case_3
+2026-03-10 09:52:49,171 | INFO | Run 5 | case=case_4
+2026-03-10 09:52:49,916 | INFO | Run 5 | case=case_5
+2026-03-10 09:52:52,707 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_c
+2026-03-19 10:53:39,201 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_c.log
+2026-03-19 10:53:39,244 | INFO | ==== START experiment_c ====
+2026-03-19 10:53:39,245 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-19 10:53:39,246 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-19 10:53:39,247 | INFO | PROMPT_ID: sys:a574f1f5f42b|usr:a850773fdd26|q:5039baaae917
+2026-03-19 10:53:39,248 | INFO | QUESTION: Voer een scenario-analyse uit en geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-19 10:53:39,249 | INFO | Cases: 5
+2026-03-19 10:53:39,249 | INFO | Web cache dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/web_cache
+2026-03-19 10:53:39,250 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_c
+2026-03-19 10:53:39,251 | INFO | Web search config | max_results=5 | fetch_top_n=3 | use_cache=False | query_suffix=best practices
+2026-03-19 10:53:39,251 | INFO | Start voorbereiden van 5 cases met internetcontext
+2026-03-19 10:53:39,254 | INFO | Prepare 1/5 | case=case_1
+2026-03-19 10:53:42,741 | INFO | Zoekquery voor case_1: restaurant hospitality strategy student market demand generation low demand revenue improvement weekday traffic off-peak demand competitive positioning restaurant differentiation pricing strategy best practices
+2026-03-19 10:54:28,078 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_c.log
+2026-03-19 10:54:28,111 | INFO | ==== START experiment_c ====
+2026-03-19 10:54:28,112 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-19 10:54:28,114 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-19 10:54:28,115 | INFO | PROMPT_ID: sys:a574f1f5f42b|usr:a850773fdd26|q:5039baaae917
+2026-03-19 10:54:28,116 | INFO | QUESTION: Voer een scenario-analyse uit en geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-19 10:54:28,117 | INFO | Cases: 5
+2026-03-19 10:54:28,118 | INFO | Web cache dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/web_cache
+2026-03-19 10:54:28,119 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_c
+2026-03-19 10:54:28,119 | INFO | Web search config | max_results=5 | fetch_top_n=3 | use_cache=False | query_suffix=best practices
+2026-03-19 10:54:28,120 | INFO | Start voorbereiden van 5 cases met internetcontext
+2026-03-19 10:54:28,121 | INFO | Prepare 1/5 | case=case_1
+2026-03-19 10:54:28,126 | INFO | Zoekquery voor case_1: restaurant hospitality strategy student market demand generation low demand revenue improvement weekday traffic off-peak demand competitive positioning restaurant differentiation pricing strategy best practices
+2026-03-19 10:54:28,294 | INFO | Web search klaar | case=case_1 | resultaten=0 | duur=0.17 sec
+2026-03-19 10:54:28,295 | INFO | Context opgebouwd | case=case_1 | chars=230
+2026-03-19 10:54:28,296 | INFO | Prepare 2/5 | case=case_2
+2026-03-19 10:54:28,379 | INFO | Zoekquery voor case_2: restaurant hospitality strategy low demand revenue improvement seasonality tourism demand off-season strategy cost control profitability best practices
+2026-03-19 10:54:28,516 | INFO | Web search klaar | case=case_2 | resultaten=0 | duur=0.13 sec
+2026-03-19 10:54:28,517 | INFO | Context opgebouwd | case=case_2 | chars=326
+2026-03-19 10:54:28,518 | INFO | Prepare 3/5 | case=case_3
+2026-03-19 10:54:28,555 | INFO | Zoekquery voor case_3: restaurant hospitality strategy family dining target market fit low demand revenue improvement weekend demand menu engineering menu repositioning pricing best practices
+2026-03-19 10:54:28,680 | INFO | Web search klaar | case=case_3 | resultaten=0 | duur=0.12 sec
+2026-03-19 10:54:28,681 | INFO | Context opgebouwd | case=case_3 | chars=288
+2026-03-19 10:54:28,682 | INFO | Prepare 4/5 | case=case_4
+2026-03-19 10:54:28,736 | INFO | Zoekquery voor case_4: restaurant hospitality strategy low demand revenue improvement cost control profitability reservation policy no-show reduction capacity management yield management best practices
+2026-03-19 10:54:28,858 | INFO | Web search klaar | case=case_4 | resultaten=0 | duur=0.11 sec
+2026-03-19 10:54:28,862 | INFO | Context opgebouwd | case=case_4 | chars=265
+2026-03-19 10:54:28,896 | INFO | Prepare 5/5 | case=case_5
+2026-03-19 10:54:28,960 | INFO | Zoekquery voor case_5: restaurant hospitality strategy customer segmentation repositioning competitive positioning restaurant differentiation pricing strategy menu engineering menu repositioning pricing concept innovation restaurant positioning best practices
+2026-03-19 10:54:29,095 | INFO | Web search klaar | case=case_5 | resultaten=0 | duur=0.13 sec
+2026-03-19 10:54:29,097 | INFO | Context opgebouwd | case=case_5 | chars=302
+2026-03-19 10:54:29,098 | INFO | Voorbereiden cases klaar | duur=0.98 sec
+2026-03-19 10:54:29,099 | INFO | Start runs voor experiment_c
+2026-03-19 10:54:29,099 | INFO | ===== RUN 1/5 | exp=c =====
+2026-03-19 10:54:29,100 | INFO | Run 1 | case=case_1
+2026-03-19 10:54:44,995 | INFO | Run 1 | case=case_2
+2026-03-19 10:55:08,948 | INFO | Run 1 | case=case_3
+2026-03-19 10:55:30,526 | INFO | Run 1 | case=case_4
+2026-03-19 10:55:54,325 | INFO | Run 1 | case=case_5
+2026-03-19 10:56:09,966 | INFO | ===== RUN 2/5 | exp=c =====
+2026-03-19 10:56:09,967 | INFO | Run 2 | case=case_1
+2026-03-19 10:56:28,004 | INFO | Run 2 | case=case_2
+2026-03-19 10:56:44,689 | INFO | Run 2 | case=case_3
+2026-03-19 10:57:03,745 | INFO | Run 2 | case=case_4
+2026-03-19 10:57:20,660 | INFO | Run 2 | case=case_5
+2026-03-19 10:57:36,363 | INFO | ===== RUN 3/5 | exp=c =====
+2026-03-19 10:57:36,364 | INFO | Run 3 | case=case_1
+2026-03-19 10:57:52,717 | INFO | Run 3 | case=case_2
+2026-03-19 10:58:09,702 | INFO | Run 3 | case=case_3
+2026-03-19 10:58:29,653 | INFO | Run 3 | case=case_4
+2026-03-19 10:58:49,836 | INFO | Run 3 | case=case_5
+2026-03-19 10:59:10,065 | INFO | ===== RUN 4/5 | exp=c =====
+2026-03-19 10:59:10,067 | INFO | Run 4 | case=case_1
+2026-03-19 10:59:33,750 | INFO | Run 4 | case=case_2
+2026-03-19 10:59:53,127 | INFO | Run 4 | case=case_3
+2026-03-19 11:00:12,319 | INFO | Run 4 | case=case_4
+2026-03-19 11:00:36,284 | INFO | Run 4 | case=case_5
+2026-03-19 11:00:55,983 | INFO | ===== RUN 5/5 | exp=c =====
+2026-03-19 11:00:55,984 | INFO | Run 5 | case=case_1
+2026-03-19 11:01:19,419 | INFO | Run 5 | case=case_2
+2026-03-19 11:01:43,026 | INFO | Run 5 | case=case_3
+2026-03-19 11:02:05,589 | INFO | Run 5 | case=case_4
+2026-03-19 11:02:26,569 | INFO | Run 5 | case=case_5
+2026-03-19 11:02:51,400 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_c
+2026-04-20 06:59:31,339 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_c.log
+2026-04-20 06:59:31,390 | INFO | ==== START experiment_c ====
+2026-04-20 06:59:31,392 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-04-20 06:59:31,394 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-04-20 06:59:31,395 | INFO | PROMPT_ID: sys:e50f8012e796|usr:f828886da706|q:dbf100ef27c0
+2026-04-20 06:59:31,396 | INFO | QUESTION: Ontwikkel een strategisch advies voor dit restaurant op basis van de gegeven context.
+2026-04-20 06:59:31,397 | INFO | Cases: 5
+2026-04-20 06:59:31,399 | INFO | Web search backend: openai
+2026-04-20 06:59:31,400 | INFO | Web cache dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/web_cache
+2026-04-20 06:59:31,402 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_c
+2026-04-20 06:59:31,404 | INFO | Web search config | backend=openai | max_results=8 | fetch_top_n=5 | use_cache=True
+2026-04-20 06:59:31,415 | INFO | Start voorbereiden van 5 cases met internetcontext
+2026-04-20 06:59:31,422 | INFO | Prepare 1/5 | case=case_1
+2026-04-20 06:59:34,806 | INFO | OpenAI web search voor case_1...
+2026-04-20 06:59:45,307 | INFO | Web search klaar | case=case_1 | backend=openai | resultaten=5 | duur=10.50 sec
+2026-04-20 06:59:45,308 | INFO |   web 1 | title=KHN | Marketingtrends en ontwikkelingen | url=https://www.khn.nl/onderwerpen/ondernemen-in-de-horeca/trends-en-ontwikkelingen?utm_source=openai
+2026-04-20 06:59:45,309 | INFO |   web 2 | title=6 tips voor het starten van een Fast Casual Dining restaurant - Strobbo | url=https://strobbo.com/be-nl/cafe-restaurant/6-tips-voor-het-starten-van-een-fast-casual-dining-restaurant/?utm_source=openai
+2026-04-20 06:59:45,320 | INFO |   web 3 | title=Horecatrends 2026: dit kunnen horecaondernemers verwachten | handhoreca.nl | url=https://handhoreca.nl/blog/horecatrends-2026?utm_source=openai
+2026-04-20 06:59:45,322 | INFO |   web 4 | title=Hoe optimaliseer je een Quick Service Restaurant (QSR)? | 2026 | url=https://www.get-sides.nl/blog/quick-service-restaurant-optimaliseren/?utm_source=openai
+2026-04-20 06:59:45,323 | INFO |   web 5 | title=Wat is fast casual en waarom groeit het zo hard | Horecava | url=https://www.horecava.nl/nieuws/het-succes-van-fast-casual?utm_source=openai
+2026-04-20 06:59:45,324 | INFO |   web_summary: 3750 chars
+2026-04-20 06:59:45,325 | INFO | Context opgebouwd | case=case_1 | chars=7399
+2026-04-20 06:59:45,826 | INFO | Prepare 2/5 | case=case_2
+2026-04-20 06:59:46,001 | INFO | OpenAI web search voor case_2...
+2026-04-20 06:59:52,428 | INFO | Web search klaar | case=case_2 | backend=openai | resultaten=5 | duur=6.43 sec
+2026-04-20 06:59:52,429 | INFO |   web 1 | title=Voorbereiden op het winter- en feestseizoen: Tips voor restaurants en horeca bed | url=https://maxima.com/nl/blogs/maxima/voorbereiden-op-het-winter-en-feestseizoen-een-gids-voor-restaurants-en-cateraars/?utm_source=openai
+2026-04-20 06:59:52,430 | INFO |   web 2 | title=Vijf tips voor extra omzet strandtenten in winter • L1NDA | url=https://l1nda.com/nl/blog/extra-omzet-strandtenten-winter/?utm_source=openai
+2026-04-20 06:59:52,433 | INFO |   web 3 | title=Tips meer omzet in horeca tijdens de wintermaanden | L1NDA | url=https://l1nda.com/nl/blog/tips-meer-omzet-winter/?utm_source=openai
+2026-04-20 06:59:52,434 | INFO |   web 4 | title=Restaurantomzet verhogen in de winter | Above & Beyond | Above & Beyond | url=https://www.abnd.com/nl-nl/blog/restaurant-omzet-verhogen-winter?utm_source=openai
+2026-04-20 06:59:52,434 | INFO |   web 5 | title=Meer omzet op het terras: 7 slimme strategieën voor de horeca - McCain Foodservi | url=https://mccainfoodservice.com/nl-nl/inspirations/meer-omzet-op-het-terras-7-slimme-strategieen-voor-de-horeca/?utm_source=openai
+2026-04-20 06:59:52,435 | INFO |   web_summary: 2689 chars
+2026-04-20 06:59:52,436 | INFO | Context opgebouwd | case=case_2 | chars=6804
+2026-04-20 06:59:52,937 | INFO | Prepare 3/5 | case=case_3
+2026-04-20 06:59:53,061 | INFO | OpenAI web search voor case_3...
+2026-04-20 06:59:59,891 | INFO | Web search klaar | case=case_3 | backend=openai | resultaten=3 | duur=6.83 sec
+2026-04-20 06:59:59,893 | INFO |   web 1 | title=Restaurant Marketing Techniques for Fine Dining Restaurants | url=https://bloomintelligence.com/blog/marketing-techniques-fine-dining-restaurants/?utm_source=openai
+2026-04-20 06:59:59,894 | INFO |   web 2 | title=Fine Dining Restaurant Marketing Ideas | CMG Local Solutions | url=https://www.cmglocalsolutions.com/food-service-marketing/fine-dining-restaurants-marketing?utm_source=openai
+2026-04-20 06:59:59,896 | INFO |   web 3 | title=Why Fine Dining Restaurants Do Less Marketing — And Why Fine Dining Restaurant M | url=https://metapixle.com/why-fine-dining-restaurants-do-less-marketing-and-why-fine-dining-restaurant-marketing-is-essential-for-growth/?utm_source=openai
+2026-04-20 06:59:59,897 | INFO |   web_summary: 2067 chars
+2026-04-20 06:59:59,898 | INFO | Context opgebouwd | case=case_3 | chars=5944
+2026-04-20 07:00:00,399 | INFO | Prepare 4/5 | case=case_4
+2026-04-20 07:00:00,533 | INFO | OpenAI web search voor case_4...
+2026-04-20 07:00:08,320 | INFO | Web search klaar | case=case_4 | backend=openai | resultaten=5 | duur=7.79 sec
+2026-04-20 07:00:08,321 | INFO |   web 1 | title=Horeca groeide in 2023 vrijwel alleen door prijsstijgingen - Leisure360.be | url=https://leisure360.be/recreatie-actueel/horeca-groeide-in-2023-vrijwel-alleen-door-prijsstijgingen/82214?utm_source=openai
+2026-04-20 07:00:08,322 | INFO |   web 2 | title=Herstel in 2023, maar 2024 biedt opnieuw economische uitdagingen | KHN | url=https://khn.nl/nieuws/herstel-in-2023-maar-2024-biedt-opnieuw-economische-uitdagingen?utm_source=openai
+2026-04-20 07:00:08,323 | INFO |   web 3 | title="Ondanks goede start wordt 2023 uitdagend jaar voor de horeca" | url=https://www.agf.nl/article/9530133/ondanks-goede-start-wordt-2023-uitdagend-jaar-voor-de-horeca/?utm_source=openai
+2026-04-20 07:00:08,324 | INFO |   web 4 | title=De rek is eruit, wat nu? Samen inkopen in de horeca kan lonen | url=https://www.entreemagazine.nl/ondernemen/de-rek-is-eruit-wat-nu?utm_source=openai
+2026-04-20 07:00:08,325 | INFO |   web 5 | title=Horeca doet een stap terug na sterke inhaalslag | url=https://www.sra.nl/nieuws/000000/2023/12/horeca-doet-een-stap-terug-na-sterke-inhaalslag?utm_source=openai
+2026-04-20 07:00:08,326 | INFO |   web_summary: 2342 chars
+2026-04-20 07:00:08,326 | INFO | Context opgebouwd | case=case_4 | chars=6742
+2026-04-20 07:00:08,828 | INFO | Prepare 5/5 | case=case_5
+2026-04-20 07:00:08,983 | INFO | OpenAI web search voor case_5...
+2026-04-20 07:00:16,688 | INFO | Web search klaar | case=case_5 | backend=openai | resultaten=5 | duur=7.71 sec
+2026-04-20 07:00:16,689 | INFO |   web 1 | title=INSIDER-selectie: onze tips om een jonger publiek aan te trekken en te behouden | url=https://www.theforkmanager.com/nl/blog/insider-selectie-onze-tips-een-jonger-publiek-aan-trekken-behouden?utm_source=openai
+2026-04-20 07:00:16,690 | INFO |   web 2 | title=5 horecatrends om jonge gasten aan te trekken | url=https://www.avikofoodservice.nl/blog/5-horecatrends-om-jonge-gasten-aan-te-trekken?utm_source=openai
+2026-04-20 07:00:16,691 | INFO |   web 3 | title=De toekomst van de horeca: trends en innovaties | url=https://www.entreemagazine.nl/blog-entree/de-toekomst-van-de-horeca-trends-en-innovaties?utm_source=openai
+2026-04-20 07:00:16,692 | INFO |   web 4 | title=Dit zijn de 7 trends en uitdagingen in de horeca wereldwijd - Horeca Webzine | url=https://horecawebzine.be/trends-uitdagingen-horeca-wereld/?utm_source=openai
+2026-04-20 07:00:16,693 | INFO |   web 5 | title=Horecatrends 2026: dit kunnen horecaondernemers verwachten | handhoreca.nl | url=https://handhoreca.nl/blog/horecatrends-2026?utm_source=openai
+2026-04-20 07:00:16,695 | INFO |   web_summary: 3425 chars
+2026-04-20 07:00:16,696 | INFO | Context opgebouwd | case=case_5 | chars=8196
+2026-04-20 07:00:16,697 | INFO | Voorbereiden cases klaar | duur=45.28 sec
+2026-04-20 07:00:16,699 | INFO | Start runs voor experiment_c
+2026-04-20 07:00:16,700 | INFO | ===== RUN 1/5 | exp=c =====
+2026-04-20 07:00:16,702 | INFO | Run 1 | case=case_1
+2026-04-20 07:00:41,043 | INFO | Run 1 | case=case_2
+2026-04-20 07:01:05,813 | INFO | Run 1 | case=case_3
+2026-04-20 07:01:27,802 | INFO | Run 1 | case=case_4
+2026-04-20 07:01:47,994 | INFO | Run 1 | case=case_5
+2026-04-20 07:02:08,899 | INFO | ===== RUN 2/5 | exp=c =====
+2026-04-20 07:02:08,901 | INFO | Run 2 | case=case_1
+2026-04-20 07:02:32,826 | INFO | Run 2 | case=case_2
+2026-04-20 07:02:55,373 | INFO | Run 2 | case=case_3
+2026-04-20 07:03:17,468 | INFO | Run 2 | case=case_4
+2026-04-20 07:03:38,065 | INFO | Run 2 | case=case_5
+2026-04-20 07:04:02,187 | INFO | ===== RUN 3/5 | exp=c =====
+2026-04-20 07:04:02,188 | INFO | Run 3 | case=case_1
+2026-04-20 07:04:24,290 | INFO | Run 3 | case=case_2
+2026-04-20 07:04:45,279 | INFO | Run 3 | case=case_3
+2026-04-20 07:05:03,283 | INFO | Run 3 | case=case_4
+2026-04-20 07:05:21,314 | INFO | Run 3 | case=case_5
+2026-04-20 07:05:42,804 | INFO | ===== RUN 4/5 | exp=c =====
+2026-04-20 07:05:42,805 | INFO | Run 4 | case=case_1
+2026-04-20 07:06:03,616 | INFO | Run 4 | case=case_2
+2026-04-20 07:06:23,727 | INFO | Run 4 | case=case_3
+2026-04-20 07:06:41,983 | INFO | Run 4 | case=case_4
+2026-04-20 07:07:02,215 | INFO | Run 4 | case=case_5
+2026-04-20 07:07:20,919 | INFO | ===== RUN 5/5 | exp=c =====
+2026-04-20 07:07:20,922 | INFO | Run 5 | case=case_1
+2026-04-20 07:07:43,628 | INFO | Run 5 | case=case_2
+2026-04-20 07:08:00,874 | INFO | Run 5 | case=case_3
+2026-04-20 07:08:16,685 | INFO | Run 5 | case=case_4
+2026-04-20 07:08:35,240 | INFO | Run 5 | case=case_5
+2026-04-20 07:08:55,430 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_c
+2026-04-20 07:29:59,020 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_c.log
+2026-04-20 07:29:59,050 | INFO | ==== START experiment_c ====
+2026-04-20 07:29:59,052 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-04-20 07:29:59,053 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-04-20 07:29:59,054 | INFO | PROMPT_ID: sys:e50f8012e796|usr:f828886da706|q:dbf100ef27c0
+2026-04-20 07:29:59,054 | INFO | QUESTION: Ontwikkel een strategisch advies voor dit restaurant op basis van de gegeven context.
+2026-04-20 07:29:59,055 | INFO | Cases: 5
+2026-04-20 07:29:59,056 | INFO | Web search backend: openai
+2026-04-20 07:29:59,056 | INFO | Web cache dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/web_cache
+2026-04-20 07:29:59,057 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_c
+2026-04-20 07:29:59,058 | INFO | Web search config | backend=openai | max_results=8 | fetch_top_n=5 | use_cache=True
+2026-04-20 07:29:59,059 | INFO | Start voorbereiden van 5 cases met internetcontext
+2026-04-20 07:29:59,060 | INFO | Prepare 1/5 | case=case_1
+2026-04-20 07:29:59,132 | INFO | OpenAI web search voor case_1...
+2026-04-20 07:29:59,245 | INFO | Web search klaar | case=case_1 | backend=openai | resultaten=5 | duur=0.11 sec
+2026-04-20 07:29:59,246 | INFO |   web 1 | title=KHN | Marketingtrends en ontwikkelingen | url=https://www.khn.nl/onderwerpen/ondernemen-in-de-horeca/trends-en-ontwikkelingen?utm_source=openai
+2026-04-20 07:29:59,247 | INFO |   web 2 | title=6 tips voor het starten van een Fast Casual Dining restaurant - Strobbo | url=https://strobbo.com/be-nl/cafe-restaurant/6-tips-voor-het-starten-van-een-fast-casual-dining-restaurant/?utm_source=openai
+2026-04-20 07:29:59,248 | INFO |   web 3 | title=Horecatrends 2026: dit kunnen horecaondernemers verwachten | handhoreca.nl | url=https://handhoreca.nl/blog/horecatrends-2026?utm_source=openai
+2026-04-20 07:29:59,249 | INFO |   web 4 | title=Hoe optimaliseer je een Quick Service Restaurant (QSR)? | 2026 | url=https://www.get-sides.nl/blog/quick-service-restaurant-optimaliseren/?utm_source=openai
+2026-04-20 07:29:59,249 | INFO |   web 5 | title=Wat is fast casual en waarom groeit het zo hard | Horecava | url=https://www.horecava.nl/nieuws/het-succes-van-fast-casual?utm_source=openai
+2026-04-20 07:29:59,251 | INFO |   web_summary: 3750 chars
+2026-04-20 07:29:59,252 | INFO | Context opgebouwd | case=case_1 | chars=7399
+2026-04-20 07:29:59,753 | INFO | Prepare 2/5 | case=case_2
+2026-04-20 07:29:59,812 | INFO | OpenAI web search voor case_2...
+2026-04-20 07:29:59,906 | INFO | Web search klaar | case=case_2 | backend=openai | resultaten=5 | duur=0.09 sec
+2026-04-20 07:29:59,907 | INFO |   web 1 | title=Voorbereiden op het winter- en feestseizoen: Tips voor restaurants en horeca bed | url=https://maxima.com/nl/blogs/maxima/voorbereiden-op-het-winter-en-feestseizoen-een-gids-voor-restaurants-en-cateraars/?utm_source=openai
+2026-04-20 07:29:59,908 | INFO |   web 2 | title=Vijf tips voor extra omzet strandtenten in winter • L1NDA | url=https://l1nda.com/nl/blog/extra-omzet-strandtenten-winter/?utm_source=openai
+2026-04-20 07:29:59,909 | INFO |   web 3 | title=Tips meer omzet in horeca tijdens de wintermaanden | L1NDA | url=https://l1nda.com/nl/blog/tips-meer-omzet-winter/?utm_source=openai
+2026-04-20 07:29:59,910 | INFO |   web 4 | title=Restaurantomzet verhogen in de winter | Above & Beyond | Above & Beyond | url=https://www.abnd.com/nl-nl/blog/restaurant-omzet-verhogen-winter?utm_source=openai
+2026-04-20 07:29:59,911 | INFO |   web 5 | title=Meer omzet op het terras: 7 slimme strategieën voor de horeca - McCain Foodservi | url=https://mccainfoodservice.com/nl-nl/inspirations/meer-omzet-op-het-terras-7-slimme-strategieen-voor-de-horeca/?utm_source=openai
+2026-04-20 07:29:59,912 | INFO |   web_summary: 2689 chars
+2026-04-20 07:29:59,912 | INFO | Context opgebouwd | case=case_2 | chars=6804
+2026-04-20 07:30:00,414 | INFO | Prepare 3/5 | case=case_3
+2026-04-20 07:30:00,493 | INFO | OpenAI web search voor case_3...
+2026-04-20 07:30:00,642 | INFO | Web search klaar | case=case_3 | backend=openai | resultaten=3 | duur=0.15 sec
+2026-04-20 07:30:00,643 | INFO |   web 1 | title=Restaurant Marketing Techniques for Fine Dining Restaurants | url=https://bloomintelligence.com/blog/marketing-techniques-fine-dining-restaurants/?utm_source=openai
+2026-04-20 07:30:00,644 | INFO |   web 2 | title=Fine Dining Restaurant Marketing Ideas | CMG Local Solutions | url=https://www.cmglocalsolutions.com/food-service-marketing/fine-dining-restaurants-marketing?utm_source=openai
+2026-04-20 07:30:00,645 | INFO |   web 3 | title=Why Fine Dining Restaurants Do Less Marketing — And Why Fine Dining Restaurant M | url=https://metapixle.com/why-fine-dining-restaurants-do-less-marketing-and-why-fine-dining-restaurant-marketing-is-essential-for-growth/?utm_source=openai
+2026-04-20 07:30:00,646 | INFO |   web_summary: 2067 chars
+2026-04-20 07:30:00,646 | INFO | Context opgebouwd | case=case_3 | chars=5944
+2026-04-20 07:30:01,147 | INFO | Prepare 4/5 | case=case_4
+2026-04-20 07:30:01,202 | INFO | OpenAI web search voor case_4...
+2026-04-20 07:30:01,333 | INFO | Web search klaar | case=case_4 | backend=openai | resultaten=5 | duur=0.13 sec
+2026-04-20 07:30:01,335 | INFO |   web 1 | title=Horeca groeide in 2023 vrijwel alleen door prijsstijgingen - Leisure360.be | url=https://leisure360.be/recreatie-actueel/horeca-groeide-in-2023-vrijwel-alleen-door-prijsstijgingen/82214?utm_source=openai
+2026-04-20 07:30:01,337 | INFO |   web 2 | title=Herstel in 2023, maar 2024 biedt opnieuw economische uitdagingen | KHN | url=https://khn.nl/nieuws/herstel-in-2023-maar-2024-biedt-opnieuw-economische-uitdagingen?utm_source=openai
+2026-04-20 07:30:01,339 | INFO |   web 3 | title="Ondanks goede start wordt 2023 uitdagend jaar voor de horeca" | url=https://www.agf.nl/article/9530133/ondanks-goede-start-wordt-2023-uitdagend-jaar-voor-de-horeca/?utm_source=openai
+2026-04-20 07:30:01,340 | INFO |   web 4 | title=De rek is eruit, wat nu? Samen inkopen in de horeca kan lonen | url=https://www.entreemagazine.nl/ondernemen/de-rek-is-eruit-wat-nu?utm_source=openai
+2026-04-20 07:30:01,340 | INFO |   web 5 | title=Horeca doet een stap terug na sterke inhaalslag | url=https://www.sra.nl/nieuws/000000/2023/12/horeca-doet-een-stap-terug-na-sterke-inhaalslag?utm_source=openai
+2026-04-20 07:30:01,342 | INFO |   web_summary: 2342 chars
+2026-04-20 07:30:01,343 | INFO | Context opgebouwd | case=case_4 | chars=6742
+2026-04-20 07:30:01,844 | INFO | Prepare 5/5 | case=case_5
+2026-04-20 07:30:01,916 | INFO | OpenAI web search voor case_5...
+2026-04-20 07:30:02,059 | INFO | Web search klaar | case=case_5 | backend=openai | resultaten=5 | duur=0.14 sec
+2026-04-20 07:30:02,060 | INFO |   web 1 | title=INSIDER-selectie: onze tips om een jonger publiek aan te trekken en te behouden | url=https://www.theforkmanager.com/nl/blog/insider-selectie-onze-tips-een-jonger-publiek-aan-trekken-behouden?utm_source=openai
+2026-04-20 07:30:02,060 | INFO |   web 2 | title=5 horecatrends om jonge gasten aan te trekken | url=https://www.avikofoodservice.nl/blog/5-horecatrends-om-jonge-gasten-aan-te-trekken?utm_source=openai
+2026-04-20 07:30:02,061 | INFO |   web 3 | title=De toekomst van de horeca: trends en innovaties | url=https://www.entreemagazine.nl/blog-entree/de-toekomst-van-de-horeca-trends-en-innovaties?utm_source=openai
+2026-04-20 07:30:02,062 | INFO |   web 4 | title=Dit zijn de 7 trends en uitdagingen in de horeca wereldwijd - Horeca Webzine | url=https://horecawebzine.be/trends-uitdagingen-horeca-wereld/?utm_source=openai
+2026-04-20 07:30:02,063 | INFO |   web 5 | title=Horecatrends 2026: dit kunnen horecaondernemers verwachten | handhoreca.nl | url=https://handhoreca.nl/blog/horecatrends-2026?utm_source=openai
+2026-04-20 07:30:02,064 | INFO |   web_summary: 3425 chars
+2026-04-20 07:30:02,065 | INFO | Context opgebouwd | case=case_5 | chars=8196
+2026-04-20 07:30:02,066 | INFO | Voorbereiden cases klaar | duur=3.01 sec
+2026-04-20 07:30:02,067 | INFO | Start runs voor experiment_c
+2026-04-20 07:30:02,081 | INFO | ===== RUN 1/5 | exp=c =====
+2026-04-20 07:30:02,081 | INFO | Run 1 | case=case_1
+2026-04-20 07:30:24,791 | INFO | Run 1 | case=case_2
+2026-04-20 07:30:48,126 | INFO | Run 1 | case=case_3
+2026-04-20 07:31:10,199 | INFO | Run 1 | case=case_4
+2026-04-20 07:31:30,332 | INFO | Run 1 | case=case_5
+2026-04-20 07:31:53,042 | INFO | ===== RUN 2/5 | exp=c =====
+2026-04-20 07:31:53,043 | INFO | Run 2 | case=case_1
+2026-04-20 07:32:18,711 | INFO | Run 2 | case=case_2
+2026-04-20 07:32:46,388 | INFO | Run 2 | case=case_3
+2026-04-20 07:33:11,102 | INFO | Run 2 | case=case_4
+2026-04-20 07:33:37,108 | INFO | Run 2 | case=case_5
+2026-04-20 07:34:10,345 | INFO | ===== RUN 3/5 | exp=c =====
+2026-04-20 07:34:10,346 | INFO | Run 3 | case=case_1
+2026-04-20 07:34:39,363 | INFO | Run 3 | case=case_2
+2026-04-20 07:35:14,140 | INFO | Run 3 | case=case_3
+2026-04-20 07:35:43,348 | INFO | Run 3 | case=case_4
+2026-04-20 07:36:09,640 | INFO | Run 3 | case=case_5
+2026-04-20 07:36:32,857 | INFO | ===== RUN 4/5 | exp=c =====
+2026-04-20 07:36:32,858 | INFO | Run 4 | case=case_1
+2026-04-20 07:37:01,183 | INFO | Run 4 | case=case_2
+2026-04-20 07:37:28,969 | INFO | Run 4 | case=case_3
+2026-04-20 07:37:58,023 | INFO | Run 4 | case=case_4
+2026-04-20 07:38:19,550 | INFO | Run 4 | case=case_5
+2026-04-20 07:38:53,328 | INFO | ===== RUN 5/5 | exp=c =====
+2026-04-20 07:38:53,328 | INFO | Run 5 | case=case_1
+2026-04-20 07:39:24,659 | INFO | Run 5 | case=case_2
+2026-04-20 07:39:45,490 | INFO | Run 5 | case=case_3
+2026-04-20 07:40:10,939 | INFO | Run 5 | case=case_4
+2026-04-20 07:40:37,615 | INFO | Run 5 | case=case_5
+2026-04-20 07:41:07,399 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_c

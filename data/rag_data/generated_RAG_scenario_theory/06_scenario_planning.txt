@@ -1,0 +1,57 @@
+theory_name:
+Scenario Planning
+
+reference:
+Schoemaker, P. J. H. (1995). Scenario Planning: A Tool for Strategic Thinking. Sloan Management Review, 36(2), 25-40.
+
+primary_purpose:
+Omgaan met onzekerheid door meerdere plausibele toekomsten te verkennen in plaats van een enkele voorspelling te maken.
+
+when_to_use:
+- Wanneer de prompt expliciet om scenario-analyse vraagt.
+- Wanneer de externe omgeving onzeker of volatiel is.
+- Na de inventarisatie van drijvende krachten.
+
+retrieval_queries:
+- Schoemaker 1995 scenario planning critical uncertainties 2x2
+- scenario planning plausible futures strategic thinking
+- Schoemaker scenario trends uncertainties impact uncertainty
+
+key_concepts:
+- meerdere plausibele toekomsten
+- kritieke onzekerheden
+- onderscheid tussen zekere trends en onzekerheden
+- scenario's als denkmodel, niet als voorspelling
+
+how_the_llm_should_consult_theory:
+- Zoek passages over het onderscheiden van drijvende krachten, zekere trends en kritieke onzekerheden.
+- Raadpleeg vooral fragmenten over hoge impact en hoge onzekerheid als selectiecriterium.
+- Gebruik de theorie om de scenariostructuur te bouwen.
+
+how_the_llm_should_apply_theory:
+- Maak eerst een lijst van drijvende krachten.
+- Scheid relatief zekere trends van echte onzekerheden.
+- Selecteer twee onzekerheden die zowel grote impact als grote onzekerheid hebben.
+- Gebruik die twee als assen voor een 2x2-denkkader.
+
+llm_operational_steps:
+- Inventariseer externe factoren uit de context.
+- Markeer welke factoren waarschijnlijk relatief vastliggen en welke onzeker zijn.
+- Prioriteer onzekerheden op impact en onzekerheid.
+- Benoem expliciet waarom precies deze twee centraal staan.
+- Gebruik de uitkomst als basis voor vier scenario's.
+
+output_markers:
+- Zekere trends in de context zijn...
+- De meest kritieke onzekerheden zijn...
+- Deze zijn gekozen omdat ze zowel impactvol als onzeker zijn...
+
+pitfalls_to_avoid:
+- scenario's verwarren met voorspellingen
+- te veel onzekerheden tegelijk gebruiken
+- scenario's bouwen op triviale verschillen
+- geen expliciete selectie van kritieke onzekerheden
+
+best_used_with:
+- scenarios_art_of_strategic_conversation_van_der_heijden_2005
+- shell_scenarios_wack_1985

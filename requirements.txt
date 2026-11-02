@@ -1,0 +1,21 @@
+# OpenAI client
+openai>=1.30.0
+
+# Web search (experiment C)
+duckduckgo-search>=5.0.0
+beautifulsoup4>=4.12.0
+requests>=2.31.0
+
+# Data handling / notebooks
+pandas>=2.2.0
+numpy>=1.26.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# JSON / utilities
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+
+# Optional: nicer notebooks
+jupyter>=1.0.0
+ipykernel>=6.29.0

@@ -1,0 +1,670 @@
+2026-03-10 08:53:11,392 | INFO | ==== START experiment_b ====
+2026-03-10 08:53:11,393 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-10 08:53:11,394 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-10 08:53:11,395 | INFO | PROMPT_ID: sys:3d6ec5240f06|usr:f59dd080b1ca|q:7cc29e8f8e5d
+2026-03-10 08:53:11,395 | INFO | QUESTION: Geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-10 08:53:11,396 | INFO | Cases: 5
+2026-03-10 08:53:11,397 | INFO | RAG dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/menu_engineering
+2026-03-10 08:53:11,398 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-03-10 08:53:11,399 | INFO | Bouwen van chunk-index voor menu engineering...
+2026-03-10 09:22:40,625 | INFO | ==== START experiment_b ====
+2026-03-10 09:22:40,626 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-10 09:22:40,627 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-10 09:22:40,629 | INFO | PROMPT_ID: sys:3d6ec5240f06|usr:f59dd080b1ca|q:7cc29e8f8e5d
+2026-03-10 09:22:40,629 | INFO | QUESTION: Geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-10 09:22:40,630 | INFO | Cases: 5
+2026-03-10 09:22:40,631 | INFO | RAG dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/menu_engineering
+2026-03-10 09:22:40,632 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-03-10 09:22:40,632 | INFO | RAG config | top_k=3 | embedding_model=text-embedding-3-small | chunk_size=1200 | overlap=150 | use_cache=True
+2026-03-10 09:22:40,633 | INFO | Bouwen/laden chunk-index...
+2026-03-10 09:22:41,879 | INFO | Chunk-index klaar | chunks=1 | duur=1.25 sec
+2026-03-10 09:22:41,880 | INFO | Start voorbereiden van 5 cases met RAG-context
+2026-03-10 09:22:41,881 | INFO | Prepare 1/5 | case=case_1
+2026-03-10 09:22:42,143 | INFO | RAG klaar | case=case_1 | chunks=1 | duur=0.22 sec
+2026-03-10 09:22:42,144 | INFO | Context opgebouwd | case=case_1 | chars=1062
+2026-03-10 09:22:42,145 | INFO | Prepare 2/5 | case=case_2
+2026-03-10 09:22:42,447 | INFO | RAG klaar | case=case_2 | chunks=1 | duur=0.22 sec
+2026-03-10 09:22:42,451 | INFO | Context opgebouwd | case=case_2 | chars=1158
+2026-03-10 09:22:42,453 | INFO | Prepare 3/5 | case=case_3
+2026-03-10 09:22:43,417 | INFO | RAG klaar | case=case_3 | chunks=1 | duur=0.84 sec
+2026-03-10 09:22:43,419 | INFO | Context opgebouwd | case=case_3 | chars=1120
+2026-03-10 09:22:43,420 | INFO | Prepare 4/5 | case=case_4
+2026-03-10 09:22:43,728 | INFO | RAG klaar | case=case_4 | chunks=1 | duur=0.18 sec
+2026-03-10 09:22:43,729 | INFO | Context opgebouwd | case=case_4 | chars=1097
+2026-03-10 09:22:43,730 | INFO | Prepare 5/5 | case=case_5
+2026-03-10 09:22:44,008 | INFO | RAG klaar | case=case_5 | chunks=1 | duur=0.18 sec
+2026-03-10 09:22:44,009 | INFO | Context opgebouwd | case=case_5 | chars=1134
+2026-03-10 09:22:44,010 | INFO | Voorbereiden cases klaar | duur=2.13 sec
+2026-03-10 09:22:44,011 | INFO | Start runs voor experiment_b
+2026-03-10 09:22:44,012 | INFO | ===== RUN 1/5 | exp=b =====
+2026-03-10 09:22:44,012 | INFO | Run 1 | case=case_1
+2026-03-10 09:22:45,636 | INFO | Run 1 | case=case_2
+2026-03-10 09:22:46,769 | INFO | Run 1 | case=case_3
+2026-03-10 09:22:47,429 | INFO | Run 1 | case=case_4
+2026-03-10 09:22:48,659 | INFO | Run 1 | case=case_5
+2026-03-10 09:22:49,869 | INFO | ===== RUN 2/5 | exp=b =====
+2026-03-10 09:22:49,870 | INFO | Run 2 | case=case_1
+2026-03-10 09:22:51,654 | INFO | Run 2 | case=case_2
+2026-03-10 09:22:52,970 | INFO | Run 2 | case=case_3
+2026-03-10 09:22:53,777 | INFO | Run 2 | case=case_4
+2026-03-10 09:22:54,737 | INFO | Run 2 | case=case_5
+2026-03-10 09:22:55,788 | INFO | ===== RUN 3/5 | exp=b =====
+2026-03-10 09:22:55,788 | INFO | Run 3 | case=case_1
+2026-03-10 09:22:56,883 | INFO | Run 3 | case=case_2
+2026-03-10 09:22:58,538 | INFO | Run 3 | case=case_3
+2026-03-10 09:22:59,443 | INFO | Run 3 | case=case_4
+2026-03-10 09:23:00,216 | INFO | Run 3 | case=case_5
+2026-03-10 09:23:01,188 | INFO | ===== RUN 4/5 | exp=b =====
+2026-03-10 09:23:01,189 | INFO | Run 4 | case=case_1
+2026-03-10 09:23:02,264 | INFO | Run 4 | case=case_2
+2026-03-10 09:23:03,112 | INFO | Run 4 | case=case_3
+2026-03-10 09:23:03,891 | INFO | Run 4 | case=case_4
+2026-03-10 09:23:04,609 | INFO | Run 4 | case=case_5
+2026-03-10 09:23:05,342 | INFO | ===== RUN 5/5 | exp=b =====
+2026-03-10 09:23:05,343 | INFO | Run 5 | case=case_1
+2026-03-10 09:23:06,346 | INFO | Run 5 | case=case_2
+2026-03-10 09:23:07,291 | INFO | Run 5 | case=case_3
+2026-03-10 09:23:07,937 | INFO | Run 5 | case=case_4
+2026-03-10 09:23:08,856 | INFO | Run 5 | case=case_5
+2026-03-10 09:23:10,920 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-03-10 09:30:00,427 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_b.log
+2026-03-10 09:30:00,429 | INFO | Test: experiment_b logging actief
+2026-03-10 09:30:00,457 | INFO | ==== START experiment_b ====
+2026-03-10 09:30:00,458 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-10 09:30:00,459 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-10 09:30:00,462 | INFO | PROMPT_ID: sys:3d6ec5240f06|usr:f59dd080b1ca|q:7cc29e8f8e5d
+2026-03-10 09:30:00,462 | INFO | QUESTION: Geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-10 09:30:00,463 | INFO | Cases: 5
+2026-03-10 09:30:00,464 | INFO | RAG dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/menu_engineering
+2026-03-10 09:30:00,465 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-03-10 09:30:00,466 | INFO | RAG config | top_k=3 | embedding_model=text-embedding-3-small | chunk_size=1200 | overlap=150 | use_cache=True
+2026-03-10 09:30:00,466 | INFO | Bouwen/laden chunk-index...
+2026-03-10 09:30:00,548 | INFO | Chunk-index klaar | chunks=1 | duur=0.08 sec
+2026-03-10 09:30:00,548 | INFO | Start voorbereiden van 5 cases met RAG-context
+2026-03-10 09:30:00,550 | INFO | Prepare 1/5 | case=case_1
+2026-03-10 09:30:00,973 | INFO | RAG klaar | case=case_1 | chunks=1 | duur=0.42 sec
+2026-03-10 09:30:00,974 | INFO |   chunk 1 | chunk_id=doc1_chunk1 | source=menu_engineering_basics.txt | score=0.4391 | text_len=815
+2026-03-10 09:30:00,975 | INFO | Context opgebouwd | case=case_1 | chars=1062
+2026-03-10 09:30:00,976 | INFO | Prepare 2/5 | case=case_2
+2026-03-10 09:30:01,191 | INFO | RAG klaar | case=case_2 | chunks=1 | duur=0.21 sec
+2026-03-10 09:30:01,192 | INFO |   chunk 1 | chunk_id=doc1_chunk1 | source=menu_engineering_basics.txt | score=0.4287 | text_len=815
+2026-03-10 09:30:01,193 | INFO | Context opgebouwd | case=case_2 | chars=1158
+2026-03-10 09:30:01,194 | INFO | Prepare 3/5 | case=case_3
+2026-03-10 09:30:01,438 | INFO | RAG klaar | case=case_3 | chunks=1 | duur=0.24 sec
+2026-03-10 09:30:01,440 | INFO |   chunk 1 | chunk_id=doc1_chunk1 | source=menu_engineering_basics.txt | score=0.4600 | text_len=815
+2026-03-10 09:30:01,441 | INFO | Context opgebouwd | case=case_3 | chars=1120
+2026-03-10 09:30:01,442 | INFO | Prepare 4/5 | case=case_4
+2026-03-10 09:30:01,625 | INFO | RAG klaar | case=case_4 | chunks=1 | duur=0.18 sec
+2026-03-10 09:30:01,626 | INFO |   chunk 1 | chunk_id=doc1_chunk1 | source=menu_engineering_basics.txt | score=0.4982 | text_len=815
+2026-03-10 09:30:01,626 | INFO | Context opgebouwd | case=case_4 | chars=1097
+2026-03-10 09:30:01,627 | INFO | Prepare 5/5 | case=case_5
+2026-03-10 09:30:01,808 | INFO | RAG klaar | case=case_5 | chunks=1 | duur=0.18 sec
+2026-03-10 09:30:01,809 | INFO |   chunk 1 | chunk_id=doc1_chunk1 | source=menu_engineering_basics.txt | score=0.4620 | text_len=815
+2026-03-10 09:30:01,809 | INFO | Context opgebouwd | case=case_5 | chars=1134
+2026-03-10 09:30:01,811 | INFO | Voorbereiden cases klaar | duur=1.26 sec
+2026-03-10 09:30:01,811 | INFO | Start runs voor experiment_b
+2026-03-10 09:30:01,812 | INFO | ===== RUN 1/5 | exp=b =====
+2026-03-10 09:30:01,813 | INFO | Run 1 | case=case_1
+2026-03-10 09:30:02,746 | INFO | Run 1 | case=case_2
+2026-03-10 09:30:04,269 | INFO | Run 1 | case=case_3
+2026-03-10 09:30:06,094 | INFO | Run 1 | case=case_4
+2026-03-10 09:30:07,176 | INFO | Run 1 | case=case_5
+2026-03-10 09:30:08,086 | INFO | ===== RUN 2/5 | exp=b =====
+2026-03-10 09:30:08,087 | INFO | Run 2 | case=case_1
+2026-03-10 09:30:09,058 | INFO | Run 2 | case=case_2
+2026-03-10 09:30:10,044 | INFO | Run 2 | case=case_3
+2026-03-10 09:30:10,860 | INFO | Run 2 | case=case_4
+2026-03-10 09:30:11,941 | INFO | Run 2 | case=case_5
+2026-03-10 09:30:12,814 | INFO | ===== RUN 3/5 | exp=b =====
+2026-03-10 09:30:12,814 | INFO | Run 3 | case=case_1
+2026-03-10 09:30:14,188 | INFO | Run 3 | case=case_2
+2026-03-10 09:30:15,327 | INFO | Run 3 | case=case_3
+2026-03-10 09:30:16,485 | INFO | Run 3 | case=case_4
+2026-03-10 09:30:17,564 | INFO | Run 3 | case=case_5
+2026-03-10 09:30:18,951 | INFO | ===== RUN 4/5 | exp=b =====
+2026-03-10 09:30:18,952 | INFO | Run 4 | case=case_1
+2026-03-10 09:30:19,848 | INFO | Run 4 | case=case_2
+2026-03-10 09:30:21,007 | INFO | Run 4 | case=case_3
+2026-03-10 09:30:21,998 | INFO | Run 4 | case=case_4
+2026-03-10 09:30:23,178 | INFO | Run 4 | case=case_5
+2026-03-10 09:30:23,871 | INFO | ===== RUN 5/5 | exp=b =====
+2026-03-10 09:30:23,872 | INFO | Run 5 | case=case_1
+2026-03-10 09:30:25,076 | INFO | Run 5 | case=case_2
+2026-03-10 09:30:26,334 | INFO | Run 5 | case=case_3
+2026-03-10 09:30:27,259 | INFO | Run 5 | case=case_4
+2026-03-10 09:30:28,715 | INFO | Run 5 | case=case_5
+2026-03-10 09:30:30,657 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-03-10 09:51:51,946 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_b.log
+2026-03-10 09:51:51,947 | INFO | Test: experiment_b logging actief
+2026-03-10 09:51:51,982 | INFO | ==== START experiment_b ====
+2026-03-10 09:51:51,982 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-10 09:51:51,983 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-10 09:51:51,984 | INFO | PROMPT_ID: sys:b07672224335|usr:f59dd080b1ca|q:7cc29e8f8e5d
+2026-03-10 09:51:51,984 | INFO | QUESTION: Geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-10 09:51:51,985 | INFO | Cases: 5
+2026-03-10 09:51:51,986 | INFO | RAG dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/menu_engineering
+2026-03-10 09:51:51,986 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-03-10 09:51:51,987 | INFO | RAG config | top_k=3 | embedding_model=text-embedding-3-small | chunk_size=1200 | overlap=150 | use_cache=True
+2026-03-10 09:51:51,987 | INFO | Bouwen/laden chunk-index...
+2026-03-10 09:51:52,168 | INFO | Chunk-index klaar | chunks=1 | duur=0.18 sec
+2026-03-10 09:51:52,169 | INFO | Start voorbereiden van 5 cases met RAG-context
+2026-03-10 09:51:52,170 | INFO | Prepare 1/5 | case=case_1
+2026-03-10 09:51:52,817 | INFO | RAG klaar | case=case_1 | chunks=1 | duur=0.54 sec
+2026-03-10 09:51:52,818 | INFO |   chunk 1 | chunk_id=doc1_chunk1 | source=menu_engineering_basics.txt | score=0.4391 | text_len=815
+2026-03-10 09:51:52,819 | INFO | Context opgebouwd | case=case_1 | chars=1062
+2026-03-10 09:51:52,819 | INFO | Prepare 2/5 | case=case_2
+2026-03-10 09:51:53,021 | INFO | RAG klaar | case=case_2 | chunks=1 | duur=0.17 sec
+2026-03-10 09:51:53,022 | INFO |   chunk 1 | chunk_id=doc1_chunk1 | source=menu_engineering_basics.txt | score=0.4287 | text_len=815
+2026-03-10 09:51:53,023 | INFO | Context opgebouwd | case=case_2 | chars=1158
+2026-03-10 09:51:53,024 | INFO | Prepare 3/5 | case=case_3
+2026-03-10 09:51:53,227 | INFO | RAG klaar | case=case_3 | chunks=1 | duur=0.17 sec
+2026-03-10 09:51:53,228 | INFO |   chunk 1 | chunk_id=doc1_chunk1 | source=menu_engineering_basics.txt | score=0.4600 | text_len=815
+2026-03-10 09:51:53,229 | INFO | Context opgebouwd | case=case_3 | chars=1120
+2026-03-10 09:51:53,230 | INFO | Prepare 4/5 | case=case_4
+2026-03-10 09:51:53,503 | INFO | RAG klaar | case=case_4 | chunks=1 | duur=0.23 sec
+2026-03-10 09:51:53,504 | INFO |   chunk 1 | chunk_id=doc1_chunk1 | source=menu_engineering_basics.txt | score=0.4982 | text_len=815
+2026-03-10 09:51:53,505 | INFO | Context opgebouwd | case=case_4 | chars=1097
+2026-03-10 09:51:53,506 | INFO | Prepare 5/5 | case=case_5
+2026-03-10 09:51:53,725 | INFO | RAG klaar | case=case_5 | chunks=1 | duur=0.18 sec
+2026-03-10 09:51:53,726 | INFO |   chunk 1 | chunk_id=doc1_chunk1 | source=menu_engineering_basics.txt | score=0.4620 | text_len=815
+2026-03-10 09:51:53,726 | INFO | Context opgebouwd | case=case_5 | chars=1134
+2026-03-10 09:51:53,727 | INFO | Voorbereiden cases klaar | duur=1.56 sec
+2026-03-10 09:51:53,728 | INFO | Start runs voor experiment_b
+2026-03-10 09:51:53,729 | INFO | ===== RUN 1/5 | exp=b =====
+2026-03-10 09:51:53,729 | INFO | Run 1 | case=case_1
+2026-03-10 09:51:54,878 | INFO | Run 1 | case=case_2
+2026-03-10 09:51:55,836 | INFO | Run 1 | case=case_3
+2026-03-10 09:51:56,689 | INFO | Run 1 | case=case_4
+2026-03-10 09:51:57,601 | INFO | Run 1 | case=case_5
+2026-03-10 09:51:58,512 | INFO | ===== RUN 2/5 | exp=b =====
+2026-03-10 09:51:58,513 | INFO | Run 2 | case=case_1
+2026-03-10 09:51:59,598 | INFO | Run 2 | case=case_2
+2026-03-10 09:52:00,665 | INFO | Run 2 | case=case_3
+2026-03-10 09:52:02,153 | INFO | Run 2 | case=case_4
+2026-03-10 09:52:03,186 | INFO | Run 2 | case=case_5
+2026-03-10 09:52:04,713 | INFO | ===== RUN 3/5 | exp=b =====
+2026-03-10 09:52:04,714 | INFO | Run 3 | case=case_1
+2026-03-10 09:52:05,630 | INFO | Run 3 | case=case_2
+2026-03-10 09:52:06,677 | INFO | Run 3 | case=case_3
+2026-03-10 09:52:08,126 | INFO | Run 3 | case=case_4
+2026-03-10 09:52:08,979 | INFO | Run 3 | case=case_5
+2026-03-10 09:52:10,201 | INFO | ===== RUN 4/5 | exp=b =====
+2026-03-10 09:52:10,202 | INFO | Run 4 | case=case_1
+2026-03-10 09:52:11,477 | INFO | Run 4 | case=case_2
+2026-03-10 09:52:12,199 | INFO | Run 4 | case=case_3
+2026-03-10 09:52:13,190 | INFO | Run 4 | case=case_4
+2026-03-10 09:52:13,967 | INFO | Run 4 | case=case_5
+2026-03-10 09:52:14,915 | INFO | ===== RUN 5/5 | exp=b =====
+2026-03-10 09:52:14,916 | INFO | Run 5 | case=case_1
+2026-03-10 09:52:16,086 | INFO | Run 5 | case=case_2
+2026-03-10 09:52:16,981 | INFO | Run 5 | case=case_3
+2026-03-10 09:52:17,760 | INFO | Run 5 | case=case_4
+2026-03-10 09:52:18,635 | INFO | Run 5 | case=case_5
+2026-03-10 09:52:20,978 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-03-19 07:46:09,274 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_b.log
+2026-03-19 07:46:09,276 | INFO | Test: experiment_b logging actief
+2026-03-19 07:46:09,306 | INFO | ==== START experiment_b ====
+2026-03-19 07:46:09,308 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-19 07:46:09,311 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-19 07:46:09,312 | INFO | PROMPT_ID: sys:a574f1f5f42b|usr:a850773fdd26|q:5039baaae917
+2026-03-19 07:46:09,313 | INFO | QUESTION: Voer een scenario-analyse uit en geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-19 07:46:09,314 | INFO | Cases: 5
+2026-03-19 07:46:09,317 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-03-19 07:46:09,362 | INFO | Gebruik file-based RAG-bron: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/menu_engineering
+2026-03-19 07:46:09,362 | INFO | RAG config | top_k=3 | embedding_model=text-embedding-3-small | chunk_size=1200 | overlap=150 | use_cache=True
+2026-03-19 07:46:09,363 | INFO | Bouwen/laden chunk-index...
+2026-03-19 07:46:09,536 | INFO | Chunk-index klaar | chunks=1 | duur=0.17 sec
+2026-03-19 07:46:09,537 | INFO | Start voorbereiden van 5 cases met RAG-context
+2026-03-19 07:46:09,538 | INFO | Prepare 1/5 | case=case_1
+2026-03-19 07:46:13,813 | INFO | RAG klaar | case=case_1 | chunks=1 | duur=1.25 sec
+2026-03-19 07:46:13,814 | INFO |   chunk 1 | chunk_id=doc1_chunk1 | source=menu_engineering_basics.txt | score=0.4389 | text_len=815
+2026-03-19 07:46:13,817 | INFO | Context opgebouwd | case=case_1 | chars=1062
+2026-03-19 07:46:13,828 | INFO | Prepare 2/5 | case=case_2
+2026-03-19 07:46:14,128 | INFO | RAG klaar | case=case_2 | chunks=1 | duur=0.19 sec
+2026-03-19 07:46:14,142 | INFO |   chunk 1 | chunk_id=doc1_chunk1 | source=menu_engineering_basics.txt | score=0.4287 | text_len=815
+2026-03-19 07:46:14,169 | INFO | Context opgebouwd | case=case_2 | chars=1158
+2026-03-19 07:46:14,180 | INFO | Prepare 3/5 | case=case_3
+2026-03-19 07:46:14,499 | INFO | RAG klaar | case=case_3 | chunks=1 | duur=0.20 sec
+2026-03-19 07:46:14,525 | INFO |   chunk 1 | chunk_id=doc1_chunk1 | source=menu_engineering_basics.txt | score=0.4600 | text_len=815
+2026-03-19 07:46:14,527 | INFO | Context opgebouwd | case=case_3 | chars=1120
+2026-03-19 07:46:14,529 | INFO | Prepare 4/5 | case=case_4
+2026-03-19 07:46:14,858 | INFO | RAG klaar | case=case_4 | chunks=1 | duur=0.23 sec
+2026-03-19 07:46:14,859 | INFO |   chunk 1 | chunk_id=doc1_chunk1 | source=menu_engineering_basics.txt | score=0.4979 | text_len=815
+2026-03-19 07:46:14,864 | INFO | Context opgebouwd | case=case_4 | chars=1097
+2026-03-19 07:46:14,869 | INFO | Prepare 5/5 | case=case_5
+2026-03-19 07:46:15,316 | INFO | RAG klaar | case=case_5 | chunks=1 | duur=0.34 sec
+2026-03-19 07:46:15,322 | INFO |   chunk 1 | chunk_id=doc1_chunk1 | source=menu_engineering_basics.txt | score=0.4620 | text_len=815
+2026-03-19 07:46:15,338 | INFO | Context opgebouwd | case=case_5 | chars=1134
+2026-03-19 07:46:15,344 | INFO | Voorbereiden cases klaar | duur=5.81 sec
+2026-03-19 07:46:15,351 | INFO | Start runs voor experiment_b
+2026-03-19 07:46:15,366 | INFO | ===== RUN 1/5 | exp=b =====
+2026-03-19 07:46:15,367 | INFO | Run 1 | case=case_1
+2026-03-19 07:46:34,149 | INFO | Run 1 | case=case_2
+2026-03-19 07:46:53,358 | INFO | Run 1 | case=case_3
+2026-03-19 07:47:12,475 | INFO | Run 1 | case=case_4
+2026-03-19 07:52:01,785 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_b.log
+2026-03-19 07:52:01,816 | INFO | ==== START experiment_b ====
+2026-03-19 07:52:01,822 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-19 07:52:01,823 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-19 07:52:01,824 | INFO | PROMPT_ID: sys:a574f1f5f42b|usr:a850773fdd26|q:5039baaae917
+2026-03-19 07:52:01,825 | INFO | QUESTION: Voer een scenario-analyse uit en geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-19 07:52:01,826 | INFO | Cases: 5
+2026-03-19 07:52:01,827 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-03-19 07:52:01,874 | INFO | Gebruik file-based RAG-bron: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/menu_engineering
+2026-03-19 07:52:01,954 | INFO | Menu-engineering chunk-index klaar | chunks=1 | duur=0.08 sec
+2026-03-19 07:55:14,378 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_b.log
+2026-03-19 07:55:14,415 | INFO | ==== START experiment_b ====
+2026-03-19 07:55:14,415 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-19 07:55:14,416 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-19 07:55:14,417 | INFO | PROMPT_ID: sys:a574f1f5f42b|usr:a850773fdd26|q:5039baaae917
+2026-03-19 07:55:14,418 | INFO | QUESTION: Voer een scenario-analyse uit en geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-19 07:55:14,418 | INFO | Cases: 5
+2026-03-19 07:55:14,419 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-03-19 07:55:14,471 | INFO | Gebruik file-based RAG-bron: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/menu_engineering
+2026-03-19 07:55:14,558 | INFO | Menu-engineering chunk-index klaar | chunks=1 | duur=0.09 sec
+2026-03-19 07:55:47,073 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_b.log
+2026-03-19 07:55:47,108 | INFO | ==== START experiment_b ====
+2026-03-19 07:55:47,109 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-19 07:55:47,110 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-19 07:55:47,110 | INFO | PROMPT_ID: sys:a574f1f5f42b|usr:a850773fdd26|q:5039baaae917
+2026-03-19 07:55:47,111 | INFO | QUESTION: Voer een scenario-analyse uit en geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-19 07:55:47,112 | INFO | Cases: 5
+2026-03-19 07:55:47,113 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-03-19 07:55:47,169 | INFO | Gebruik file-based RAG-bron: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/menu_engineering
+2026-03-19 07:55:47,258 | INFO | Menu-engineering chunk-index klaar | chunks=1 | duur=0.09 sec
+2026-03-19 07:55:47,311 | INFO | Gebruik JSON RAG-bron: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/senario_analyse/theorie.JSON
+2026-03-19 07:55:47,396 | INFO | Scenario-theorie JSON geladen | chunks=12 | duur=0.08 sec
+2026-03-19 07:55:47,397 | INFO | Gecombineerde RAG-index klaar | totaal_chunks=13 | bronnen=menu_engineering, theorie.JSON
+2026-03-19 07:55:47,399 | INFO | Start voorbereiden van 5 cases met gecombineerde RAG-context
+2026-03-19 07:55:47,400 | INFO | Prepare 1/5 | case=case_1
+2026-03-19 08:25:17,145 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_b.log
+2026-03-19 08:25:17,176 | INFO | ==== START experiment_b ====
+2026-03-19 08:25:17,177 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-19 08:25:17,178 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-19 08:25:17,179 | INFO | PROMPT_ID: sys:a574f1f5f42b|usr:a850773fdd26|q:5039baaae917
+2026-03-19 08:25:17,179 | INFO | QUESTION: Voer een scenario-analyse uit en geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-19 08:25:17,180 | INFO | Cases: 5
+2026-03-19 08:25:17,182 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-03-19 08:25:17,183 | INFO | RAG config | top_k=5 | embedding_model=text-embedding-3-small | chunk_size=1200 | overlap=150 | use_cache=True
+2026-03-19 08:25:17,184 | INFO | JSON scenario-bron ingesteld: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/senario_analyse/theorie.JSON
+2026-03-19 08:25:17,261 | INFO | JSON bestaat: True
+2026-03-19 08:25:17,339 | INFO | Scenario-theorie gegenereerd naar tekstbestanden | files=12 | dir=/Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/_generated_scenario_theory | duur=0.08 sec
+2026-03-19 08:25:17,361 | INFO | Gebruik file-based RAG-bron: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/menu_engineering
+2026-03-19 08:25:17,523 | INFO | Menu-engineering chunk-index klaar | chunks=1 | duur=0.16 sec
+2026-03-19 08:25:17,525 | INFO | Gebruik gegenereerde scenario-theorie RAG-bron: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/_generated_scenario_theory
+2026-03-19 08:25:19,016 | INFO | Scenario-theorie chunk-index klaar | chunks=27 | duur=1.49 sec
+2026-03-19 08:25:19,017 | INFO | Gecombineerde RAG-index klaar | totaal_chunks=28 | bronnen=menu_engineering, scenario_theory_generated
+2026-03-19 08:25:19,017 | INFO | Start voorbereiden van 5 cases met gecombineerde RAG-context
+2026-03-19 08:25:19,018 | INFO | Prepare 1/5 | case=case_1
+2026-03-19 08:25:19,334 | INFO | RAG klaar | case=case_1 | chunks=5 | duur=0.18 sec
+2026-03-19 08:25:19,335 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:19,336 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:19,337 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:19,338 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:19,338 | INFO |   chunk 5 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:19,339 | INFO | Context opgebouwd | case=case_1 | chars=4028
+2026-03-19 08:25:19,339 | INFO | Prepare 2/5 | case=case_2
+2026-03-19 08:25:19,567 | INFO | RAG klaar | case=case_2 | chunks=5 | duur=0.19 sec
+2026-03-19 08:25:19,568 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:19,568 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:19,569 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:19,570 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:19,570 | INFO |   chunk 5 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:19,573 | INFO | Context opgebouwd | case=case_2 | chars=4353
+2026-03-19 08:25:19,573 | INFO | Prepare 3/5 | case=case_3
+2026-03-19 08:25:20,429 | INFO | RAG klaar | case=case_3 | chunks=5 | duur=0.79 sec
+2026-03-19 08:25:20,430 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:20,431 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:20,431 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:20,432 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:20,433 | INFO |   chunk 5 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:20,434 | INFO | Context opgebouwd | case=case_3 | chars=4581
+2026-03-19 08:25:20,434 | INFO | Prepare 4/5 | case=case_4
+2026-03-19 08:25:20,704 | INFO | RAG klaar | case=case_4 | chunks=5 | duur=0.19 sec
+2026-03-19 08:25:20,705 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:20,706 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:20,707 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:20,708 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:20,708 | INFO |   chunk 5 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:20,709 | INFO | Context opgebouwd | case=case_4 | chars=4558
+2026-03-19 08:25:20,710 | INFO | Prepare 5/5 | case=case_5
+2026-03-19 08:25:21,025 | INFO | RAG klaar | case=case_5 | chunks=5 | duur=0.20 sec
+2026-03-19 08:25:21,026 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:21,027 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:21,027 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:21,028 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:21,029 | INFO |   chunk 5 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 08:25:21,030 | INFO | Context opgebouwd | case=case_5 | chars=4100
+2026-03-19 08:25:21,031 | INFO | Voorbereiden cases klaar | duur=2.01 sec
+2026-03-19 08:25:21,031 | INFO | Start runs voor experiment_b
+2026-03-19 08:25:21,034 | INFO | ===== RUN 1/5 | exp=b =====
+2026-03-19 08:25:21,035 | INFO | Run 1 | case=case_1
+2026-03-19 08:25:45,559 | INFO | Run 1 | case=case_2
+2026-03-19 08:26:06,088 | INFO | Run 1 | case=case_3
+2026-03-19 08:26:27,321 | INFO | Run 1 | case=case_4
+2026-03-19 08:26:47,448 | INFO | Run 1 | case=case_5
+2026-03-19 08:27:10,009 | INFO | ===== RUN 2/5 | exp=b =====
+2026-03-19 08:27:10,010 | INFO | Run 2 | case=case_1
+2026-03-19 08:27:32,074 | INFO | Run 2 | case=case_2
+2026-03-19 08:27:52,586 | INFO | Run 2 | case=case_3
+2026-03-19 08:28:10,746 | INFO | Run 2 | case=case_4
+2026-03-19 08:28:29,304 | INFO | Run 2 | case=case_5
+2026-03-19 08:28:51,682 | INFO | ===== RUN 3/5 | exp=b =====
+2026-03-19 08:28:51,683 | INFO | Run 3 | case=case_1
+2026-03-19 08:29:13,290 | INFO | Run 3 | case=case_2
+2026-03-19 08:29:32,142 | INFO | Run 3 | case=case_3
+2026-03-19 08:29:52,022 | INFO | Run 3 | case=case_4
+2026-03-19 08:30:09,888 | INFO | Run 3 | case=case_5
+2026-03-19 08:30:27,814 | INFO | ===== RUN 4/5 | exp=b =====
+2026-03-19 08:30:27,815 | INFO | Run 4 | case=case_1
+2026-03-19 08:30:45,899 | INFO | Run 4 | case=case_2
+2026-03-19 08:31:04,572 | INFO | Run 4 | case=case_3
+2026-03-19 08:31:23,195 | INFO | Run 4 | case=case_4
+2026-03-19 08:31:40,101 | INFO | Run 4 | case=case_5
+2026-03-19 08:31:58,327 | INFO | ===== RUN 5/5 | exp=b =====
+2026-03-19 08:31:58,328 | INFO | Run 5 | case=case_1
+2026-03-19 08:32:15,078 | INFO | Run 5 | case=case_2
+2026-03-19 08:32:28,933 | INFO | Run 5 | case=case_3
+2026-03-19 08:32:47,414 | INFO | Run 5 | case=case_4
+2026-03-19 08:33:06,523 | INFO | Run 5 | case=case_5
+2026-03-19 08:33:23,391 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-03-19 10:08:43,786 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_b.log
+2026-03-19 10:08:43,848 | INFO | ==== START experiment_b ====
+2026-03-19 10:08:43,849 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-19 10:08:43,849 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-19 10:08:43,850 | INFO | PROMPT_ID: sys:a574f1f5f42b|usr:a850773fdd26|q:5039baaae917
+2026-03-19 10:08:43,851 | INFO | QUESTION: Voer een scenario-analyse uit en geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-19 10:08:43,852 | INFO | Cases: 5
+2026-03-19 10:08:43,853 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-03-19 10:08:43,854 | INFO | RAG config | top_k=5 | embedding_model=text-embedding-3-small | chunk_size=1200 | overlap=150 | use_cache=True
+2026-03-19 10:08:43,855 | INFO | Geen JSON scenario-theoriebron ingesteld.
+2026-03-19 10:08:43,904 | INFO | Gebruik file-based RAG-bron: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/menu_engineering
+2026-03-19 10:08:44,068 | INFO | Menu-engineering chunk-index klaar | chunks=1 | duur=0.16 sec
+2026-03-19 10:08:44,068 | INFO | Gecombineerde RAG-index klaar | totaal_chunks=1 | bronnen=menu_engineering
+2026-03-19 10:08:44,069 | INFO | Start voorbereiden van 5 cases met gecombineerde RAG-context
+2026-03-19 10:08:44,070 | INFO | Prepare 1/5 | case=case_1
+2026-03-19 10:08:49,987 | INFO | RAG klaar | case=case_1 | chunks=1 | duur=2.77 sec
+2026-03-19 10:08:49,993 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:08:49,996 | INFO | Context opgebouwd | case=case_1 | chars=1062
+2026-03-19 10:08:49,998 | INFO | Prepare 2/5 | case=case_2
+2026-03-19 10:08:50,300 | INFO | RAG klaar | case=case_2 | chunks=1 | duur=0.21 sec
+2026-03-19 10:08:50,321 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:08:50,346 | INFO | Context opgebouwd | case=case_2 | chars=1158
+2026-03-19 10:08:50,371 | INFO | Prepare 3/5 | case=case_3
+2026-03-19 10:08:50,630 | INFO | RAG klaar | case=case_3 | chunks=1 | duur=0.20 sec
+2026-03-19 10:08:50,636 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:08:50,639 | INFO | Context opgebouwd | case=case_3 | chars=1120
+2026-03-19 10:08:50,649 | INFO | Prepare 4/5 | case=case_4
+2026-03-19 10:08:52,965 | INFO | RAG klaar | case=case_4 | chunks=1 | duur=2.21 sec
+2026-03-19 10:08:52,970 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:08:52,971 | INFO | Context opgebouwd | case=case_4 | chars=1097
+2026-03-19 10:08:52,973 | INFO | Prepare 5/5 | case=case_5
+2026-03-19 10:08:53,234 | INFO | RAG klaar | case=case_5 | chunks=1 | duur=0.19 sec
+2026-03-19 10:08:53,235 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:08:53,236 | INFO | Context opgebouwd | case=case_5 | chars=1134
+2026-03-19 10:08:53,237 | INFO | Voorbereiden cases klaar | duur=9.17 sec
+2026-03-19 10:08:53,238 | INFO | Start runs voor experiment_b
+2026-03-19 10:08:53,239 | INFO | ===== RUN 1/5 | exp=b =====
+2026-03-19 10:08:53,239 | INFO | Run 1 | case=case_1
+2026-03-19 10:09:17,117 | INFO | Run 1 | case=case_2
+2026-03-19 10:09:39,389 | INFO | Run 1 | case=case_3
+2026-03-19 10:10:01,921 | INFO | Run 1 | case=case_4
+2026-03-19 10:10:25,258 | INFO | Run 1 | case=case_5
+2026-03-19 10:10:48,806 | INFO | ===== RUN 2/5 | exp=b =====
+2026-03-19 10:10:48,810 | INFO | Run 2 | case=case_1
+2026-03-19 10:11:08,152 | INFO | Run 2 | case=case_2
+2026-03-19 10:11:31,043 | INFO | Run 2 | case=case_3
+2026-03-19 10:11:49,012 | INFO | Run 2 | case=case_4
+2026-03-19 10:12:07,086 | INFO | Run 2 | case=case_5
+2026-03-19 10:12:25,959 | INFO | ===== RUN 3/5 | exp=b =====
+2026-03-19 10:12:25,959 | INFO | Run 3 | case=case_1
+2026-03-19 10:12:49,679 | INFO | Run 3 | case=case_2
+2026-03-19 10:13:12,384 | INFO | Run 3 | case=case_3
+2026-03-19 10:13:33,552 | INFO | Run 3 | case=case_4
+2026-03-19 10:13:56,377 | INFO | Run 3 | case=case_5
+2026-03-19 10:14:16,844 | INFO | ===== RUN 4/5 | exp=b =====
+2026-03-19 10:14:16,845 | INFO | Run 4 | case=case_1
+2026-03-19 10:14:37,047 | INFO | Run 4 | case=case_2
+2026-03-19 10:14:56,550 | INFO | Run 4 | case=case_3
+2026-03-19 10:15:15,243 | INFO | Run 4 | case=case_4
+2026-03-19 10:15:34,282 | INFO | Run 4 | case=case_5
+2026-03-19 10:15:52,872 | INFO | ===== RUN 5/5 | exp=b =====
+2026-03-19 10:15:52,873 | INFO | Run 5 | case=case_1
+2026-03-19 10:16:12,555 | INFO | Run 5 | case=case_2
+2026-03-19 10:16:33,422 | INFO | Run 5 | case=case_3
+2026-03-19 10:16:52,045 | INFO | Run 5 | case=case_4
+2026-03-19 10:17:10,123 | INFO | Run 5 | case=case_5
+2026-03-19 10:17:27,900 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-03-19 10:20:40,834 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_b.log
+2026-03-19 10:20:40,867 | INFO | ==== START experiment_b ====
+2026-03-19 10:20:40,868 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-19 10:20:40,869 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-19 10:20:40,871 | INFO | PROMPT_ID: sys:a574f1f5f42b|usr:a850773fdd26|q:5039baaae917
+2026-03-19 10:20:40,872 | INFO | QUESTION: Voer een scenario-analyse uit en geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-19 10:20:40,872 | INFO | Cases: 5
+2026-03-19 10:20:40,874 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-03-19 10:20:40,875 | INFO | RAG config | menu_top_k=2 | scenario_top_k=2 | extra_top_k=1 | embedding_model=text-embedding-3-small | chunk_size=1200 | overlap=150 | use_cache=True
+2026-03-19 10:20:40,876 | INFO | JSON scenario-bron ingesteld: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/senario_analyse/theorie.JSON
+2026-03-19 10:20:40,926 | INFO | JSON bestaat: False
+2026-03-19 10:21:18,279 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_b.log
+2026-03-19 10:21:18,310 | INFO | ==== START experiment_b ====
+2026-03-19 10:21:18,311 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-19 10:21:18,312 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-19 10:21:18,313 | INFO | PROMPT_ID: sys:a574f1f5f42b|usr:a850773fdd26|q:5039baaae917
+2026-03-19 10:21:18,313 | INFO | QUESTION: Voer een scenario-analyse uit en geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-19 10:21:18,314 | INFO | Cases: 5
+2026-03-19 10:21:18,315 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-03-19 10:21:18,315 | INFO | RAG config | menu_top_k=2 | scenario_top_k=2 | extra_top_k=1 | embedding_model=text-embedding-3-small | chunk_size=1200 | overlap=150 | use_cache=True
+2026-03-19 10:21:18,316 | INFO | JSON scenario-bron ingesteld: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/scenario_theory/theorie.JSON
+2026-03-19 10:21:18,397 | INFO | JSON bestaat: True
+2026-03-19 10:21:18,536 | INFO | Scenario-theorie gegenereerd naar tekstbestanden | files=12 | dir=/Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/_generated_scenario_theory | duur=0.14 sec
+2026-03-19 10:21:18,564 | INFO | Gebruik file-based RAG-bron: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/menu_engineering
+2026-03-19 10:21:18,732 | INFO | Menu-engineering chunk-index klaar | chunks=1 | duur=0.17 sec
+2026-03-19 10:21:18,734 | INFO | Gebruik gegenereerde scenario-theorie RAG-bron: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/_generated_scenario_theory
+2026-03-19 10:21:19,374 | INFO | Scenario-theorie chunk-index klaar | chunks=27 | duur=0.64 sec
+2026-03-19 10:21:19,375 | INFO | Gecombineerde RAG-index klaar | totaal_chunks=28 | bronnen=menu_engineering, scenario_theory_generated
+2026-03-19 10:21:19,376 | INFO | Start voorbereiden van 5 cases met gecombineerde RAG-context
+2026-03-19 10:21:19,377 | INFO | Prepare 1/5 | case=case_1
+2026-03-19 10:21:20,295 | INFO | RAG klaar | case=case_1 | total_chunks=4 | menu_chunks=1 | scenario_chunks=2 | extra_chunks=1 | duur=0.85 sec
+2026-03-19 10:21:20,296 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:20,297 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:20,298 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:20,299 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:20,299 | INFO | Context opgebouwd | case=case_1 | chars=3608
+2026-03-19 10:21:20,300 | INFO | Prepare 2/5 | case=case_2
+2026-03-19 10:21:20,944 | INFO | RAG klaar | case=case_2 | total_chunks=4 | menu_chunks=1 | scenario_chunks=2 | extra_chunks=1 | duur=0.56 sec
+2026-03-19 10:21:20,946 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:20,948 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:20,950 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:20,952 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:20,953 | INFO | Context opgebouwd | case=case_2 | chars=3704
+2026-03-19 10:21:20,953 | INFO | Prepare 3/5 | case=case_3
+2026-03-19 10:21:21,730 | INFO | RAG klaar | case=case_3 | total_chunks=4 | menu_chunks=1 | scenario_chunks=2 | extra_chunks=1 | duur=0.66 sec
+2026-03-19 10:21:21,731 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:21,732 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:21,733 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:21,734 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:21,735 | INFO | Context opgebouwd | case=case_3 | chars=3666
+2026-03-19 10:21:21,736 | INFO | Prepare 4/5 | case=case_4
+2026-03-19 10:21:22,335 | INFO | RAG klaar | case=case_4 | total_chunks=4 | menu_chunks=1 | scenario_chunks=2 | extra_chunks=1 | duur=0.51 sec
+2026-03-19 10:21:22,339 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:22,340 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:22,341 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:22,341 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:22,342 | INFO | Context opgebouwd | case=case_4 | chars=3643
+2026-03-19 10:21:22,343 | INFO | Prepare 5/5 | case=case_5
+2026-03-19 10:21:23,063 | INFO | RAG klaar | case=case_5 | total_chunks=4 | menu_chunks=1 | scenario_chunks=2 | extra_chunks=1 | duur=0.63 sec
+2026-03-19 10:21:23,064 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:23,065 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:23,065 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:23,066 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:21:23,067 | INFO | Context opgebouwd | case=case_5 | chars=3680
+2026-03-19 10:21:23,070 | INFO | Voorbereiden cases klaar | duur=3.69 sec
+2026-03-19 10:21:23,071 | INFO | Start runs voor experiment_b
+2026-03-19 10:21:23,072 | INFO | ===== RUN 1/5 | exp=b =====
+2026-03-19 10:21:23,073 | INFO | Run 1 | case=case_1
+2026-03-19 10:21:41,643 | INFO | Run 1 | case=case_2
+2026-03-19 10:22:00,223 | INFO | Run 1 | case=case_3
+2026-03-19 10:22:15,758 | INFO | Run 1 | case=case_4
+2026-03-19 10:22:36,827 | INFO | Run 1 | case=case_5
+2026-03-19 10:22:53,987 | INFO | ===== RUN 2/5 | exp=b =====
+2026-03-19 10:22:53,988 | INFO | Run 2 | case=case_1
+2026-03-19 10:24:09,400 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_b.log
+2026-03-19 10:24:09,436 | INFO | ==== START experiment_b ====
+2026-03-19 10:24:09,436 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-03-19 10:24:09,437 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-03-19 10:24:09,438 | INFO | PROMPT_ID: sys:a574f1f5f42b|usr:a850773fdd26|q:5039baaae917
+2026-03-19 10:24:09,439 | INFO | QUESTION: Voer een scenario-analyse uit en geef een strategisch advies voor dit restaurant op basis van de context.
+2026-03-19 10:24:09,439 | INFO | Cases: 5
+2026-03-19 10:24:09,440 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-03-19 10:24:09,440 | INFO | RAG config | menu_top_k=2 | scenario_top_k=2 | extra_top_k=1 | embedding_model=text-embedding-3-small | chunk_size=1200 | overlap=150 | use_cache=True
+2026-03-19 10:24:09,441 | INFO | JSON scenario-bron ingesteld: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/scenario_theory/theorie.JSON
+2026-03-19 10:24:09,523 | INFO | JSON bestaat: True
+2026-03-19 10:24:09,570 | INFO | Scenario-theorie gegenereerd naar tekstbestanden | files=12 | dir=/Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/generated_RAG_scenario_theory | duur=0.05 sec
+2026-03-19 10:24:09,598 | INFO | Gebruik file-based RAG-bron: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/menu_engineering
+2026-03-19 10:24:09,730 | INFO | Menu-engineering chunk-index klaar | chunks=1 | duur=0.13 sec
+2026-03-19 10:24:09,736 | INFO | Gebruik gegenereerde scenario-theorie RAG-bron: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/generated_RAG_scenario_theory
+2026-03-19 10:24:11,212 | INFO | Scenario-theorie chunk-index klaar | chunks=27 | duur=1.47 sec
+2026-03-19 10:24:11,213 | INFO | Gecombineerde RAG-index klaar | totaal_chunks=28 | bronnen=menu_engineering, scenario_theory_generated
+2026-03-19 10:24:11,214 | INFO | Start voorbereiden van 5 cases met gecombineerde RAG-context
+2026-03-19 10:24:11,214 | INFO | Prepare 1/5 | case=case_1
+2026-03-19 10:24:12,520 | INFO | RAG klaar | case=case_1 | total_chunks=4 | menu_chunks=1 | scenario_chunks=2 | extra_chunks=1 | duur=1.30 sec
+2026-03-19 10:24:12,521 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:12,523 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:12,523 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:12,524 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:12,525 | INFO | Context opgebouwd | case=case_1 | chars=3608
+2026-03-19 10:24:12,525 | INFO | Prepare 2/5 | case=case_2
+2026-03-19 10:24:13,062 | INFO | RAG klaar | case=case_2 | total_chunks=4 | menu_chunks=1 | scenario_chunks=2 | extra_chunks=1 | duur=0.53 sec
+2026-03-19 10:24:13,063 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:13,063 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:13,064 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:13,065 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:13,066 | INFO | Context opgebouwd | case=case_2 | chars=3704
+2026-03-19 10:24:13,066 | INFO | Prepare 3/5 | case=case_3
+2026-03-19 10:24:13,607 | INFO | RAG klaar | case=case_3 | total_chunks=4 | menu_chunks=1 | scenario_chunks=2 | extra_chunks=1 | duur=0.54 sec
+2026-03-19 10:24:13,608 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:13,610 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:13,610 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:13,611 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:13,612 | INFO | Context opgebouwd | case=case_3 | chars=3666
+2026-03-19 10:24:13,613 | INFO | Prepare 4/5 | case=case_4
+2026-03-19 10:24:14,185 | INFO | RAG klaar | case=case_4 | total_chunks=4 | menu_chunks=1 | scenario_chunks=2 | extra_chunks=1 | duur=0.57 sec
+2026-03-19 10:24:14,186 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:14,187 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:14,187 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:14,188 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:14,189 | INFO | Context opgebouwd | case=case_4 | chars=3643
+2026-03-19 10:24:14,189 | INFO | Prepare 5/5 | case=case_5
+2026-03-19 10:24:14,729 | INFO | RAG klaar | case=case_5 | total_chunks=4 | menu_chunks=1 | scenario_chunks=2 | extra_chunks=1 | duur=0.54 sec
+2026-03-19 10:24:14,730 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:14,736 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:14,748 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:14,749 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-03-19 10:24:14,750 | INFO | Context opgebouwd | case=case_5 | chars=3680
+2026-03-19 10:24:14,751 | INFO | Voorbereiden cases klaar | duur=3.54 sec
+2026-03-19 10:24:14,752 | INFO | Start runs voor experiment_b
+2026-03-19 10:24:14,754 | INFO | ===== RUN 1/5 | exp=b =====
+2026-03-19 10:24:14,755 | INFO | Run 1 | case=case_1
+2026-03-19 10:24:36,119 | INFO | Run 1 | case=case_2
+2026-03-19 10:24:55,947 | INFO | Run 1 | case=case_3
+2026-03-19 10:25:16,113 | INFO | Run 1 | case=case_4
+2026-03-19 10:25:36,762 | INFO | Run 1 | case=case_5
+2026-03-19 10:25:56,882 | INFO | ===== RUN 2/5 | exp=b =====
+2026-03-19 10:25:56,883 | INFO | Run 2 | case=case_1
+2026-03-19 10:26:16,053 | INFO | Run 2 | case=case_2
+2026-03-19 10:26:39,483 | INFO | Run 2 | case=case_3
+2026-03-19 10:26:58,944 | INFO | Run 2 | case=case_4
+2026-03-19 10:27:16,458 | INFO | Run 2 | case=case_5
+2026-03-19 10:27:34,267 | INFO | ===== RUN 3/5 | exp=b =====
+2026-03-19 10:27:34,268 | INFO | Run 3 | case=case_1
+2026-03-19 10:27:54,414 | INFO | Run 3 | case=case_2
+2026-03-19 10:28:14,406 | INFO | Run 3 | case=case_3
+2026-03-19 10:28:32,123 | INFO | Run 3 | case=case_4
+2026-03-19 10:28:50,209 | INFO | Run 3 | case=case_5
+2026-04-20 07:19:54,327 | INFO | Logger geïnitialiseerd. Schrijf naar logbestand: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/logs/experiment_b.log
+2026-04-20 07:19:54,363 | INFO | ==== START experiment_b ====
+2026-04-20 07:19:54,364 | INFO | Project root: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu
+2026-04-20 07:19:54,365 | INFO | Using prompts from: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/configs/prompts.py
+2026-04-20 07:19:54,366 | INFO | PROMPT_ID: sys:e50f8012e796|usr:f828886da706|q:dbf100ef27c0
+2026-04-20 07:19:54,367 | INFO | QUESTION: Ontwikkel een strategisch advies voor dit restaurant op basis van de gegeven context.
+2026-04-20 07:19:54,367 | INFO | Cases: 5
+2026-04-20 07:19:54,369 | INFO | Output dir: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b
+2026-04-20 07:19:54,369 | INFO | RAG config | menu_top_k=2 | scenario_top_k=2 | extra_top_k=1 | embedding_model=text-embedding-3-small | chunk_size=1200 | overlap=150 | use_cache=True
+2026-04-20 07:19:54,371 | INFO | JSON scenario-bron ingesteld: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/scenario_theory/theorie.JSON
+2026-04-20 07:19:54,509 | INFO | JSON bestaat: True
+2026-04-20 07:19:54,722 | INFO | Scenario-theorie gegenereerd naar tekstbestanden | files=12 | dir=/Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/generated_RAG_scenario_theory | duur=0.21 sec
+2026-04-20 07:19:54,747 | INFO | Gebruik file-based RAG-bron: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/menu_engineering
+2026-04-20 07:19:55,019 | INFO | Menu-engineering chunk-index klaar | chunks=1 | duur=0.27 sec
+2026-04-20 07:19:55,022 | INFO | Gebruik gegenereerde scenario-theorie RAG-bron: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/rag_data/generated_RAG_scenario_theory
+2026-04-20 07:19:55,917 | INFO | Scenario-theorie chunk-index klaar | chunks=27 | duur=0.89 sec
+2026-04-20 07:19:55,918 | INFO | Gecombineerde RAG-index klaar | totaal_chunks=28 | bronnen=menu_engineering, scenario_theory_generated
+2026-04-20 07:19:55,919 | INFO | Start voorbereiden van 5 cases met gecombineerde RAG-context
+2026-04-20 07:19:55,924 | INFO | Prepare 1/5 | case=case_1
+2026-04-20 07:19:56,670 | INFO | RAG klaar | case=case_1 | total_chunks=4 | menu_chunks=1 | scenario_chunks=2 | extra_chunks=1 | duur=0.60 sec
+2026-04-20 07:19:56,672 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:56,675 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:56,676 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:56,678 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:56,679 | INFO | Context opgebouwd | case=case_1 | chars=6256
+2026-04-20 07:19:56,680 | INFO | Prepare 2/5 | case=case_2
+2026-04-20 07:19:57,418 | INFO | RAG klaar | case=case_2 | total_chunks=4 | menu_chunks=1 | scenario_chunks=2 | extra_chunks=1 | duur=0.64 sec
+2026-04-20 07:19:57,424 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:57,425 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:57,426 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:57,427 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:57,428 | INFO | Context opgebouwd | case=case_2 | chars=6614
+2026-04-20 07:19:57,429 | INFO | Prepare 3/5 | case=case_3
+2026-04-20 07:19:58,138 | INFO | RAG klaar | case=case_3 | total_chunks=4 | menu_chunks=1 | scenario_chunks=2 | extra_chunks=1 | duur=0.60 sec
+2026-04-20 07:19:58,139 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:58,140 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:58,145 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:58,146 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:58,147 | INFO | Context opgebouwd | case=case_3 | chars=6650
+2026-04-20 07:19:58,148 | INFO | Prepare 4/5 | case=case_4
+2026-04-20 07:19:58,935 | INFO | RAG klaar | case=case_4 | total_chunks=4 | menu_chunks=1 | scenario_chunks=2 | extra_chunks=1 | duur=0.75 sec
+2026-04-20 07:19:58,936 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:58,937 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:58,938 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:58,938 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:58,939 | INFO | Context opgebouwd | case=case_4 | chars=6914
+2026-04-20 07:19:58,940 | INFO | Prepare 5/5 | case=case_5
+2026-04-20 07:19:59,618 | INFO | RAG klaar | case=case_5 | total_chunks=4 | menu_chunks=1 | scenario_chunks=2 | extra_chunks=1 | duur=0.60 sec
+2026-04-20 07:19:59,619 | INFO |   chunk 1 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:59,620 | INFO |   chunk 2 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:59,620 | INFO |   chunk 3 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:59,621 | INFO |   chunk 4 | chunk_id=None | source=None | score=0.0000 | text_len=0
+2026-04-20 07:19:59,622 | INFO | Context opgebouwd | case=case_5 | chars=7336
+2026-04-20 07:19:59,623 | INFO | Voorbereiden cases klaar | duur=3.70 sec
+2026-04-20 07:19:59,623 | INFO | Start runs voor experiment_b
+2026-04-20 07:19:59,625 | INFO | ===== RUN 1/5 | exp=b =====
+2026-04-20 07:19:59,625 | INFO | Run 1 | case=case_1
+2026-04-20 07:20:25,453 | INFO | Run 1 | case=case_2
+2026-04-20 07:20:50,013 | INFO | Run 1 | case=case_3
+2026-04-20 07:21:15,038 | INFO | Run 1 | case=case_4
+2026-04-20 07:21:35,571 | INFO | Run 1 | case=case_5
+2026-04-20 07:21:56,443 | INFO | ===== RUN 2/5 | exp=b =====
+2026-04-20 07:21:56,444 | INFO | Run 2 | case=case_1
+2026-04-20 07:22:21,332 | INFO | Run 2 | case=case_2
+2026-04-20 07:22:46,875 | INFO | Run 2 | case=case_3
+2026-04-20 07:23:09,659 | INFO | Run 2 | case=case_4
+2026-04-20 07:23:33,471 | INFO | Run 2 | case=case_5
+2026-04-20 07:23:55,525 | INFO | ===== RUN 3/5 | exp=b =====
+2026-04-20 07:23:55,526 | INFO | Run 3 | case=case_1
+2026-04-20 07:24:15,387 | INFO | Run 3 | case=case_2
+2026-04-20 07:24:43,482 | INFO | Run 3 | case=case_3
+2026-04-20 07:25:06,297 | INFO | Run 3 | case=case_4
+2026-04-20 07:25:33,797 | INFO | Run 3 | case=case_5
+2026-04-20 07:25:59,141 | INFO | ===== RUN 4/5 | exp=b =====
+2026-04-20 07:25:59,141 | INFO | Run 4 | case=case_1
+2026-04-20 07:26:20,925 | INFO | Run 4 | case=case_2
+2026-04-20 07:26:40,141 | INFO | Run 4 | case=case_3
+2026-04-20 07:27:01,992 | INFO | Run 4 | case=case_4
+2026-04-20 07:27:23,095 | INFO | Run 4 | case=case_5
+2026-04-20 07:27:42,914 | INFO | ===== RUN 5/5 | exp=b =====
+2026-04-20 07:27:42,915 | INFO | Run 5 | case=case_1
+2026-04-20 07:28:07,645 | INFO | Run 5 | case=case_2
+2026-04-20 07:28:25,173 | INFO | Run 5 | case=case_3
+2026-04-20 07:28:46,860 | INFO | Run 5 | case=case_4
+2026-04-20 07:29:05,126 | INFO | Run 5 | case=case_5
+2026-04-20 07:29:27,924 | INFO | Klaar. Output: /Workspace/Users/rgoedings@hanos.nl/AI_op_het_menu/data/results_data/experiment_b

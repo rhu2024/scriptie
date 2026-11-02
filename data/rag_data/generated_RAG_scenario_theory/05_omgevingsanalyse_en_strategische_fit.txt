@@ -1,0 +1,53 @@
+theory_name:
+Omgevingsanalyse en strategische fit
+
+reference:
+Johnson, G., Scholes, K., & Whittington, R. (2017). Exploring Strategy (11th ed.). Pearson.
+
+primary_purpose:
+Structureren van externe analyse en het leggen van de koppeling tussen omgevingsontwikkelingen en strategische consequenties.
+
+when_to_use:
+- Bij de analyse van markt, concurrentie en trends.
+- Wanneer de LLM de strategische relevantie van externe factoren moet duiden.
+- Voor de vertaalslag van omgeving naar strategische keuze.
+
+retrieval_queries:
+- Johnson Scholes Whittington exploring strategy external environment strategic fit
+- exploring strategy trends competition strategic implications
+- Johnson strategy environment opportunities threats
+
+key_concepts:
+- strategische fit
+- omgeving als bron van kansen en bedreigingen
+- gestructureerde externe analyse
+- van analyse naar implicatie
+
+how_the_llm_should_consult_theory:
+- Zoek theoretische fragmenten over externe analyse, strategische fit en het koppelen van omgeving aan strategische implicaties.
+- Gebruik de theorie voor de interpretatie van omgevingsfactoren, niet als vervanging van contextdata.
+
+how_the_llm_should_apply_theory:
+- Duid per relevante externe factor waarom deze strategisch belangrijk is.
+- Verbind omgevingssignalen met mogelijke kansen, bedreigingen of druk op het businessmodel.
+- Gebruik dit als onderbouwing voor waarom bepaalde onzekerheden kritisch zijn.
+
+llm_operational_steps:
+- Neem de output van environmental scanning als startpunt.
+- Filter factoren op strategische impact.
+- Verklaar per factor wat het kan betekenen voor positie, vraag, concurrentiedruk of verdienmodel.
+- Breng de belangrijkste factoren over naar scenario planning.
+
+output_markers:
+- Strategisch relevant is dit omdat...
+- Voor de concurrentiepositie betekent dit dat...
+- Deze ontwikkeling vergroot/verkleint...
+
+pitfalls_to_avoid:
+- omgeving beschrijven zonder strategische betekenis
+- geen koppeling naar het strategisch vraagstuk
+- theorie gebruiken als los decor zonder toepassing
+
+best_used_with:
+- environmental_scanning_aguilar_1967
+- scenario_planning_schoemaker_1995

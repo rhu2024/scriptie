@@ -1,0 +1,51 @@
+{
+  "query": "Zoek op internet naar relevante informatie voor het volgende restaurantprobleem. Geef per gevonden bron een korte samenvatting van de relevante informatie. Vermeld altijd de titel en URL van elke bron",
+  "search_backend": "openai_web_search_preview",
+  "model": "gpt-4o-mini",
+  "max_results": 8,
+  "fetch_top_n": 5,
+  "results": [
+    {
+      "rank": 1,
+      "title": "INSIDER-selectie: onze tips om een jonger publiek aan te trekken en te behouden",
+      "url": "https://www.theforkmanager.com/nl/blog/insider-selectie-onze-tips-een-jonger-publiek-aan-trekken-behouden?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    },
+    {
+      "rank": 2,
+      "title": "5 horecatrends om jonge gasten aan te trekken",
+      "url": "https://www.avikofoodservice.nl/blog/5-horecatrends-om-jonge-gasten-aan-te-trekken?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    },
+    {
+      "rank": 3,
+      "title": "De toekomst van de horeca: trends en innovaties",
+      "url": "https://www.entreemagazine.nl/blog-entree/de-toekomst-van-de-horeca-trends-en-innovaties?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    },
+    {
+      "rank": 4,
+      "title": "Dit zijn de 7 trends en uitdagingen in de horeca wereldwijd - Horeca Webzine",
+      "url": "https://horecawebzine.be/trends-uitdagingen-horeca-wereld/?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    },
+    {
+      "rank": 5,
+      "title": "Horecatrends 2026: dit kunnen horecaondernemers verwachten | handhoreca.nl",
+      "url": "https://handhoreca.nl/blog/horecatrends-2026?utm_source=openai",
+      "snippet": "",
+      "excerpt": ""
+    }
+  ],
+  "web_summary": "Trattoria Della Nonna, een traditioneel Italiaans restaurant met een trouwe klantenkring van 50-plussers, ondervindt concurrentie van het moderne 'NÓMAD Kitchen', dat zich richt op jongere gasten en gebruikmaakt van sociale media. Om deze uitdaging aan te gaan, kunnen de volgende strategieën worden overwogen:\n\n**1. Strategieën om jongere klanten aan te trekken**\n\n- **Actieve aanwezigheid op sociale media**: Jongere generaties gebruiken platforms zoals Instagram en Facebook om eetgelegenheden te ontdekken. Door aantrekkelijke foto's van gerechten en het interieur te delen, kan het restaurant een breder publiek bereiken. ([theforkmanager.com](https://www.theforkmanager.com/nl/blog/insider-selectie-onze-tips-een-jonger-publiek-aan-trekken-behouden?utm_source=openai))\n\n- **Samenwerkingen met lokale influencers**: Het betrekken van lokale foodbloggers of influencers kan helpen om het restaurant onder de aandacht te brengen bij een jonger publiek. ([theforkmanager.com](https://www.theforkmanager.com/nl/blog/insider-selectie-onze-tips-een-jonger-publiek-aan-trekken-behouden?utm_source=openai))\n\n- **Aanpassen van het menu**: Het toevoegen van moderne gerechten of het aanbieden van 'loaded dishes' kan inspelen op de voorkeuren van jongere gasten. ([avikofoodservice.nl](https://www.avikofoodservice.nl/blog/5-horecatrends-om-jonge-gasten-aan-te-trekken?utm_source=openai))\n\n**2. Best practices uit de horeca-industrie**\n\n- **Integratie van technologie**: Het implementeren van digitale reserveringssystemen en contactloze betalingen kan de efficiëntie verhogen en tegemoetkomen aan de technologische verwachtingen van gasten. ([entreemagazine.nl](https://www.entreemagazine.nl/blog-entree/de-toekomst-van-de-horeca-trends-en-innovaties?utm_source=openai))\n\n- **Duurzaamheid en lokale producten**: Het gebruik van lokale en biologische ingrediënten kan niet alleen de kwaliteit verbeteren, maar ook inspelen op de groeiende vraag naar duurzame praktijken. ([horecawebzine.be](https://horecawebzine.be/trends-uitdagingen-horeca-wereld/?utm_source=openai))\n\n- **Gezonde en plantaardige opties**: Het aanbieden van gezondere menu-opties, zoals plantaardige gerechten, kan een breder publiek aanspreken. ([horecawebzine.be](https://horecawebzine.be/trends-uitdagingen-horeca-wereld/?utm_source=openai))\n\n**3. Recente markttrends en concurrentie-inzichten**\n\n- **Prijsbewustzijn bij consumenten**: Gasten worden kritischer op de verhouding tussen prijs en kwaliteit. Het is belangrijk om gerechten aan te bieden die zowel smakelijk als eerlijk geprijsd zijn. ([handhoreca.nl](https://handhoreca.nl/blog/horecatrends-2026?utm_source=openai))\n\n- **Beleving boven consumptie**: Jongere gasten zoeken naar een complete ervaring, inclusief een gezellige sfeer en unieke gerechten die ze kunnen delen op sociale media. ([avikofoodservice.nl](https://www.avikofoodservice.nl/blog/5-horecatrends-om-jonge-gasten-aan-te-trekken?utm_source=openai))\n\n- **Technologische integratie**: Het gebruik van technologie, zoals geautomatiseerde bestelsystemen en digitale kassa's, kan de efficiëntie verbeteren en de gastbeleving optimaliseren. ([byonesix.com](https://byonesix.com/blogs/horeca-trends-2026-slimmer-werken-meer-omzet-betere-gastbeleving?utm_source=openai))\n\nDoor deze strategieën en best practices te implementeren, kan Trattoria Della Nonna zijn aantrekkingskracht vergroten en zowel bestaande als nieuwe klanten behouden. ",
+  "usage": {
+    "input_tokens": 1607,
+    "output_tokens": 844,
+    "total_tokens": 2451
+  },
+  "timestamp_utc": "2026-04-20T07:00:16Z"
+}

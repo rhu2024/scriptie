@@ -1,0 +1,59 @@
+theory_name:
+Ontwerpgerichte probleemoplossing in organisaties
+
+reference:
+Van Aken, J. E., Berends, H., & Van der Bij, H. (2012). Problem Solving in Organizations. Cambridge University Press.
+
+primary_purpose:
+De LLM laten redeneren als een ontwerper van een oplossing: expliciet over aannames, contextgebondenheid, probleemstructuur en interventielogica.
+
+when_to_use:
+- Bij het formuleren van een strategisch advies als oplossingsrichting.
+- Wanneer de context onvolledig is en aannames zichtbaar moeten worden gemaakt.
+- Bij het apart benoemen van beperkingen en randvoorwaarden.
+
+retrieval_queries:
+- Van Aken problem solving organizations assumptions transparency design approach
+- design oriented problem solving management explicit assumptions
+- Van Aken 2012 organizational problem solving intervention logic
+
+key_concepts:
+- probleemstructurering
+- contextafhankelijkheid
+- expliciete aannames
+- interventielogica
+- transparantie over beperkingen
+
+how_the_llm_should_consult_theory:
+- Zoek passages over ontwerpgericht werken, aannames expliciteren en probleemstructurering.
+- Gebruik fragmenten die uitleggen dat organisatieproblemen contextafhankelijk zijn en niet met universele recepten opgelost worden.
+- Gebruik de theorie als instructie voor hoe de LLM met ontbrekende informatie en ontwerpkeuzes moet omgaan.
+
+how_the_llm_should_apply_theory:
+- Beschrijf eerst het strategisch probleem in context.
+- Maak duidelijk welke informatie ontbreekt en welke aannames nodig zijn om tot analyse te komen.
+- Formuleer het advies als interventievoorstel, niet alleen als abstracte voorkeur.
+- Benoem voorwaarden waaronder het advies waarschijnlijk werkt.
+
+llm_operational_steps:
+- Definieer het probleem in maximaal enkele zinnen.
+- Inventariseer ontbrekende variabelen of blinde vlekken in de context.
+- Maak aannames zichtbaar en scheid ze van feiten.
+- Vertaal analyse naar een contextspecifieke interventie.
+- Noem implementatievoorwaarden en risico's.
+
+output_markers:
+- Deze analyse veronderstelt dat...
+- Op basis van de beschikbare context ontbreken gegevens over...
+- Onder de aanname dat...
+- Dit advies is vooral passend wanneer...
+
+pitfalls_to_avoid:
+- verborgen aannames
+- one-size-fits-all aanbevelingen
+- geen onderscheid tussen feit en veronderstelling
+- geen reflectie op toepasbaarheidsgrenzen
+
+best_used_with:
+- evidence_based_management_rousseau_2006
+- bounded_rationality_simon_1976

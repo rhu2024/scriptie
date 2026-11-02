@@ -1,0 +1,157 @@
+{
+  "restaurantprofiel": {
+    "naam": "Brasserie Het Pakhuis",
+    "type": "Brasserie / modern Europees",
+    "locatie": "Centrum van een grote stad, in een verbouwd pakhuis aan een gracht",
+    "capaciteit": "110 zitplaatsen (90 binnen, 20 terras)",
+    "openingstijden": "maandag t/m zondag, 12:00–15:00 (lunch) en 17:30–22:30 (diner)",
+    "gemiddelde_besteding_lunch": "€28,00",
+    "gemiddelde_besteding_diner": "€52,00",
+    "personeel": "2 chefs, 2 souschefs, 8 bediening (mix van vast en flex), 1 gastvrouw, 1 sommelier"
+  },
+  "positionering": "Het Pakhuis is een gevestigde brasserie met een uitstekende reputatie. Het staat bekend om zijn ambiance (industrieel met warme accenten in een monumentaal pand) en kwalitatief sterke keuken. Het restaurant scoort gemiddeld 4,6 op Google (780 reviews) en is opgenomen in meerdere restaurantgidsen. De positionering is mid-to-high segment: toegankelijk genoeg voor een zakenlunch, maar ook geschikt voor een uitgebreid diner.",
+  "doelgroep": {
+    "primair": "Zakelijke gasten (lunch), stellen en groepen (diner)",
+    "leeftijd": "30–60 jaar, bovengemiddeld inkomen",
+    "kenmerken": "Het restaurant heeft een hoge repeat-rate: circa 40% van de gasten is terugkerend. De reserveringen lopen doorgaans goed, met een wachtlijst op vrijdag- en zaterdagavond."
+  },
+  "marktcontext": {
+    "bezettingsgraad_diner": "85%",
+    "bezettingsgraad_lunch": "65%",
+    "winstdaling": "De nettowinst daalt al drie kwartalen op rij.",
+    "personeelskosten": "Gestegen van 32% naar 38% van de omzet door een krappe arbeidsmarkt en loonsverhoging.",
+    "foodcost": "Gestegen van 28% naar 31% door prijsstijgingen bij leveranciers.",
+    "no_shows": "Gemiddeld 15% no-shows en last-minute annuleringen. Bij een gemiddeld couvert van €52 en 110 stoelen betekent dit een omzetderving van circa €860 per avond.",
+    "huur": "€6.500/maand",
+    "overige_vaste_lasten": "€5.200/maand"
+  },
+  "menukaart": {
+    "lunch": [
+      {
+        "naam": "Soep van de dag",
+        "prijs": "€7,50",
+        "beschrijving": "Wisselende seizoenssoep met zuurdesembrood"
+      },
+      {
+        "naam": "Club sandwich Het Pakhuis",
+        "prijs": "€14,95",
+        "beschrijving": "Kip, bacon, ei, avocado, truffelmayonaise, frites"
+      },
+      {
+        "naam": "Steak tartaar (handgesneden)",
+        "prijs": "€16,50",
+        "beschrijving": "Rundertartaar, kappertjes, augurk, toast, sla"
+      },
+      {
+        "naam": "Salade met geitenkaas en bietjes",
+        "prijs": "€13,50",
+        "beschrijving": "Warme geitenkaas, rode biet, walnoot, honing"
+      },
+      {
+        "naam": "Croque monsieur",
+        "prijs": "€11,95",
+        "beschrijving": "Ham, Gruyère, bechamel, frites"
+      }
+    ],
+    "diner_voorgerechten": [
+      {
+        "naam": "Ceviche van zeebaars",
+        "prijs": "€15,50",
+        "beschrijving": "Zeebaars, limoen, rode ui, koriander, avocado"
+      },
+      {
+        "naam": "Burrata met Parmaham",
+        "prijs": "€16,50",
+        "beschrijving": "Burrata, Parmaham, zongedroogde tomaat, rucola, pesto"
+      },
+      {
+        "naam": "Oesters (6 stuks)",
+        "prijs": "€21,00",
+        "beschrijving": "Gillardeau oesters, mignonette, citroen"
+      },
+      {
+        "naam": "Asperge (seizoen) met hollandaise",
+        "prijs": "€17,50",
+        "beschrijving": "Witte asperges, ham, ei, hollandaisesaus"
+      }
+    ],
+    "diner_hoofdgerechten": [
+      {
+        "naam": "Entrecote Black Angus (300g)",
+        "prijs": "€34,50",
+        "beschrijving": "Entrecote, kruidenboter, friet, seizoensgroenten"
+      },
+      {
+        "naam": "Gebakken tarbot",
+        "prijs": "€32,00",
+        "beschrijving": "Tarbot, aardappelmousseline, botersaus, spinazie"
+      },
+      {
+        "naam": "Lamsbout 8 uur gegaard",
+        "prijs": "€29,50",
+        "beschrijving": "Lam, ratatouille, aardappelgratin, jus"
+      },
+      {
+        "naam": "Risotto met truffel en paddenstoelen",
+        "prijs": "€24,50",
+        "beschrijving": "Arborio, gemengde paddenstoelen, truffelolie, Parmezaan"
+      },
+      {
+        "naam": "Eendenborst met sinaasappelsaus",
+        "prijs": "€28,50",
+        "beschrijving": "Eendenborst, zoete aardappel, haricots verts, sinaasappeljus"
+      }
+    ],
+    "desserts": [
+      {
+        "naam": "Tiramisu",
+        "prijs": "€10,50",
+        "beschrijving": "Huisgemaakte tiramisu met espresso en cacao"
+      },
+      {
+        "naam": "Crème brûlée",
+        "prijs": "€9,50",
+        "beschrijving": "Klassiek met Bourbon-vanille"
+      },
+      {
+        "naam": "Assiette van desserts (4 mini's)",
+        "prijs": "€14,50",
+        "beschrijving": "Dagelijks wisselende selectie"
+      },
+      {
+        "naam": "Kaasplank (5 soorten)",
+        "prijs": "€16,50",
+        "beschrijving": "Selectie van Nederlandse en Franse kazen"
+      }
+    ],
+    "dranken": [
+      {
+        "naam": "Glas wijn (selectie sommelier)",
+        "prijs": "€7,50 – €12,00"
+      },
+      {
+        "naam": "Fles wijn (breed assortiment)",
+        "prijs": "vanaf €28,00"
+      },
+      {
+        "naam": "Cocktail van de maand",
+        "prijs": "€12,50"
+      },
+      {
+        "naam": "Speciaalbier",
+        "prijs": "€5,50"
+      },
+      {
+        "naam": "Espresso / cappuccino",
+        "prijs": "€3,25 / €4,00"
+      }
+    ]
+  },
+  "metadata": {
+    "case_id": "case_4",
+    "restaurant_type": "brasserie_modern_europees",
+    "location_type": "centrum_grote_stad",
+    "primary_challenge": "dalende_winstgevendheid",
+    "secondary_challenge": "no_shows_en_stijgende_kosten"
+  }
+}

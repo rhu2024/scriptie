@@ -1,0 +1,57 @@
+theory_name:
+Scenarios: The Art of Strategic Conversation
+
+reference:
+Van der Heijden, K. (2005). Scenarios: The Art of Strategic Conversation (2nd ed.). Wiley.
+
+primary_purpose:
+Zorgen dat scenario's plausibel, onderscheidend en intern consistent zijn, en dat ze gebruikt worden om strategische keuzes te testen.
+
+when_to_use:
+- Bij het uitwerken van de vier scenario's.
+- Bij het formuleren van early warning signals.
+- Wanneer de kwaliteit van scenario's bewaakt moet worden.
+
+retrieval_queries:
+- Van der Heijden 2005 scenarios internal consistency plausibility strategic conversation
+- scenario quality plausible consistent distinct early warning signals
+- Van der Heijden early warning signals scenarios
+
+key_concepts:
+- plausibiliteit
+- interne consistentie
+- onderscheidende scenario's
+- early warning signals
+- scenario's als strategisch gesprek
+
+how_the_llm_should_consult_theory:
+- Haal fragmenten op over kwaliteitscriteria voor scenario's.
+- Zoek specifiek naar interne consistentie, plausibiliteit en onderscheidend vermogen.
+- Gebruik theorie over early warning signals om monitoring-adviezen te formuleren.
+
+how_the_llm_should_apply_theory:
+- Controleer elk scenario op logische samenhang.
+- Vermijd extreme of fantasierijke scenario's zonder basis in de context.
+- Zorg dat elk scenario echt een andere strategische wereld representeert.
+- Koppel aan elk scenario mogelijke signalen die wijzen op ontplooiing van dat scenario.
+
+llm_operational_steps:
+- Maak per scenario een korte logica van oorzaak en gevolg.
+- Check of de elementen binnen een scenario elkaar ondersteunen.
+- Vergelijk scenario's onderling op onderscheidend karakter.
+- Benoem per scenario 1 tot 3 monitoring-signalen als de context dat toelaat.
+
+output_markers:
+- Dit scenario is plausibel omdat...
+- Intern is dit scenario consistent doordat...
+- Een vroeg signaal voor dit scenario is...
+
+pitfalls_to_avoid:
+- scenario's met interne tegenspraken
+- vier scenario's die nauwelijks verschillen
+- sciencefictionscenario's zonder strategische relevantie
+- geen monitorbare signalen
+
+best_used_with:
+- scenario_planning_schoemaker_1995
+- strategy_under_uncertainty_courtney_1997
